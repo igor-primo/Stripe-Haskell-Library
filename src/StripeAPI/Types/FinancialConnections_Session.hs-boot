@@ -1,44 +1,43 @@
 module StripeAPI.Types.FinancialConnections_Session where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data FinancialConnections'session
 instance Show FinancialConnections'session
 instance Eq FinancialConnections'session
-instance FromJSON FinancialConnections'session
-instance ToJSON FinancialConnections'session
+instance Data.Aeson.FromJSON FinancialConnections'session
+instance Data.Aeson.ToJSON FinancialConnections'session
 data FinancialConnections'sessionAccountHolder'NonNullable
 instance Show FinancialConnections'sessionAccountHolder'NonNullable
 instance Eq FinancialConnections'sessionAccountHolder'NonNullable
-instance FromJSON FinancialConnections'sessionAccountHolder'NonNullable
-instance ToJSON FinancialConnections'sessionAccountHolder'NonNullable
+instance Data.Aeson.FromJSON FinancialConnections'sessionAccountHolder'NonNullable
+instance Data.Aeson.ToJSON FinancialConnections'sessionAccountHolder'NonNullable
 data FinancialConnections'sessionAccountHolder'NonNullableAccount'Variants
 instance Show FinancialConnections'sessionAccountHolder'NonNullableAccount'Variants
 instance Eq FinancialConnections'sessionAccountHolder'NonNullableAccount'Variants
-instance FromJSON FinancialConnections'sessionAccountHolder'NonNullableAccount'Variants
-instance ToJSON FinancialConnections'sessionAccountHolder'NonNullableAccount'Variants
+instance Data.Aeson.FromJSON FinancialConnections'sessionAccountHolder'NonNullableAccount'Variants
+instance Data.Aeson.ToJSON FinancialConnections'sessionAccountHolder'NonNullableAccount'Variants
 data FinancialConnections'sessionAccountHolder'NonNullableCustomer'Variants
 instance Show FinancialConnections'sessionAccountHolder'NonNullableCustomer'Variants
 instance Eq FinancialConnections'sessionAccountHolder'NonNullableCustomer'Variants
-instance FromJSON FinancialConnections'sessionAccountHolder'NonNullableCustomer'Variants
-instance ToJSON FinancialConnections'sessionAccountHolder'NonNullableCustomer'Variants
+instance Data.Aeson.FromJSON FinancialConnections'sessionAccountHolder'NonNullableCustomer'Variants
+instance Data.Aeson.ToJSON FinancialConnections'sessionAccountHolder'NonNullableCustomer'Variants
 data FinancialConnections'sessionAccountHolder'NonNullableType'
 instance Show FinancialConnections'sessionAccountHolder'NonNullableType'
 instance Eq FinancialConnections'sessionAccountHolder'NonNullableType'
-instance FromJSON FinancialConnections'sessionAccountHolder'NonNullableType'
-instance ToJSON FinancialConnections'sessionAccountHolder'NonNullableType'
+instance Data.Aeson.FromJSON FinancialConnections'sessionAccountHolder'NonNullableType'
+instance Data.Aeson.ToJSON FinancialConnections'sessionAccountHolder'NonNullableType'
 data FinancialConnections'sessionAccounts'
 instance Show FinancialConnections'sessionAccounts'
 instance Eq FinancialConnections'sessionAccounts'
-instance FromJSON FinancialConnections'sessionAccounts'
-instance ToJSON FinancialConnections'sessionAccounts'
+instance Data.Aeson.FromJSON FinancialConnections'sessionAccounts'
+instance Data.Aeson.ToJSON FinancialConnections'sessionAccounts'
 data FinancialConnections'sessionPermissions'
 instance Show FinancialConnections'sessionPermissions'
 instance Eq FinancialConnections'sessionPermissions'
-instance FromJSON FinancialConnections'sessionPermissions'
-instance ToJSON FinancialConnections'sessionPermissions'
+instance Data.Aeson.FromJSON FinancialConnections'sessionPermissions'
+instance Data.Aeson.ToJSON FinancialConnections'sessionPermissions'
 data FinancialConnections'sessionPrefetch'NonNullable
 instance Show FinancialConnections'sessionPrefetch'NonNullable
 instance Eq FinancialConnections'sessionPrefetch'NonNullable
-instance FromJSON FinancialConnections'sessionPrefetch'NonNullable
-instance ToJSON FinancialConnections'sessionPrefetch'NonNullable
+instance Data.Aeson.FromJSON FinancialConnections'sessionPrefetch'NonNullable
+instance Data.Aeson.ToJSON FinancialConnections'sessionPrefetch'NonNullable

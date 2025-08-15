@@ -1,0 +1,13 @@
+module StripeAPI.Types.GelatoEmailReportError where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data GelatoEmailReportError
+instance Show GelatoEmailReportError
+instance Eq GelatoEmailReportError
+instance Data.Aeson.FromJSON GelatoEmailReportError
+instance Data.Aeson.ToJSON GelatoEmailReportError
+data GelatoEmailReportErrorCode'NonNullable
+instance Show GelatoEmailReportErrorCode'NonNullable
+instance Eq GelatoEmailReportErrorCode'NonNullable
+instance Data.Aeson.FromJSON GelatoEmailReportErrorCode'NonNullable
+instance Data.Aeson.ToJSON GelatoEmailReportErrorCode'NonNullable

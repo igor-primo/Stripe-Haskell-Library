@@ -1,0 +1,13 @@
+module StripeAPI.Types.PersonRaceDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PersonRaceDetails
+instance Show PersonRaceDetails
+instance Eq PersonRaceDetails
+instance Data.Aeson.FromJSON PersonRaceDetails
+instance Data.Aeson.ToJSON PersonRaceDetails
+data PersonRaceDetailsRace'NonNullable
+instance Show PersonRaceDetailsRace'NonNullable
+instance Eq PersonRaceDetailsRace'NonNullable
+instance Data.Aeson.FromJSON PersonRaceDetailsRace'NonNullable
+instance Data.Aeson.ToJSON PersonRaceDetailsRace'NonNullable

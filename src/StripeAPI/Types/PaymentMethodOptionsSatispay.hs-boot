@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodOptionsSatispay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsSatispay
+instance Show PaymentMethodOptionsSatispay
+instance Eq PaymentMethodOptionsSatispay
+instance Data.Aeson.FromJSON PaymentMethodOptionsSatispay
+instance Data.Aeson.ToJSON PaymentMethodOptionsSatispay
+data PaymentMethodOptionsSatispayCaptureMethod'
+instance Show PaymentMethodOptionsSatispayCaptureMethod'
+instance Eq PaymentMethodOptionsSatispayCaptureMethod'
+instance Data.Aeson.FromJSON PaymentMethodOptionsSatispayCaptureMethod'
+instance Data.Aeson.ToJSON PaymentMethodOptionsSatispayCaptureMethod'

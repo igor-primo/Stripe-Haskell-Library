@@ -1,24 +1,33 @@
 module StripeAPI.Types.Card where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Card
 instance Show Card
 instance Eq Card
-instance FromJSON Card
-instance ToJSON Card
+instance Data.Aeson.FromJSON Card
+instance Data.Aeson.ToJSON Card
 data CardAccount'NonNullableVariants
 instance Show CardAccount'NonNullableVariants
 instance Eq CardAccount'NonNullableVariants
-instance FromJSON CardAccount'NonNullableVariants
-instance ToJSON CardAccount'NonNullableVariants
+instance Data.Aeson.FromJSON CardAccount'NonNullableVariants
+instance Data.Aeson.ToJSON CardAccount'NonNullableVariants
+data CardAllowRedisplay'NonNullable
+instance Show CardAllowRedisplay'NonNullable
+instance Eq CardAllowRedisplay'NonNullable
+instance Data.Aeson.FromJSON CardAllowRedisplay'NonNullable
+instance Data.Aeson.ToJSON CardAllowRedisplay'NonNullable
 data CardAvailablePayoutMethods'NonNullable
 instance Show CardAvailablePayoutMethods'NonNullable
 instance Eq CardAvailablePayoutMethods'NonNullable
-instance FromJSON CardAvailablePayoutMethods'NonNullable
-instance ToJSON CardAvailablePayoutMethods'NonNullable
+instance Data.Aeson.FromJSON CardAvailablePayoutMethods'NonNullable
+instance Data.Aeson.ToJSON CardAvailablePayoutMethods'NonNullable
 data CardCustomer'NonNullableVariants
 instance Show CardCustomer'NonNullableVariants
 instance Eq CardCustomer'NonNullableVariants
-instance FromJSON CardCustomer'NonNullableVariants
-instance ToJSON CardCustomer'NonNullableVariants
+instance Data.Aeson.FromJSON CardCustomer'NonNullableVariants
+instance Data.Aeson.ToJSON CardCustomer'NonNullableVariants
+data CardRegulatedStatus'NonNullable
+instance Show CardRegulatedStatus'NonNullable
+instance Eq CardRegulatedStatus'NonNullable
+instance Data.Aeson.FromJSON CardRegulatedStatus'NonNullable
+instance Data.Aeson.ToJSON CardRegulatedStatus'NonNullable

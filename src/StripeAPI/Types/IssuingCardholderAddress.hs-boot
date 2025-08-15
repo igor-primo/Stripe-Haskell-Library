@@ -1,9 +1,8 @@
 module StripeAPI.Types.IssuingCardholderAddress where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data IssuingCardholderAddress
 instance Show IssuingCardholderAddress
 instance Eq IssuingCardholderAddress
-instance FromJSON IssuingCardholderAddress
-instance ToJSON IssuingCardholderAddress
+instance Data.Aeson.FromJSON IssuingCardholderAddress
+instance Data.Aeson.ToJSON IssuingCardholderAddress

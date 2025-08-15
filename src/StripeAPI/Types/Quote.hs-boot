@@ -1,89 +1,88 @@
 module StripeAPI.Types.Quote where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Quote
 instance Show Quote
 instance Eq Quote
-instance FromJSON Quote
-instance ToJSON Quote
+instance Data.Aeson.FromJSON Quote
+instance Data.Aeson.ToJSON Quote
 data QuoteApplication'NonNullableVariants
 instance Show QuoteApplication'NonNullableVariants
 instance Eq QuoteApplication'NonNullableVariants
-instance FromJSON QuoteApplication'NonNullableVariants
-instance ToJSON QuoteApplication'NonNullableVariants
+instance Data.Aeson.FromJSON QuoteApplication'NonNullableVariants
+instance Data.Aeson.ToJSON QuoteApplication'NonNullableVariants
 data QuoteCollectionMethod'
 instance Show QuoteCollectionMethod'
 instance Eq QuoteCollectionMethod'
-instance FromJSON QuoteCollectionMethod'
-instance ToJSON QuoteCollectionMethod'
+instance Data.Aeson.FromJSON QuoteCollectionMethod'
+instance Data.Aeson.ToJSON QuoteCollectionMethod'
 data QuoteCustomer'NonNullableVariants
 instance Show QuoteCustomer'NonNullableVariants
 instance Eq QuoteCustomer'NonNullableVariants
-instance FromJSON QuoteCustomer'NonNullableVariants
-instance ToJSON QuoteCustomer'NonNullableVariants
+instance Data.Aeson.FromJSON QuoteCustomer'NonNullableVariants
+instance Data.Aeson.ToJSON QuoteCustomer'NonNullableVariants
 data QuoteDefaultTaxRates'Variants
 instance Show QuoteDefaultTaxRates'Variants
 instance Eq QuoteDefaultTaxRates'Variants
-instance FromJSON QuoteDefaultTaxRates'Variants
-instance ToJSON QuoteDefaultTaxRates'Variants
+instance Data.Aeson.FromJSON QuoteDefaultTaxRates'Variants
+instance Data.Aeson.ToJSON QuoteDefaultTaxRates'Variants
 data QuoteDiscounts'Variants
 instance Show QuoteDiscounts'Variants
 instance Eq QuoteDiscounts'Variants
-instance FromJSON QuoteDiscounts'Variants
-instance ToJSON QuoteDiscounts'Variants
+instance Data.Aeson.FromJSON QuoteDiscounts'Variants
+instance Data.Aeson.ToJSON QuoteDiscounts'Variants
 data QuoteFromQuote'NonNullable
 instance Show QuoteFromQuote'NonNullable
 instance Eq QuoteFromQuote'NonNullable
-instance FromJSON QuoteFromQuote'NonNullable
-instance ToJSON QuoteFromQuote'NonNullable
+instance Data.Aeson.FromJSON QuoteFromQuote'NonNullable
+instance Data.Aeson.ToJSON QuoteFromQuote'NonNullable
 data QuoteFromQuote'NonNullableQuote'Variants
 instance Show QuoteFromQuote'NonNullableQuote'Variants
 instance Eq QuoteFromQuote'NonNullableQuote'Variants
-instance FromJSON QuoteFromQuote'NonNullableQuote'Variants
-instance ToJSON QuoteFromQuote'NonNullableQuote'Variants
+instance Data.Aeson.FromJSON QuoteFromQuote'NonNullableQuote'Variants
+instance Data.Aeson.ToJSON QuoteFromQuote'NonNullableQuote'Variants
 data QuoteInvoice'NonNullableVariants
 instance Show QuoteInvoice'NonNullableVariants
 instance Eq QuoteInvoice'NonNullableVariants
-instance FromJSON QuoteInvoice'NonNullableVariants
-instance ToJSON QuoteInvoice'NonNullableVariants
+instance Data.Aeson.FromJSON QuoteInvoice'NonNullableVariants
+instance Data.Aeson.ToJSON QuoteInvoice'NonNullableVariants
 data QuoteLineItems'
 instance Show QuoteLineItems'
 instance Eq QuoteLineItems'
-instance FromJSON QuoteLineItems'
-instance ToJSON QuoteLineItems'
+instance Data.Aeson.FromJSON QuoteLineItems'
+instance Data.Aeson.ToJSON QuoteLineItems'
 data QuoteOnBehalfOf'NonNullableVariants
 instance Show QuoteOnBehalfOf'NonNullableVariants
 instance Eq QuoteOnBehalfOf'NonNullableVariants
-instance FromJSON QuoteOnBehalfOf'NonNullableVariants
-instance ToJSON QuoteOnBehalfOf'NonNullableVariants
+instance Data.Aeson.FromJSON QuoteOnBehalfOf'NonNullableVariants
+instance Data.Aeson.ToJSON QuoteOnBehalfOf'NonNullableVariants
 data QuoteStatus'
 instance Show QuoteStatus'
 instance Eq QuoteStatus'
-instance FromJSON QuoteStatus'
-instance ToJSON QuoteStatus'
+instance Data.Aeson.FromJSON QuoteStatus'
+instance Data.Aeson.ToJSON QuoteStatus'
 data QuoteSubscription'NonNullableVariants
 instance Show QuoteSubscription'NonNullableVariants
 instance Eq QuoteSubscription'NonNullableVariants
-instance FromJSON QuoteSubscription'NonNullableVariants
-instance ToJSON QuoteSubscription'NonNullableVariants
+instance Data.Aeson.FromJSON QuoteSubscription'NonNullableVariants
+instance Data.Aeson.ToJSON QuoteSubscription'NonNullableVariants
 data QuoteSubscriptionSchedule'NonNullableVariants
 instance Show QuoteSubscriptionSchedule'NonNullableVariants
 instance Eq QuoteSubscriptionSchedule'NonNullableVariants
-instance FromJSON QuoteSubscriptionSchedule'NonNullableVariants
-instance ToJSON QuoteSubscriptionSchedule'NonNullableVariants
+instance Data.Aeson.FromJSON QuoteSubscriptionSchedule'NonNullableVariants
+instance Data.Aeson.ToJSON QuoteSubscriptionSchedule'NonNullableVariants
 data QuoteTestClock'NonNullableVariants
 instance Show QuoteTestClock'NonNullableVariants
 instance Eq QuoteTestClock'NonNullableVariants
-instance FromJSON QuoteTestClock'NonNullableVariants
-instance ToJSON QuoteTestClock'NonNullableVariants
+instance Data.Aeson.FromJSON QuoteTestClock'NonNullableVariants
+instance Data.Aeson.ToJSON QuoteTestClock'NonNullableVariants
 data QuoteTransferData'NonNullable
 instance Show QuoteTransferData'NonNullable
 instance Eq QuoteTransferData'NonNullable
-instance FromJSON QuoteTransferData'NonNullable
-instance ToJSON QuoteTransferData'NonNullable
+instance Data.Aeson.FromJSON QuoteTransferData'NonNullable
+instance Data.Aeson.ToJSON QuoteTransferData'NonNullable
 data QuoteTransferData'NonNullableDestination'Variants
 instance Show QuoteTransferData'NonNullableDestination'Variants
 instance Eq QuoteTransferData'NonNullableDestination'Variants
-instance FromJSON QuoteTransferData'NonNullableDestination'Variants
-instance ToJSON QuoteTransferData'NonNullableDestination'Variants
+instance Data.Aeson.FromJSON QuoteTransferData'NonNullableDestination'Variants
+instance Data.Aeson.ToJSON QuoteTransferData'NonNullableDestination'Variants

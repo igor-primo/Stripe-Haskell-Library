@@ -1,74 +1,98 @@
 module StripeAPI.Types.Account where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Account
 instance Show Account
 instance Eq Account
-instance FromJSON Account
-instance ToJSON Account
+instance Data.Aeson.FromJSON Account
+instance Data.Aeson.ToJSON Account
 data AccountBusinessProfile'NonNullable
 instance Show AccountBusinessProfile'NonNullable
 instance Eq AccountBusinessProfile'NonNullable
-instance FromJSON AccountBusinessProfile'NonNullable
-instance ToJSON AccountBusinessProfile'NonNullable
+instance Data.Aeson.FromJSON AccountBusinessProfile'NonNullable
+instance Data.Aeson.ToJSON AccountBusinessProfile'NonNullable
+data AccountBusinessProfile'NonNullableAnnualRevenue'NonNullable
+instance Show AccountBusinessProfile'NonNullableAnnualRevenue'NonNullable
+instance Eq AccountBusinessProfile'NonNullableAnnualRevenue'NonNullable
+instance Data.Aeson.FromJSON AccountBusinessProfile'NonNullableAnnualRevenue'NonNullable
+instance Data.Aeson.ToJSON AccountBusinessProfile'NonNullableAnnualRevenue'NonNullable
+data AccountBusinessProfile'NonNullableMinorityOwnedBusinessDesignation'NonNullable
+instance Show AccountBusinessProfile'NonNullableMinorityOwnedBusinessDesignation'NonNullable
+instance Eq AccountBusinessProfile'NonNullableMinorityOwnedBusinessDesignation'NonNullable
+instance Data.Aeson.FromJSON AccountBusinessProfile'NonNullableMinorityOwnedBusinessDesignation'NonNullable
+instance Data.Aeson.ToJSON AccountBusinessProfile'NonNullableMinorityOwnedBusinessDesignation'NonNullable
 data AccountBusinessProfile'NonNullableSupportAddress'NonNullable
 instance Show AccountBusinessProfile'NonNullableSupportAddress'NonNullable
 instance Eq AccountBusinessProfile'NonNullableSupportAddress'NonNullable
-instance FromJSON AccountBusinessProfile'NonNullableSupportAddress'NonNullable
-instance ToJSON AccountBusinessProfile'NonNullableSupportAddress'NonNullable
+instance Data.Aeson.FromJSON AccountBusinessProfile'NonNullableSupportAddress'NonNullable
+instance Data.Aeson.ToJSON AccountBusinessProfile'NonNullableSupportAddress'NonNullable
 data AccountBusinessType'NonNullable
 instance Show AccountBusinessType'NonNullable
 instance Eq AccountBusinessType'NonNullable
-instance FromJSON AccountBusinessType'NonNullable
-instance ToJSON AccountBusinessType'NonNullable
+instance Data.Aeson.FromJSON AccountBusinessType'NonNullable
+instance Data.Aeson.ToJSON AccountBusinessType'NonNullable
 data AccountExternalAccounts'
 instance Show AccountExternalAccounts'
 instance Eq AccountExternalAccounts'
-instance FromJSON AccountExternalAccounts'
-instance ToJSON AccountExternalAccounts'
+instance Data.Aeson.FromJSON AccountExternalAccounts'
+instance Data.Aeson.ToJSON AccountExternalAccounts'
 data AccountExternalAccounts'Data'
 instance Show AccountExternalAccounts'Data'
 instance Eq AccountExternalAccounts'Data'
-instance FromJSON AccountExternalAccounts'Data'
-instance ToJSON AccountExternalAccounts'Data'
+instance Data.Aeson.FromJSON AccountExternalAccounts'Data'
+instance Data.Aeson.ToJSON AccountExternalAccounts'Data'
 data AccountExternalAccounts'Data'Account'NonNullableVariants
 instance Show AccountExternalAccounts'Data'Account'NonNullableVariants
 instance Eq AccountExternalAccounts'Data'Account'NonNullableVariants
-instance FromJSON AccountExternalAccounts'Data'Account'NonNullableVariants
-instance ToJSON AccountExternalAccounts'Data'Account'NonNullableVariants
+instance Data.Aeson.FromJSON AccountExternalAccounts'Data'Account'NonNullableVariants
+instance Data.Aeson.ToJSON AccountExternalAccounts'Data'Account'NonNullableVariants
+data AccountExternalAccounts'Data'AllowRedisplay'NonNullable
+instance Show AccountExternalAccounts'Data'AllowRedisplay'NonNullable
+instance Eq AccountExternalAccounts'Data'AllowRedisplay'NonNullable
+instance Data.Aeson.FromJSON AccountExternalAccounts'Data'AllowRedisplay'NonNullable
+instance Data.Aeson.ToJSON AccountExternalAccounts'Data'AllowRedisplay'NonNullable
 data AccountExternalAccounts'Data'AvailablePayoutMethods'NonNullable
 instance Show AccountExternalAccounts'Data'AvailablePayoutMethods'NonNullable
 instance Eq AccountExternalAccounts'Data'AvailablePayoutMethods'NonNullable
-instance FromJSON AccountExternalAccounts'Data'AvailablePayoutMethods'NonNullable
-instance ToJSON AccountExternalAccounts'Data'AvailablePayoutMethods'NonNullable
+instance Data.Aeson.FromJSON AccountExternalAccounts'Data'AvailablePayoutMethods'NonNullable
+instance Data.Aeson.ToJSON AccountExternalAccounts'Data'AvailablePayoutMethods'NonNullable
 data AccountExternalAccounts'Data'Customer'NonNullableVariants
 instance Show AccountExternalAccounts'Data'Customer'NonNullableVariants
 instance Eq AccountExternalAccounts'Data'Customer'NonNullableVariants
-instance FromJSON AccountExternalAccounts'Data'Customer'NonNullableVariants
-instance ToJSON AccountExternalAccounts'Data'Customer'NonNullableVariants
+instance Data.Aeson.FromJSON AccountExternalAccounts'Data'Customer'NonNullableVariants
+instance Data.Aeson.ToJSON AccountExternalAccounts'Data'Customer'NonNullableVariants
 data AccountExternalAccounts'Data'FutureRequirements'NonNullable
 instance Show AccountExternalAccounts'Data'FutureRequirements'NonNullable
 instance Eq AccountExternalAccounts'Data'FutureRequirements'NonNullable
-instance FromJSON AccountExternalAccounts'Data'FutureRequirements'NonNullable
-instance ToJSON AccountExternalAccounts'Data'FutureRequirements'NonNullable
+instance Data.Aeson.FromJSON AccountExternalAccounts'Data'FutureRequirements'NonNullable
+instance Data.Aeson.ToJSON AccountExternalAccounts'Data'FutureRequirements'NonNullable
 data AccountExternalAccounts'Data'Object'
 instance Show AccountExternalAccounts'Data'Object'
 instance Eq AccountExternalAccounts'Data'Object'
-instance FromJSON AccountExternalAccounts'Data'Object'
-instance ToJSON AccountExternalAccounts'Data'Object'
+instance Data.Aeson.FromJSON AccountExternalAccounts'Data'Object'
+instance Data.Aeson.ToJSON AccountExternalAccounts'Data'Object'
+data AccountExternalAccounts'Data'RegulatedStatus'NonNullable
+instance Show AccountExternalAccounts'Data'RegulatedStatus'NonNullable
+instance Eq AccountExternalAccounts'Data'RegulatedStatus'NonNullable
+instance Data.Aeson.FromJSON AccountExternalAccounts'Data'RegulatedStatus'NonNullable
+instance Data.Aeson.ToJSON AccountExternalAccounts'Data'RegulatedStatus'NonNullable
 data AccountExternalAccounts'Data'Requirements'NonNullable
 instance Show AccountExternalAccounts'Data'Requirements'NonNullable
 instance Eq AccountExternalAccounts'Data'Requirements'NonNullable
-instance FromJSON AccountExternalAccounts'Data'Requirements'NonNullable
-instance ToJSON AccountExternalAccounts'Data'Requirements'NonNullable
+instance Data.Aeson.FromJSON AccountExternalAccounts'Data'Requirements'NonNullable
+instance Data.Aeson.ToJSON AccountExternalAccounts'Data'Requirements'NonNullable
+data AccountGroups'NonNullable
+instance Show AccountGroups'NonNullable
+instance Eq AccountGroups'NonNullable
+instance Data.Aeson.FromJSON AccountGroups'NonNullable
+instance Data.Aeson.ToJSON AccountGroups'NonNullable
 data AccountSettings'NonNullable
 instance Show AccountSettings'NonNullable
 instance Eq AccountSettings'NonNullable
-instance FromJSON AccountSettings'NonNullable
-instance ToJSON AccountSettings'NonNullable
+instance Data.Aeson.FromJSON AccountSettings'NonNullable
+instance Data.Aeson.ToJSON AccountSettings'NonNullable
 data AccountType'
 instance Show AccountType'
 instance Eq AccountType'
-instance FromJSON AccountType'
-instance ToJSON AccountType'
+instance Data.Aeson.FromJSON AccountType'
+instance Data.Aeson.ToJSON AccountType'

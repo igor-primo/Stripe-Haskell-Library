@@ -1,0 +1,18 @@
+module StripeAPI.Types.GelatoSessionMatchingOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data GelatoSessionMatchingOptions
+instance Show GelatoSessionMatchingOptions
+instance Eq GelatoSessionMatchingOptions
+instance Data.Aeson.FromJSON GelatoSessionMatchingOptions
+instance Data.Aeson.ToJSON GelatoSessionMatchingOptions
+data GelatoSessionMatchingOptionsDob'
+instance Show GelatoSessionMatchingOptionsDob'
+instance Eq GelatoSessionMatchingOptionsDob'
+instance Data.Aeson.FromJSON GelatoSessionMatchingOptionsDob'
+instance Data.Aeson.ToJSON GelatoSessionMatchingOptionsDob'
+data GelatoSessionMatchingOptionsName'
+instance Show GelatoSessionMatchingOptionsName'
+instance Eq GelatoSessionMatchingOptionsName'
+instance Data.Aeson.FromJSON GelatoSessionMatchingOptionsName'
+instance Data.Aeson.ToJSON GelatoSessionMatchingOptionsName'

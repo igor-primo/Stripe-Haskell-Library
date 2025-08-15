@@ -1,44 +1,48 @@
 module StripeAPI.Types.Refund where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Refund
 instance Show Refund
 instance Eq Refund
-instance FromJSON Refund
-instance ToJSON Refund
+instance Data.Aeson.FromJSON Refund
+instance Data.Aeson.ToJSON Refund
 data RefundBalanceTransaction'NonNullableVariants
 instance Show RefundBalanceTransaction'NonNullableVariants
 instance Eq RefundBalanceTransaction'NonNullableVariants
-instance FromJSON RefundBalanceTransaction'NonNullableVariants
-instance ToJSON RefundBalanceTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON RefundBalanceTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON RefundBalanceTransaction'NonNullableVariants
 data RefundCharge'NonNullableVariants
 instance Show RefundCharge'NonNullableVariants
 instance Eq RefundCharge'NonNullableVariants
-instance FromJSON RefundCharge'NonNullableVariants
-instance ToJSON RefundCharge'NonNullableVariants
+instance Data.Aeson.FromJSON RefundCharge'NonNullableVariants
+instance Data.Aeson.ToJSON RefundCharge'NonNullableVariants
 data RefundFailureBalanceTransaction'Variants
 instance Show RefundFailureBalanceTransaction'Variants
 instance Eq RefundFailureBalanceTransaction'Variants
-instance FromJSON RefundFailureBalanceTransaction'Variants
-instance ToJSON RefundFailureBalanceTransaction'Variants
+instance Data.Aeson.FromJSON RefundFailureBalanceTransaction'Variants
+instance Data.Aeson.ToJSON RefundFailureBalanceTransaction'Variants
 data RefundPaymentIntent'NonNullableVariants
 instance Show RefundPaymentIntent'NonNullableVariants
 instance Eq RefundPaymentIntent'NonNullableVariants
-instance FromJSON RefundPaymentIntent'NonNullableVariants
-instance ToJSON RefundPaymentIntent'NonNullableVariants
+instance Data.Aeson.FromJSON RefundPaymentIntent'NonNullableVariants
+instance Data.Aeson.ToJSON RefundPaymentIntent'NonNullableVariants
+data RefundPendingReason'
+instance Show RefundPendingReason'
+instance Eq RefundPendingReason'
+instance Data.Aeson.FromJSON RefundPendingReason'
+instance Data.Aeson.ToJSON RefundPendingReason'
 data RefundReason'NonNullable
 instance Show RefundReason'NonNullable
 instance Eq RefundReason'NonNullable
-instance FromJSON RefundReason'NonNullable
-instance ToJSON RefundReason'NonNullable
+instance Data.Aeson.FromJSON RefundReason'NonNullable
+instance Data.Aeson.ToJSON RefundReason'NonNullable
 data RefundSourceTransferReversal'NonNullableVariants
 instance Show RefundSourceTransferReversal'NonNullableVariants
 instance Eq RefundSourceTransferReversal'NonNullableVariants
-instance FromJSON RefundSourceTransferReversal'NonNullableVariants
-instance ToJSON RefundSourceTransferReversal'NonNullableVariants
+instance Data.Aeson.FromJSON RefundSourceTransferReversal'NonNullableVariants
+instance Data.Aeson.ToJSON RefundSourceTransferReversal'NonNullableVariants
 data RefundTransferReversal'NonNullableVariants
 instance Show RefundTransferReversal'NonNullableVariants
 instance Eq RefundTransferReversal'NonNullableVariants
-instance FromJSON RefundTransferReversal'NonNullableVariants
-instance ToJSON RefundTransferReversal'NonNullableVariants
+instance Data.Aeson.FromJSON RefundTransferReversal'NonNullableVariants
+instance Data.Aeson.ToJSON RefundTransferReversal'NonNullableVariants

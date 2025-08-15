@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentFlowsAmountDetails where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentFlowsAmountDetails
 instance Show PaymentFlowsAmountDetails
 instance Eq PaymentFlowsAmountDetails
-instance FromJSON PaymentFlowsAmountDetails
-instance ToJSON PaymentFlowsAmountDetails
+instance Data.Aeson.FromJSON PaymentFlowsAmountDetails
+instance Data.Aeson.ToJSON PaymentFlowsAmountDetails

@@ -1,9 +1,8 @@
 module StripeAPI.Types.IssuingCardShippingCustoms where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data IssuingCardShippingCustoms
 instance Show IssuingCardShippingCustoms
 instance Eq IssuingCardShippingCustoms
-instance FromJSON IssuingCardShippingCustoms
-instance ToJSON IssuingCardShippingCustoms
+instance Data.Aeson.FromJSON IssuingCardShippingCustoms
+instance Data.Aeson.ToJSON IssuingCardShippingCustoms

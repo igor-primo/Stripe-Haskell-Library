@@ -1,0 +1,8 @@
+module StripeAPI.Types.DisputeEnhancedEligibility where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data DisputeEnhancedEligibility
+instance Show DisputeEnhancedEligibility
+instance Eq DisputeEnhancedEligibility
+instance Data.Aeson.FromJSON DisputeEnhancedEligibility
+instance Data.Aeson.ToJSON DisputeEnhancedEligibility

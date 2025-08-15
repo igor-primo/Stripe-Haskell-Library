@@ -1,9 +1,8 @@
 module StripeAPI.Types.SourceTypeIdeal where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SourceTypeIdeal
 instance Show SourceTypeIdeal
 instance Eq SourceTypeIdeal
-instance FromJSON SourceTypeIdeal
-instance ToJSON SourceTypeIdeal
+instance Data.Aeson.FromJSON SourceTypeIdeal
+instance Data.Aeson.ToJSON SourceTypeIdeal

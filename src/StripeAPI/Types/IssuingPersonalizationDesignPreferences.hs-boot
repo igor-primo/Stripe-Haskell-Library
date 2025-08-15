@@ -1,0 +1,8 @@
+module StripeAPI.Types.IssuingPersonalizationDesignPreferences where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingPersonalizationDesignPreferences
+instance Show IssuingPersonalizationDesignPreferences
+instance Eq IssuingPersonalizationDesignPreferences
+instance Data.Aeson.FromJSON IssuingPersonalizationDesignPreferences
+instance Data.Aeson.ToJSON IssuingPersonalizationDesignPreferences

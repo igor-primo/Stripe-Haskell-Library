@@ -1,39 +1,48 @@
 module StripeAPI.Types.ApplicationFee where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ApplicationFee
 instance Show ApplicationFee
 instance Eq ApplicationFee
-instance FromJSON ApplicationFee
-instance ToJSON ApplicationFee
+instance Data.Aeson.FromJSON ApplicationFee
+instance Data.Aeson.ToJSON ApplicationFee
 data ApplicationFeeAccount'Variants
 instance Show ApplicationFeeAccount'Variants
 instance Eq ApplicationFeeAccount'Variants
-instance FromJSON ApplicationFeeAccount'Variants
-instance ToJSON ApplicationFeeAccount'Variants
+instance Data.Aeson.FromJSON ApplicationFeeAccount'Variants
+instance Data.Aeson.ToJSON ApplicationFeeAccount'Variants
 data ApplicationFeeApplication'Variants
 instance Show ApplicationFeeApplication'Variants
 instance Eq ApplicationFeeApplication'Variants
-instance FromJSON ApplicationFeeApplication'Variants
-instance ToJSON ApplicationFeeApplication'Variants
+instance Data.Aeson.FromJSON ApplicationFeeApplication'Variants
+instance Data.Aeson.ToJSON ApplicationFeeApplication'Variants
 data ApplicationFeeBalanceTransaction'NonNullableVariants
 instance Show ApplicationFeeBalanceTransaction'NonNullableVariants
 instance Eq ApplicationFeeBalanceTransaction'NonNullableVariants
-instance FromJSON ApplicationFeeBalanceTransaction'NonNullableVariants
-instance ToJSON ApplicationFeeBalanceTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON ApplicationFeeBalanceTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON ApplicationFeeBalanceTransaction'NonNullableVariants
 data ApplicationFeeCharge'Variants
 instance Show ApplicationFeeCharge'Variants
 instance Eq ApplicationFeeCharge'Variants
-instance FromJSON ApplicationFeeCharge'Variants
-instance ToJSON ApplicationFeeCharge'Variants
+instance Data.Aeson.FromJSON ApplicationFeeCharge'Variants
+instance Data.Aeson.ToJSON ApplicationFeeCharge'Variants
+data ApplicationFeeFeeSource'NonNullable
+instance Show ApplicationFeeFeeSource'NonNullable
+instance Eq ApplicationFeeFeeSource'NonNullable
+instance Data.Aeson.FromJSON ApplicationFeeFeeSource'NonNullable
+instance Data.Aeson.ToJSON ApplicationFeeFeeSource'NonNullable
+data ApplicationFeeFeeSource'NonNullableType'
+instance Show ApplicationFeeFeeSource'NonNullableType'
+instance Eq ApplicationFeeFeeSource'NonNullableType'
+instance Data.Aeson.FromJSON ApplicationFeeFeeSource'NonNullableType'
+instance Data.Aeson.ToJSON ApplicationFeeFeeSource'NonNullableType'
 data ApplicationFeeOriginatingTransaction'NonNullableVariants
 instance Show ApplicationFeeOriginatingTransaction'NonNullableVariants
 instance Eq ApplicationFeeOriginatingTransaction'NonNullableVariants
-instance FromJSON ApplicationFeeOriginatingTransaction'NonNullableVariants
-instance ToJSON ApplicationFeeOriginatingTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON ApplicationFeeOriginatingTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON ApplicationFeeOriginatingTransaction'NonNullableVariants
 data ApplicationFeeRefunds'
 instance Show ApplicationFeeRefunds'
 instance Eq ApplicationFeeRefunds'
-instance FromJSON ApplicationFeeRefunds'
-instance ToJSON ApplicationFeeRefunds'
+instance Data.Aeson.FromJSON ApplicationFeeRefunds'
+instance Data.Aeson.ToJSON ApplicationFeeRefunds'

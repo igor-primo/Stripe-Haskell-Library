@@ -1,0 +1,23 @@
+module StripeAPI.Types.GelatoPhoneReport where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data GelatoPhoneReport
+instance Show GelatoPhoneReport
+instance Eq GelatoPhoneReport
+instance Data.Aeson.FromJSON GelatoPhoneReport
+instance Data.Aeson.ToJSON GelatoPhoneReport
+data GelatoPhoneReportError'NonNullable
+instance Show GelatoPhoneReportError'NonNullable
+instance Eq GelatoPhoneReportError'NonNullable
+instance Data.Aeson.FromJSON GelatoPhoneReportError'NonNullable
+instance Data.Aeson.ToJSON GelatoPhoneReportError'NonNullable
+data GelatoPhoneReportError'NonNullableCode'NonNullable
+instance Show GelatoPhoneReportError'NonNullableCode'NonNullable
+instance Eq GelatoPhoneReportError'NonNullableCode'NonNullable
+instance Data.Aeson.FromJSON GelatoPhoneReportError'NonNullableCode'NonNullable
+instance Data.Aeson.ToJSON GelatoPhoneReportError'NonNullableCode'NonNullable
+data GelatoPhoneReportStatus'
+instance Show GelatoPhoneReportStatus'
+instance Eq GelatoPhoneReportStatus'
+instance Data.Aeson.FromJSON GelatoPhoneReportStatus'
+instance Data.Aeson.ToJSON GelatoPhoneReportStatus'

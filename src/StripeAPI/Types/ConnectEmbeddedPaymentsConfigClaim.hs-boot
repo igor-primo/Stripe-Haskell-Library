@@ -1,0 +1,8 @@
+module StripeAPI.Types.ConnectEmbeddedPaymentsConfigClaim where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ConnectEmbeddedPaymentsConfigClaim
+instance Show ConnectEmbeddedPaymentsConfigClaim
+instance Eq ConnectEmbeddedPaymentsConfigClaim
+instance Data.Aeson.FromJSON ConnectEmbeddedPaymentsConfigClaim
+instance Data.Aeson.ToJSON ConnectEmbeddedPaymentsConfigClaim

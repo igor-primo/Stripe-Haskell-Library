@@ -1,14 +1,13 @@
 module StripeAPI.Types.SecretServiceResourceScope where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SecretServiceResourceScope
 instance Show SecretServiceResourceScope
 instance Eq SecretServiceResourceScope
-instance FromJSON SecretServiceResourceScope
-instance ToJSON SecretServiceResourceScope
+instance Data.Aeson.FromJSON SecretServiceResourceScope
+instance Data.Aeson.ToJSON SecretServiceResourceScope
 data SecretServiceResourceScopeType'
 instance Show SecretServiceResourceScopeType'
 instance Eq SecretServiceResourceScopeType'
-instance FromJSON SecretServiceResourceScopeType'
-instance ToJSON SecretServiceResourceScopeType'
+instance Data.Aeson.FromJSON SecretServiceResourceScopeType'
+instance Data.Aeson.ToJSON SecretServiceResourceScopeType'

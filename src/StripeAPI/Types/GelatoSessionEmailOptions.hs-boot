@@ -1,0 +1,8 @@
+module StripeAPI.Types.GelatoSessionEmailOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data GelatoSessionEmailOptions
+instance Show GelatoSessionEmailOptions
+instance Eq GelatoSessionEmailOptions
+instance Data.Aeson.FromJSON GelatoSessionEmailOptions
+instance Data.Aeson.ToJSON GelatoSessionEmailOptions

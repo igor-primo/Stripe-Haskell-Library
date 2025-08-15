@@ -1,0 +1,33 @@
+module StripeAPI.Types.Forwarding_Request where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data Forwarding'request
+instance Show Forwarding'request
+instance Eq Forwarding'request
+instance Data.Aeson.FromJSON Forwarding'request
+instance Data.Aeson.ToJSON Forwarding'request
+data Forwarding'requestReplacements'
+instance Show Forwarding'requestReplacements'
+instance Eq Forwarding'requestReplacements'
+instance Data.Aeson.FromJSON Forwarding'requestReplacements'
+instance Data.Aeson.ToJSON Forwarding'requestReplacements'
+data Forwarding'requestRequestContext'NonNullable
+instance Show Forwarding'requestRequestContext'NonNullable
+instance Eq Forwarding'requestRequestContext'NonNullable
+instance Data.Aeson.FromJSON Forwarding'requestRequestContext'NonNullable
+instance Data.Aeson.ToJSON Forwarding'requestRequestContext'NonNullable
+data Forwarding'requestRequestDetails'NonNullable
+instance Show Forwarding'requestRequestDetails'NonNullable
+instance Eq Forwarding'requestRequestDetails'NonNullable
+instance Data.Aeson.FromJSON Forwarding'requestRequestDetails'NonNullable
+instance Data.Aeson.ToJSON Forwarding'requestRequestDetails'NonNullable
+data Forwarding'requestRequestDetails'NonNullableHttpMethod'
+instance Show Forwarding'requestRequestDetails'NonNullableHttpMethod'
+instance Eq Forwarding'requestRequestDetails'NonNullableHttpMethod'
+instance Data.Aeson.FromJSON Forwarding'requestRequestDetails'NonNullableHttpMethod'
+instance Data.Aeson.ToJSON Forwarding'requestRequestDetails'NonNullableHttpMethod'
+data Forwarding'requestResponseDetails'NonNullable
+instance Show Forwarding'requestResponseDetails'NonNullable
+instance Eq Forwarding'requestResponseDetails'NonNullable
+instance Data.Aeson.FromJSON Forwarding'requestResponseDetails'NonNullable
+instance Data.Aeson.ToJSON Forwarding'requestResponseDetails'NonNullable

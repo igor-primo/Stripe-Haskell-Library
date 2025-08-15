@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentIntentNextActionDisplayOxxoDetails where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentIntentNextActionDisplayOxxoDetails
 instance Show PaymentIntentNextActionDisplayOxxoDetails
 instance Eq PaymentIntentNextActionDisplayOxxoDetails
-instance FromJSON PaymentIntentNextActionDisplayOxxoDetails
-instance ToJSON PaymentIntentNextActionDisplayOxxoDetails
+instance Data.Aeson.FromJSON PaymentIntentNextActionDisplayOxxoDetails
+instance Data.Aeson.ToJSON PaymentIntentNextActionDisplayOxxoDetails

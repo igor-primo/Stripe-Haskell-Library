@@ -1,0 +1,8 @@
+module StripeAPI.Types.ConnectEmbeddedDisputesListConfig where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ConnectEmbeddedDisputesListConfig
+instance Show ConnectEmbeddedDisputesListConfig
+instance Eq ConnectEmbeddedDisputesListConfig
+instance Data.Aeson.FromJSON ConnectEmbeddedDisputesListConfig
+instance Data.Aeson.ToJSON ConnectEmbeddedDisputesListConfig

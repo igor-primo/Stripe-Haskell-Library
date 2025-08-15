@@ -1,0 +1,8 @@
+module StripeAPI.Types.SetupIntentPaymentMethodOptionsKlarna where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SetupIntentPaymentMethodOptionsKlarna
+instance Show SetupIntentPaymentMethodOptionsKlarna
+instance Eq SetupIntentPaymentMethodOptionsKlarna
+instance Data.Aeson.FromJSON SetupIntentPaymentMethodOptionsKlarna
+instance Data.Aeson.ToJSON SetupIntentPaymentMethodOptionsKlarna

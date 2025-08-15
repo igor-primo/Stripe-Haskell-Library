@@ -1,9 +1,8 @@
 module StripeAPI.Types.SourceOrderItem where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SourceOrderItem
 instance Show SourceOrderItem
 instance Eq SourceOrderItem
-instance FromJSON SourceOrderItem
-instance ToJSON SourceOrderItem
+instance Data.Aeson.FromJSON SourceOrderItem
+instance Data.Aeson.ToJSON SourceOrderItem

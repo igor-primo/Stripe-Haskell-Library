@@ -1,0 +1,8 @@
+module StripeAPI.Types.LegalEntityRegistrationDate where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data LegalEntityRegistrationDate
+instance Show LegalEntityRegistrationDate
+instance Eq LegalEntityRegistrationDate
+instance Data.Aeson.FromJSON LegalEntityRegistrationDate
+instance Data.Aeson.ToJSON LegalEntityRegistrationDate

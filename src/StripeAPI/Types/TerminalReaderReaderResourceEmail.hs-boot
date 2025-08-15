@@ -1,0 +1,8 @@
+module StripeAPI.Types.TerminalReaderReaderResourceEmail where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data TerminalReaderReaderResourceEmail
+instance Show TerminalReaderReaderResourceEmail
+instance Eq TerminalReaderReaderResourceEmail
+instance Data.Aeson.FromJSON TerminalReaderReaderResourceEmail
+instance Data.Aeson.ToJSON TerminalReaderReaderResourceEmail

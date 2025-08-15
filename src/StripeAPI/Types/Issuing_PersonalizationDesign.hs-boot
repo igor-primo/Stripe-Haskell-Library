@@ -1,0 +1,28 @@
+module StripeAPI.Types.Issuing_PersonalizationDesign where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data Issuing'personalizationDesign
+instance Show Issuing'personalizationDesign
+instance Eq Issuing'personalizationDesign
+instance Data.Aeson.FromJSON Issuing'personalizationDesign
+instance Data.Aeson.ToJSON Issuing'personalizationDesign
+data Issuing'personalizationDesignCardLogo'NonNullableVariants
+instance Show Issuing'personalizationDesignCardLogo'NonNullableVariants
+instance Eq Issuing'personalizationDesignCardLogo'NonNullableVariants
+instance Data.Aeson.FromJSON Issuing'personalizationDesignCardLogo'NonNullableVariants
+instance Data.Aeson.ToJSON Issuing'personalizationDesignCardLogo'NonNullableVariants
+data Issuing'personalizationDesignCarrierText'NonNullable
+instance Show Issuing'personalizationDesignCarrierText'NonNullable
+instance Eq Issuing'personalizationDesignCarrierText'NonNullable
+instance Data.Aeson.FromJSON Issuing'personalizationDesignCarrierText'NonNullable
+instance Data.Aeson.ToJSON Issuing'personalizationDesignCarrierText'NonNullable
+data Issuing'personalizationDesignPhysicalBundle'Variants
+instance Show Issuing'personalizationDesignPhysicalBundle'Variants
+instance Eq Issuing'personalizationDesignPhysicalBundle'Variants
+instance Data.Aeson.FromJSON Issuing'personalizationDesignPhysicalBundle'Variants
+instance Data.Aeson.ToJSON Issuing'personalizationDesignPhysicalBundle'Variants
+data Issuing'personalizationDesignStatus'
+instance Show Issuing'personalizationDesignStatus'
+instance Eq Issuing'personalizationDesignStatus'
+instance Data.Aeson.FromJSON Issuing'personalizationDesignStatus'
+instance Data.Aeson.ToJSON Issuing'personalizationDesignStatus'

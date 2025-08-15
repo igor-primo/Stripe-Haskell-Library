@@ -1,9 +1,8 @@
 module StripeAPI.Types.CustomUnitAmount where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data CustomUnitAmount
 instance Show CustomUnitAmount
 instance Eq CustomUnitAmount
-instance FromJSON CustomUnitAmount
-instance ToJSON CustomUnitAmount
+instance Data.Aeson.FromJSON CustomUnitAmount
+instance Data.Aeson.ToJSON CustomUnitAmount

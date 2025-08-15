@@ -1,14 +1,18 @@
 module StripeAPI.Types.MandateBacsDebit where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data MandateBacsDebit
 instance Show MandateBacsDebit
 instance Eq MandateBacsDebit
-instance FromJSON MandateBacsDebit
-instance ToJSON MandateBacsDebit
+instance Data.Aeson.FromJSON MandateBacsDebit
+instance Data.Aeson.ToJSON MandateBacsDebit
 data MandateBacsDebitNetworkStatus'
 instance Show MandateBacsDebitNetworkStatus'
 instance Eq MandateBacsDebitNetworkStatus'
-instance FromJSON MandateBacsDebitNetworkStatus'
-instance ToJSON MandateBacsDebitNetworkStatus'
+instance Data.Aeson.FromJSON MandateBacsDebitNetworkStatus'
+instance Data.Aeson.ToJSON MandateBacsDebitNetworkStatus'
+data MandateBacsDebitRevocationReason'NonNullable
+instance Show MandateBacsDebitRevocationReason'NonNullable
+instance Eq MandateBacsDebitRevocationReason'NonNullable
+instance Data.Aeson.FromJSON MandateBacsDebitRevocationReason'NonNullable
+instance Data.Aeson.ToJSON MandateBacsDebitRevocationReason'NonNullable

@@ -1,0 +1,18 @@
+module StripeAPI.Types.TerminalReaderReaderResourceInput where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data TerminalReaderReaderResourceInput
+instance Show TerminalReaderReaderResourceInput
+instance Eq TerminalReaderReaderResourceInput
+instance Data.Aeson.FromJSON TerminalReaderReaderResourceInput
+instance Data.Aeson.ToJSON TerminalReaderReaderResourceInput
+data TerminalReaderReaderResourceInputCustomText'NonNullable
+instance Show TerminalReaderReaderResourceInputCustomText'NonNullable
+instance Eq TerminalReaderReaderResourceInputCustomText'NonNullable
+instance Data.Aeson.FromJSON TerminalReaderReaderResourceInputCustomText'NonNullable
+instance Data.Aeson.ToJSON TerminalReaderReaderResourceInputCustomText'NonNullable
+data TerminalReaderReaderResourceInputType'
+instance Show TerminalReaderReaderResourceInputType'
+instance Eq TerminalReaderReaderResourceInputType'
+instance Data.Aeson.FromJSON TerminalReaderReaderResourceInputType'
+instance Data.Aeson.ToJSON TerminalReaderReaderResourceInputType'

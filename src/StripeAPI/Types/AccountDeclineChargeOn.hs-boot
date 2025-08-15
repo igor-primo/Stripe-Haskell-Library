@@ -1,9 +1,8 @@
 module StripeAPI.Types.AccountDeclineChargeOn where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data AccountDeclineChargeOn
 instance Show AccountDeclineChargeOn
 instance Eq AccountDeclineChargeOn
-instance FromJSON AccountDeclineChargeOn
-instance ToJSON AccountDeclineChargeOn
+instance Data.Aeson.FromJSON AccountDeclineChargeOn
+instance Data.Aeson.ToJSON AccountDeclineChargeOn

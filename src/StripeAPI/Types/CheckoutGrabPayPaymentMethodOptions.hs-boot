@@ -1,14 +1,13 @@
 module StripeAPI.Types.CheckoutGrabPayPaymentMethodOptions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data CheckoutGrabPayPaymentMethodOptions
 instance Show CheckoutGrabPayPaymentMethodOptions
 instance Eq CheckoutGrabPayPaymentMethodOptions
-instance FromJSON CheckoutGrabPayPaymentMethodOptions
-instance ToJSON CheckoutGrabPayPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutGrabPayPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutGrabPayPaymentMethodOptions
 data CheckoutGrabPayPaymentMethodOptionsSetupFutureUsage'
 instance Show CheckoutGrabPayPaymentMethodOptionsSetupFutureUsage'
 instance Eq CheckoutGrabPayPaymentMethodOptionsSetupFutureUsage'
-instance FromJSON CheckoutGrabPayPaymentMethodOptionsSetupFutureUsage'
-instance ToJSON CheckoutGrabPayPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutGrabPayPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutGrabPayPaymentMethodOptionsSetupFutureUsage'

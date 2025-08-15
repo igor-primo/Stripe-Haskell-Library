@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsPassthroughCard where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsPassthroughCard
+instance Show PaymentMethodDetailsPassthroughCard
+instance Eq PaymentMethodDetailsPassthroughCard
+instance Data.Aeson.FromJSON PaymentMethodDetailsPassthroughCard
+instance Data.Aeson.ToJSON PaymentMethodDetailsPassthroughCard

@@ -1,0 +1,8 @@
+module StripeAPI.Types.ConnectEmbeddedIssuingCardsListConfigClaim where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ConnectEmbeddedIssuingCardsListConfigClaim
+instance Show ConnectEmbeddedIssuingCardsListConfigClaim
+instance Eq ConnectEmbeddedIssuingCardsListConfigClaim
+instance Data.Aeson.FromJSON ConnectEmbeddedIssuingCardsListConfigClaim
+instance Data.Aeson.ToJSON ConnectEmbeddedIssuingCardsListConfigClaim

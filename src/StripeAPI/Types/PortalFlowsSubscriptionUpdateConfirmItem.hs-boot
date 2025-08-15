@@ -1,9 +1,8 @@
 module StripeAPI.Types.PortalFlowsSubscriptionUpdateConfirmItem where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PortalFlowsSubscriptionUpdateConfirmItem
 instance Show PortalFlowsSubscriptionUpdateConfirmItem
 instance Eq PortalFlowsSubscriptionUpdateConfirmItem
-instance FromJSON PortalFlowsSubscriptionUpdateConfirmItem
-instance ToJSON PortalFlowsSubscriptionUpdateConfirmItem
+instance Data.Aeson.FromJSON PortalFlowsSubscriptionUpdateConfirmItem
+instance Data.Aeson.ToJSON PortalFlowsSubscriptionUpdateConfirmItem

@@ -1,14 +1,13 @@
 module StripeAPI.Types.PaymentMethodOptionsPromptpay where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentMethodOptionsPromptpay
 instance Show PaymentMethodOptionsPromptpay
 instance Eq PaymentMethodOptionsPromptpay
-instance FromJSON PaymentMethodOptionsPromptpay
-instance ToJSON PaymentMethodOptionsPromptpay
+instance Data.Aeson.FromJSON PaymentMethodOptionsPromptpay
+instance Data.Aeson.ToJSON PaymentMethodOptionsPromptpay
 data PaymentMethodOptionsPromptpaySetupFutureUsage'
 instance Show PaymentMethodOptionsPromptpaySetupFutureUsage'
 instance Eq PaymentMethodOptionsPromptpaySetupFutureUsage'
-instance FromJSON PaymentMethodOptionsPromptpaySetupFutureUsage'
-instance ToJSON PaymentMethodOptionsPromptpaySetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsPromptpaySetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsPromptpaySetupFutureUsage'

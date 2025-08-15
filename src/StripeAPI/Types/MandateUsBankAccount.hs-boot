@@ -1,14 +1,13 @@
 module StripeAPI.Types.MandateUsBankAccount where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data MandateUsBankAccount
 instance Show MandateUsBankAccount
 instance Eq MandateUsBankAccount
-instance FromJSON MandateUsBankAccount
-instance ToJSON MandateUsBankAccount
+instance Data.Aeson.FromJSON MandateUsBankAccount
+instance Data.Aeson.ToJSON MandateUsBankAccount
 data MandateUsBankAccountCollectionMethod'
 instance Show MandateUsBankAccountCollectionMethod'
 instance Eq MandateUsBankAccountCollectionMethod'
-instance FromJSON MandateUsBankAccountCollectionMethod'
-instance ToJSON MandateUsBankAccountCollectionMethod'
+instance Data.Aeson.FromJSON MandateUsBankAccountCollectionMethod'
+instance Data.Aeson.ToJSON MandateUsBankAccountCollectionMethod'

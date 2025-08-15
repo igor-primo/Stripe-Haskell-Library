@@ -1,0 +1,18 @@
+module StripeAPI.Types.Billing_MeterEventAdjustment where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data Billing'meterEventAdjustment
+instance Show Billing'meterEventAdjustment
+instance Eq Billing'meterEventAdjustment
+instance Data.Aeson.FromJSON Billing'meterEventAdjustment
+instance Data.Aeson.ToJSON Billing'meterEventAdjustment
+data Billing'meterEventAdjustmentCancel'NonNullable
+instance Show Billing'meterEventAdjustmentCancel'NonNullable
+instance Eq Billing'meterEventAdjustmentCancel'NonNullable
+instance Data.Aeson.FromJSON Billing'meterEventAdjustmentCancel'NonNullable
+instance Data.Aeson.ToJSON Billing'meterEventAdjustmentCancel'NonNullable
+data Billing'meterEventAdjustmentStatus'
+instance Show Billing'meterEventAdjustmentStatus'
+instance Eq Billing'meterEventAdjustmentStatus'
+instance Data.Aeson.FromJSON Billing'meterEventAdjustmentStatus'
+instance Data.Aeson.ToJSON Billing'meterEventAdjustmentStatus'

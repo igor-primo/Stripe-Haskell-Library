@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentFlowsAmountDetailsClient where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentFlowsAmountDetailsClient
+instance Show PaymentFlowsAmountDetailsClient
+instance Eq PaymentFlowsAmountDetailsClient
+instance Data.Aeson.FromJSON PaymentFlowsAmountDetailsClient
+instance Data.Aeson.ToJSON PaymentFlowsAmountDetailsClient

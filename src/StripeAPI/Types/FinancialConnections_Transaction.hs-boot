@@ -1,14 +1,13 @@
 module StripeAPI.Types.FinancialConnections_Transaction where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data FinancialConnections'transaction
 instance Show FinancialConnections'transaction
 instance Eq FinancialConnections'transaction
-instance FromJSON FinancialConnections'transaction
-instance ToJSON FinancialConnections'transaction
+instance Data.Aeson.FromJSON FinancialConnections'transaction
+instance Data.Aeson.ToJSON FinancialConnections'transaction
 data FinancialConnections'transactionStatus'
 instance Show FinancialConnections'transactionStatus'
 instance Eq FinancialConnections'transactionStatus'
-instance FromJSON FinancialConnections'transactionStatus'
-instance ToJSON FinancialConnections'transactionStatus'
+instance Data.Aeson.FromJSON FinancialConnections'transactionStatus'
+instance Data.Aeson.ToJSON FinancialConnections'transactionStatus'

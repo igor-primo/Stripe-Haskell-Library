@@ -1,9 +1,8 @@
 module StripeAPI.Types.IssuingDisputeTreasury where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data IssuingDisputeTreasury
 instance Show IssuingDisputeTreasury
 instance Eq IssuingDisputeTreasury
-instance FromJSON IssuingDisputeTreasury
-instance ToJSON IssuingDisputeTreasury
+instance Data.Aeson.FromJSON IssuingDisputeTreasury
+instance Data.Aeson.ToJSON IssuingDisputeTreasury

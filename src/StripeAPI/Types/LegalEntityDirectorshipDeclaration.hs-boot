@@ -1,0 +1,8 @@
+module StripeAPI.Types.LegalEntityDirectorshipDeclaration where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data LegalEntityDirectorshipDeclaration
+instance Show LegalEntityDirectorshipDeclaration
+instance Eq LegalEntityDirectorshipDeclaration
+instance Data.Aeson.FromJSON LegalEntityDirectorshipDeclaration
+instance Data.Aeson.ToJSON LegalEntityDirectorshipDeclaration

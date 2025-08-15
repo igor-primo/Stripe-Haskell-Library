@@ -1,9 +1,8 @@
 module StripeAPI.Types.GelatoDataDocumentReportIssuedDate where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data GelatoDataDocumentReportIssuedDate
 instance Show GelatoDataDocumentReportIssuedDate
 instance Eq GelatoDataDocumentReportIssuedDate
-instance FromJSON GelatoDataDocumentReportIssuedDate
-instance ToJSON GelatoDataDocumentReportIssuedDate
+instance Data.Aeson.FromJSON GelatoDataDocumentReportIssuedDate
+instance Data.Aeson.ToJSON GelatoDataDocumentReportIssuedDate

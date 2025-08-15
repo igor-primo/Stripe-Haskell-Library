@@ -1,0 +1,13 @@
+module StripeAPI.Types.PersonEthnicityDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PersonEthnicityDetails
+instance Show PersonEthnicityDetails
+instance Eq PersonEthnicityDetails
+instance Data.Aeson.FromJSON PersonEthnicityDetails
+instance Data.Aeson.ToJSON PersonEthnicityDetails
+data PersonEthnicityDetailsEthnicity'NonNullable
+instance Show PersonEthnicityDetailsEthnicity'NonNullable
+instance Eq PersonEthnicityDetailsEthnicity'NonNullable
+instance Data.Aeson.FromJSON PersonEthnicityDetailsEthnicity'NonNullable
+instance Data.Aeson.ToJSON PersonEthnicityDetailsEthnicity'NonNullable

@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentLinksResourceCustomFieldsDropdownOption where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentLinksResourceCustomFieldsDropdownOption
 instance Show PaymentLinksResourceCustomFieldsDropdownOption
 instance Eq PaymentLinksResourceCustomFieldsDropdownOption
-instance FromJSON PaymentLinksResourceCustomFieldsDropdownOption
-instance ToJSON PaymentLinksResourceCustomFieldsDropdownOption
+instance Data.Aeson.FromJSON PaymentLinksResourceCustomFieldsDropdownOption
+instance Data.Aeson.ToJSON PaymentLinksResourceCustomFieldsDropdownOption

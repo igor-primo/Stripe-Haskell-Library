@@ -1,0 +1,8 @@
+module StripeAPI.Types.RefundDestinationDetailsEuBankTransfer where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data RefundDestinationDetailsEuBankTransfer
+instance Show RefundDestinationDetailsEuBankTransfer
+instance Eq RefundDestinationDetailsEuBankTransfer
+instance Data.Aeson.FromJSON RefundDestinationDetailsEuBankTransfer
+instance Data.Aeson.ToJSON RefundDestinationDetailsEuBankTransfer

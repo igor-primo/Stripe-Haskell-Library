@@ -1,0 +1,8 @@
+module StripeAPI.Types.AccountGroupMembership where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountGroupMembership
+instance Show AccountGroupMembership
+instance Eq AccountGroupMembership
+instance Data.Aeson.FromJSON AccountGroupMembership
+instance Data.Aeson.ToJSON AccountGroupMembership

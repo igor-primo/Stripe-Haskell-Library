@@ -1,49 +1,53 @@
 module StripeAPI.Types.GelatoDocumentReport where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data GelatoDocumentReport
 instance Show GelatoDocumentReport
 instance Eq GelatoDocumentReport
-instance FromJSON GelatoDocumentReport
-instance ToJSON GelatoDocumentReport
+instance Data.Aeson.FromJSON GelatoDocumentReport
+instance Data.Aeson.ToJSON GelatoDocumentReport
 data GelatoDocumentReportAddress'NonNullable
 instance Show GelatoDocumentReportAddress'NonNullable
 instance Eq GelatoDocumentReportAddress'NonNullable
-instance FromJSON GelatoDocumentReportAddress'NonNullable
-instance ToJSON GelatoDocumentReportAddress'NonNullable
+instance Data.Aeson.FromJSON GelatoDocumentReportAddress'NonNullable
+instance Data.Aeson.ToJSON GelatoDocumentReportAddress'NonNullable
 data GelatoDocumentReportDob'NonNullable
 instance Show GelatoDocumentReportDob'NonNullable
 instance Eq GelatoDocumentReportDob'NonNullable
-instance FromJSON GelatoDocumentReportDob'NonNullable
-instance ToJSON GelatoDocumentReportDob'NonNullable
+instance Data.Aeson.FromJSON GelatoDocumentReportDob'NonNullable
+instance Data.Aeson.ToJSON GelatoDocumentReportDob'NonNullable
 data GelatoDocumentReportError'NonNullable
 instance Show GelatoDocumentReportError'NonNullable
 instance Eq GelatoDocumentReportError'NonNullable
-instance FromJSON GelatoDocumentReportError'NonNullable
-instance ToJSON GelatoDocumentReportError'NonNullable
+instance Data.Aeson.FromJSON GelatoDocumentReportError'NonNullable
+instance Data.Aeson.ToJSON GelatoDocumentReportError'NonNullable
 data GelatoDocumentReportError'NonNullableCode'NonNullable
 instance Show GelatoDocumentReportError'NonNullableCode'NonNullable
 instance Eq GelatoDocumentReportError'NonNullableCode'NonNullable
-instance FromJSON GelatoDocumentReportError'NonNullableCode'NonNullable
-instance ToJSON GelatoDocumentReportError'NonNullableCode'NonNullable
+instance Data.Aeson.FromJSON GelatoDocumentReportError'NonNullableCode'NonNullable
+instance Data.Aeson.ToJSON GelatoDocumentReportError'NonNullableCode'NonNullable
 data GelatoDocumentReportExpirationDate'NonNullable
 instance Show GelatoDocumentReportExpirationDate'NonNullable
 instance Eq GelatoDocumentReportExpirationDate'NonNullable
-instance FromJSON GelatoDocumentReportExpirationDate'NonNullable
-instance ToJSON GelatoDocumentReportExpirationDate'NonNullable
+instance Data.Aeson.FromJSON GelatoDocumentReportExpirationDate'NonNullable
+instance Data.Aeson.ToJSON GelatoDocumentReportExpirationDate'NonNullable
 data GelatoDocumentReportIssuedDate'NonNullable
 instance Show GelatoDocumentReportIssuedDate'NonNullable
 instance Eq GelatoDocumentReportIssuedDate'NonNullable
-instance FromJSON GelatoDocumentReportIssuedDate'NonNullable
-instance ToJSON GelatoDocumentReportIssuedDate'NonNullable
+instance Data.Aeson.FromJSON GelatoDocumentReportIssuedDate'NonNullable
+instance Data.Aeson.ToJSON GelatoDocumentReportIssuedDate'NonNullable
+data GelatoDocumentReportSex'NonNullable
+instance Show GelatoDocumentReportSex'NonNullable
+instance Eq GelatoDocumentReportSex'NonNullable
+instance Data.Aeson.FromJSON GelatoDocumentReportSex'NonNullable
+instance Data.Aeson.ToJSON GelatoDocumentReportSex'NonNullable
 data GelatoDocumentReportStatus'
 instance Show GelatoDocumentReportStatus'
 instance Eq GelatoDocumentReportStatus'
-instance FromJSON GelatoDocumentReportStatus'
-instance ToJSON GelatoDocumentReportStatus'
+instance Data.Aeson.FromJSON GelatoDocumentReportStatus'
+instance Data.Aeson.ToJSON GelatoDocumentReportStatus'
 data GelatoDocumentReportType'NonNullable
 instance Show GelatoDocumentReportType'NonNullable
 instance Eq GelatoDocumentReportType'NonNullable
-instance FromJSON GelatoDocumentReportType'NonNullable
-instance ToJSON GelatoDocumentReportType'NonNullable
+instance Data.Aeson.FromJSON GelatoDocumentReportType'NonNullable
+instance Data.Aeson.ToJSON GelatoDocumentReportType'NonNullable

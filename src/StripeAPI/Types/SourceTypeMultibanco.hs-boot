@@ -1,9 +1,8 @@
 module StripeAPI.Types.SourceTypeMultibanco where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SourceTypeMultibanco
 instance Show SourceTypeMultibanco
 instance Eq SourceTypeMultibanco
-instance FromJSON SourceTypeMultibanco
-instance ToJSON SourceTypeMultibanco
+instance Data.Aeson.FromJSON SourceTypeMultibanco
+instance Data.Aeson.ToJSON SourceTypeMultibanco

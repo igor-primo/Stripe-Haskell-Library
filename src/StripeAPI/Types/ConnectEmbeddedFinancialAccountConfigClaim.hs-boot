@@ -1,0 +1,8 @@
+module StripeAPI.Types.ConnectEmbeddedFinancialAccountConfigClaim where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ConnectEmbeddedFinancialAccountConfigClaim
+instance Show ConnectEmbeddedFinancialAccountConfigClaim
+instance Eq ConnectEmbeddedFinancialAccountConfigClaim
+instance Data.Aeson.FromJSON ConnectEmbeddedFinancialAccountConfigClaim
+instance Data.Aeson.ToJSON ConnectEmbeddedFinancialAccountConfigClaim

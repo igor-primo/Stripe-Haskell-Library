@@ -1,9 +1,8 @@
 module StripeAPI.Types.IssuingTransactionFlightData where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data IssuingTransactionFlightData
 instance Show IssuingTransactionFlightData
 instance Eq IssuingTransactionFlightData
-instance FromJSON IssuingTransactionFlightData
-instance ToJSON IssuingTransactionFlightData
+instance Data.Aeson.FromJSON IssuingTransactionFlightData
+instance Data.Aeson.ToJSON IssuingTransactionFlightData

@@ -1,0 +1,8 @@
+module StripeAPI.Types.DisputeTransactionShippingAddress where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data DisputeTransactionShippingAddress
+instance Show DisputeTransactionShippingAddress
+instance Eq DisputeTransactionShippingAddress
+instance Data.Aeson.FromJSON DisputeTransactionShippingAddress
+instance Data.Aeson.ToJSON DisputeTransactionShippingAddress

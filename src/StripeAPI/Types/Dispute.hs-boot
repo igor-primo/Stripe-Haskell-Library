@@ -1,24 +1,28 @@
 module StripeAPI.Types.Dispute where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Dispute
 instance Show Dispute
 instance Eq Dispute
-instance FromJSON Dispute
-instance ToJSON Dispute
+instance Data.Aeson.FromJSON Dispute
+instance Data.Aeson.ToJSON Dispute
 data DisputeCharge'Variants
 instance Show DisputeCharge'Variants
 instance Eq DisputeCharge'Variants
-instance FromJSON DisputeCharge'Variants
-instance ToJSON DisputeCharge'Variants
+instance Data.Aeson.FromJSON DisputeCharge'Variants
+instance Data.Aeson.ToJSON DisputeCharge'Variants
+data DisputeEnhancedEligibilityTypes'
+instance Show DisputeEnhancedEligibilityTypes'
+instance Eq DisputeEnhancedEligibilityTypes'
+instance Data.Aeson.FromJSON DisputeEnhancedEligibilityTypes'
+instance Data.Aeson.ToJSON DisputeEnhancedEligibilityTypes'
 data DisputePaymentIntent'NonNullableVariants
 instance Show DisputePaymentIntent'NonNullableVariants
 instance Eq DisputePaymentIntent'NonNullableVariants
-instance FromJSON DisputePaymentIntent'NonNullableVariants
-instance ToJSON DisputePaymentIntent'NonNullableVariants
+instance Data.Aeson.FromJSON DisputePaymentIntent'NonNullableVariants
+instance Data.Aeson.ToJSON DisputePaymentIntent'NonNullableVariants
 data DisputeStatus'
 instance Show DisputeStatus'
 instance Eq DisputeStatus'
-instance FromJSON DisputeStatus'
-instance ToJSON DisputeStatus'
+instance Data.Aeson.FromJSON DisputeStatus'
+instance Data.Aeson.ToJSON DisputeStatus'

@@ -1,9 +1,8 @@
 module StripeAPI.Types.SetupIntentPaymentMethodOptionsPaypal where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SetupIntentPaymentMethodOptionsPaypal
 instance Show SetupIntentPaymentMethodOptionsPaypal
 instance Eq SetupIntentPaymentMethodOptionsPaypal
-instance FromJSON SetupIntentPaymentMethodOptionsPaypal
-instance ToJSON SetupIntentPaymentMethodOptionsPaypal
+instance Data.Aeson.FromJSON SetupIntentPaymentMethodOptionsPaypal
+instance Data.Aeson.ToJSON SetupIntentPaymentMethodOptionsPaypal

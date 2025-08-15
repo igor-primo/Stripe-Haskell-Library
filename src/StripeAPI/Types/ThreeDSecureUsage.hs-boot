@@ -1,9 +1,8 @@
 module StripeAPI.Types.ThreeDSecureUsage where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ThreeDSecureUsage
 instance Show ThreeDSecureUsage
 instance Eq ThreeDSecureUsage
-instance FromJSON ThreeDSecureUsage
-instance ToJSON ThreeDSecureUsage
+instance Data.Aeson.FromJSON ThreeDSecureUsage
+instance Data.Aeson.ToJSON ThreeDSecureUsage

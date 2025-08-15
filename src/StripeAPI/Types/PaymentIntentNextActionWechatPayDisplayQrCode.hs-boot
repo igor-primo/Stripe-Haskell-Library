@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentIntentNextActionWechatPayDisplayQrCode where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentIntentNextActionWechatPayDisplayQrCode
 instance Show PaymentIntentNextActionWechatPayDisplayQrCode
 instance Eq PaymentIntentNextActionWechatPayDisplayQrCode
-instance FromJSON PaymentIntentNextActionWechatPayDisplayQrCode
-instance ToJSON PaymentIntentNextActionWechatPayDisplayQrCode
+instance Data.Aeson.FromJSON PaymentIntentNextActionWechatPayDisplayQrCode
+instance Data.Aeson.ToJSON PaymentIntentNextActionWechatPayDisplayQrCode

@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsSwish where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsSwish
+instance Show PaymentMethodDetailsSwish
+instance Eq PaymentMethodDetailsSwish
+instance Data.Aeson.FromJSON PaymentMethodDetailsSwish
+instance Data.Aeson.ToJSON PaymentMethodDetailsSwish

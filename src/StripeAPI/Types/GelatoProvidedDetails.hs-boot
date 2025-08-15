@@ -1,0 +1,8 @@
+module StripeAPI.Types.GelatoProvidedDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data GelatoProvidedDetails
+instance Show GelatoProvidedDetails
+instance Eq GelatoProvidedDetails
+instance Data.Aeson.FromJSON GelatoProvidedDetails
+instance Data.Aeson.ToJSON GelatoProvidedDetails

@@ -1,9 +1,8 @@
 module StripeAPI.Types.ExternalAccountRequirements where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ExternalAccountRequirements
 instance Show ExternalAccountRequirements
 instance Eq ExternalAccountRequirements
-instance FromJSON ExternalAccountRequirements
-instance ToJSON ExternalAccountRequirements
+instance Data.Aeson.FromJSON ExternalAccountRequirements
+instance Data.Aeson.ToJSON ExternalAccountRequirements

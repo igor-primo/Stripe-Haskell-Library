@@ -1,9 +1,8 @@
 module StripeAPI.Types.SourceRedirectFlow where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SourceRedirectFlow
 instance Show SourceRedirectFlow
 instance Eq SourceRedirectFlow
-instance FromJSON SourceRedirectFlow
-instance ToJSON SourceRedirectFlow
+instance Data.Aeson.FromJSON SourceRedirectFlow
+instance Data.Aeson.ToJSON SourceRedirectFlow

@@ -1,0 +1,8 @@
+module StripeAPI.Types.GelatoSessionPhoneOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data GelatoSessionPhoneOptions
+instance Show GelatoSessionPhoneOptions
+instance Eq GelatoSessionPhoneOptions
+instance Data.Aeson.FromJSON GelatoSessionPhoneOptions
+instance Data.Aeson.ToJSON GelatoSessionPhoneOptions

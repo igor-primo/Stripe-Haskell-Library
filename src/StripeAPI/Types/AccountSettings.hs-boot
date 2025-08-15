@@ -1,9 +1,8 @@
 module StripeAPI.Types.AccountSettings where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data AccountSettings
 instance Show AccountSettings
 instance Eq AccountSettings
-instance FromJSON AccountSettings
-instance ToJSON AccountSettings
+instance Data.Aeson.FromJSON AccountSettings
+instance Data.Aeson.ToJSON AccountSettings

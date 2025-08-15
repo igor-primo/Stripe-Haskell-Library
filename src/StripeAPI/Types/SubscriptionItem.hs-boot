@@ -1,14 +1,18 @@
 module StripeAPI.Types.SubscriptionItem where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SubscriptionItem
 instance Show SubscriptionItem
 instance Eq SubscriptionItem
-instance FromJSON SubscriptionItem
-instance ToJSON SubscriptionItem
+instance Data.Aeson.FromJSON SubscriptionItem
+instance Data.Aeson.ToJSON SubscriptionItem
 data SubscriptionItemBillingThresholds'NonNullable
 instance Show SubscriptionItemBillingThresholds'NonNullable
 instance Eq SubscriptionItemBillingThresholds'NonNullable
-instance FromJSON SubscriptionItemBillingThresholds'NonNullable
-instance ToJSON SubscriptionItemBillingThresholds'NonNullable
+instance Data.Aeson.FromJSON SubscriptionItemBillingThresholds'NonNullable
+instance Data.Aeson.ToJSON SubscriptionItemBillingThresholds'NonNullable
+data SubscriptionItemDiscounts'Variants
+instance Show SubscriptionItemDiscounts'Variants
+instance Eq SubscriptionItemDiscounts'Variants
+instance Data.Aeson.FromJSON SubscriptionItemDiscounts'Variants
+instance Data.Aeson.ToJSON SubscriptionItemDiscounts'Variants

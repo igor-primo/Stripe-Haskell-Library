@@ -1,34 +1,33 @@
 module StripeAPI.Types.GelatoIdNumberReport where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data GelatoIdNumberReport
 instance Show GelatoIdNumberReport
 instance Eq GelatoIdNumberReport
-instance FromJSON GelatoIdNumberReport
-instance ToJSON GelatoIdNumberReport
+instance Data.Aeson.FromJSON GelatoIdNumberReport
+instance Data.Aeson.ToJSON GelatoIdNumberReport
 data GelatoIdNumberReportDob'NonNullable
 instance Show GelatoIdNumberReportDob'NonNullable
 instance Eq GelatoIdNumberReportDob'NonNullable
-instance FromJSON GelatoIdNumberReportDob'NonNullable
-instance ToJSON GelatoIdNumberReportDob'NonNullable
+instance Data.Aeson.FromJSON GelatoIdNumberReportDob'NonNullable
+instance Data.Aeson.ToJSON GelatoIdNumberReportDob'NonNullable
 data GelatoIdNumberReportError'NonNullable
 instance Show GelatoIdNumberReportError'NonNullable
 instance Eq GelatoIdNumberReportError'NonNullable
-instance FromJSON GelatoIdNumberReportError'NonNullable
-instance ToJSON GelatoIdNumberReportError'NonNullable
+instance Data.Aeson.FromJSON GelatoIdNumberReportError'NonNullable
+instance Data.Aeson.ToJSON GelatoIdNumberReportError'NonNullable
 data GelatoIdNumberReportError'NonNullableCode'NonNullable
 instance Show GelatoIdNumberReportError'NonNullableCode'NonNullable
 instance Eq GelatoIdNumberReportError'NonNullableCode'NonNullable
-instance FromJSON GelatoIdNumberReportError'NonNullableCode'NonNullable
-instance ToJSON GelatoIdNumberReportError'NonNullableCode'NonNullable
+instance Data.Aeson.FromJSON GelatoIdNumberReportError'NonNullableCode'NonNullable
+instance Data.Aeson.ToJSON GelatoIdNumberReportError'NonNullableCode'NonNullable
 data GelatoIdNumberReportIdNumberType'NonNullable
 instance Show GelatoIdNumberReportIdNumberType'NonNullable
 instance Eq GelatoIdNumberReportIdNumberType'NonNullable
-instance FromJSON GelatoIdNumberReportIdNumberType'NonNullable
-instance ToJSON GelatoIdNumberReportIdNumberType'NonNullable
+instance Data.Aeson.FromJSON GelatoIdNumberReportIdNumberType'NonNullable
+instance Data.Aeson.ToJSON GelatoIdNumberReportIdNumberType'NonNullable
 data GelatoIdNumberReportStatus'
 instance Show GelatoIdNumberReportStatus'
 instance Eq GelatoIdNumberReportStatus'
-instance FromJSON GelatoIdNumberReportStatus'
-instance ToJSON GelatoIdNumberReportStatus'
+instance Data.Aeson.FromJSON GelatoIdNumberReportStatus'
+instance Data.Aeson.ToJSON GelatoIdNumberReportStatus'

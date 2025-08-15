@@ -1,0 +1,8 @@
+module StripeAPI.Types.InvoicesResourceConfirmationSecret where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data InvoicesResourceConfirmationSecret
+instance Show InvoicesResourceConfirmationSecret
+instance Eq InvoicesResourceConfirmationSecret
+instance Data.Aeson.FromJSON InvoicesResourceConfirmationSecret
+instance Data.Aeson.ToJSON InvoicesResourceConfirmationSecret

@@ -1,9 +1,13 @@
 module StripeAPI.Types.OutboundTransfersPaymentMethodDetails where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data OutboundTransfersPaymentMethodDetails
 instance Show OutboundTransfersPaymentMethodDetails
 instance Eq OutboundTransfersPaymentMethodDetails
-instance FromJSON OutboundTransfersPaymentMethodDetails
-instance ToJSON OutboundTransfersPaymentMethodDetails
+instance Data.Aeson.FromJSON OutboundTransfersPaymentMethodDetails
+instance Data.Aeson.ToJSON OutboundTransfersPaymentMethodDetails
+data OutboundTransfersPaymentMethodDetailsType'
+instance Show OutboundTransfersPaymentMethodDetailsType'
+instance Eq OutboundTransfersPaymentMethodDetailsType'
+instance Data.Aeson.FromJSON OutboundTransfersPaymentMethodDetailsType'
+instance Data.Aeson.ToJSON OutboundTransfersPaymentMethodDetailsType'

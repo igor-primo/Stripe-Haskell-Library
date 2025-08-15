@@ -1,9 +1,8 @@
 module StripeAPI.Types.GelatoDataVerifiedOutputsDate where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data GelatoDataVerifiedOutputsDate
 instance Show GelatoDataVerifiedOutputsDate
 instance Eq GelatoDataVerifiedOutputsDate
-instance FromJSON GelatoDataVerifiedOutputsDate
-instance ToJSON GelatoDataVerifiedOutputsDate
+instance Data.Aeson.FromJSON GelatoDataVerifiedOutputsDate
+instance Data.Aeson.ToJSON GelatoDataVerifiedOutputsDate

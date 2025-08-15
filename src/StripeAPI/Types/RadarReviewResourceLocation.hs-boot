@@ -1,9 +1,8 @@
 module StripeAPI.Types.RadarReviewResourceLocation where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data RadarReviewResourceLocation
 instance Show RadarReviewResourceLocation
 instance Eq RadarReviewResourceLocation
-instance FromJSON RadarReviewResourceLocation
-instance ToJSON RadarReviewResourceLocation
+instance Data.Aeson.FromJSON RadarReviewResourceLocation
+instance Data.Aeson.ToJSON RadarReviewResourceLocation

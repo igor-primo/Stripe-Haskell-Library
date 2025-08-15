@@ -1,9 +1,8 @@
 module StripeAPI.Types.PriceTier where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PriceTier
 instance Show PriceTier
 instance Eq PriceTier
-instance FromJSON PriceTier
-instance ToJSON PriceTier
+instance Data.Aeson.FromJSON PriceTier
+instance Data.Aeson.ToJSON PriceTier

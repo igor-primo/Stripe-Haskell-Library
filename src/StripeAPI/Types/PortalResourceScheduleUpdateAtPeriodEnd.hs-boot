@@ -1,0 +1,8 @@
+module StripeAPI.Types.PortalResourceScheduleUpdateAtPeriodEnd where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PortalResourceScheduleUpdateAtPeriodEnd
+instance Show PortalResourceScheduleUpdateAtPeriodEnd
+instance Eq PortalResourceScheduleUpdateAtPeriodEnd
+instance Data.Aeson.FromJSON PortalResourceScheduleUpdateAtPeriodEnd
+instance Data.Aeson.ToJSON PortalResourceScheduleUpdateAtPeriodEnd

@@ -1,9 +1,8 @@
 module StripeAPI.Types.QuotesResourceTotalDetailsResourceBreakdown where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data QuotesResourceTotalDetailsResourceBreakdown
 instance Show QuotesResourceTotalDetailsResourceBreakdown
 instance Eq QuotesResourceTotalDetailsResourceBreakdown
-instance FromJSON QuotesResourceTotalDetailsResourceBreakdown
-instance ToJSON QuotesResourceTotalDetailsResourceBreakdown
+instance Data.Aeson.FromJSON QuotesResourceTotalDetailsResourceBreakdown
+instance Data.Aeson.ToJSON QuotesResourceTotalDetailsResourceBreakdown

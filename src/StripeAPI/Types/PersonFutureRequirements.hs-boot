@@ -1,9 +1,8 @@
 module StripeAPI.Types.PersonFutureRequirements where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PersonFutureRequirements
 instance Show PersonFutureRequirements
 instance Eq PersonFutureRequirements
-instance FromJSON PersonFutureRequirements
-instance ToJSON PersonFutureRequirements
+instance Data.Aeson.FromJSON PersonFutureRequirements
+instance Data.Aeson.ToJSON PersonFutureRequirements

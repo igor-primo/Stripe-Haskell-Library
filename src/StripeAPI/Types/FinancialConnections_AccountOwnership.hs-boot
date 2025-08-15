@@ -1,14 +1,13 @@
 module StripeAPI.Types.FinancialConnections_AccountOwnership where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data FinancialConnections'accountOwnership
 instance Show FinancialConnections'accountOwnership
 instance Eq FinancialConnections'accountOwnership
-instance FromJSON FinancialConnections'accountOwnership
-instance ToJSON FinancialConnections'accountOwnership
+instance Data.Aeson.FromJSON FinancialConnections'accountOwnership
+instance Data.Aeson.ToJSON FinancialConnections'accountOwnership
 data FinancialConnections'accountOwnershipOwners'
 instance Show FinancialConnections'accountOwnershipOwners'
 instance Eq FinancialConnections'accountOwnershipOwners'
-instance FromJSON FinancialConnections'accountOwnershipOwners'
-instance ToJSON FinancialConnections'accountOwnershipOwners'
+instance Data.Aeson.FromJSON FinancialConnections'accountOwnershipOwners'
+instance Data.Aeson.ToJSON FinancialConnections'accountOwnershipOwners'

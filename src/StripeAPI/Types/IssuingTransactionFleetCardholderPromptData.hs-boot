@@ -1,0 +1,8 @@
+module StripeAPI.Types.IssuingTransactionFleetCardholderPromptData where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingTransactionFleetCardholderPromptData
+instance Show IssuingTransactionFleetCardholderPromptData
+instance Eq IssuingTransactionFleetCardholderPromptData
+instance Data.Aeson.FromJSON IssuingTransactionFleetCardholderPromptData
+instance Data.Aeson.ToJSON IssuingTransactionFleetCardholderPromptData

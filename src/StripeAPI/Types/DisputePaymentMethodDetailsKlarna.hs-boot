@@ -1,0 +1,8 @@
+module StripeAPI.Types.DisputePaymentMethodDetailsKlarna where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data DisputePaymentMethodDetailsKlarna
+instance Show DisputePaymentMethodDetailsKlarna
+instance Eq DisputePaymentMethodDetailsKlarna
+instance Data.Aeson.FromJSON DisputePaymentMethodDetailsKlarna
+instance Data.Aeson.ToJSON DisputePaymentMethodDetailsKlarna

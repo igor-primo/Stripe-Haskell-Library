@@ -1,9 +1,8 @@
 module StripeAPI.Types.DeletedTerminal_Location where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data DeletedTerminal'location
 instance Show DeletedTerminal'location
 instance Eq DeletedTerminal'location
-instance FromJSON DeletedTerminal'location
-instance ToJSON DeletedTerminal'location
+instance Data.Aeson.FromJSON DeletedTerminal'location
+instance Data.Aeson.ToJSON DeletedTerminal'location

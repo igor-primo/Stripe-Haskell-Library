@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsAmazonPay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsAmazonPay
+instance Show PaymentMethodDetailsAmazonPay
+instance Eq PaymentMethodDetailsAmazonPay
+instance Data.Aeson.FromJSON PaymentMethodDetailsAmazonPay
+instance Data.Aeson.ToJSON PaymentMethodDetailsAmazonPay

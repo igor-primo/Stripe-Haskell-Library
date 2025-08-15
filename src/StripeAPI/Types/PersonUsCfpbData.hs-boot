@@ -1,0 +1,28 @@
+module StripeAPI.Types.PersonUsCfpbData where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PersonUsCfpbData
+instance Show PersonUsCfpbData
+instance Eq PersonUsCfpbData
+instance Data.Aeson.FromJSON PersonUsCfpbData
+instance Data.Aeson.ToJSON PersonUsCfpbData
+data PersonUsCfpbDataEthnicityDetails'NonNullable
+instance Show PersonUsCfpbDataEthnicityDetails'NonNullable
+instance Eq PersonUsCfpbDataEthnicityDetails'NonNullable
+instance Data.Aeson.FromJSON PersonUsCfpbDataEthnicityDetails'NonNullable
+instance Data.Aeson.ToJSON PersonUsCfpbDataEthnicityDetails'NonNullable
+data PersonUsCfpbDataEthnicityDetails'NonNullableEthnicity'NonNullable
+instance Show PersonUsCfpbDataEthnicityDetails'NonNullableEthnicity'NonNullable
+instance Eq PersonUsCfpbDataEthnicityDetails'NonNullableEthnicity'NonNullable
+instance Data.Aeson.FromJSON PersonUsCfpbDataEthnicityDetails'NonNullableEthnicity'NonNullable
+instance Data.Aeson.ToJSON PersonUsCfpbDataEthnicityDetails'NonNullableEthnicity'NonNullable
+data PersonUsCfpbDataRaceDetails'NonNullable
+instance Show PersonUsCfpbDataRaceDetails'NonNullable
+instance Eq PersonUsCfpbDataRaceDetails'NonNullable
+instance Data.Aeson.FromJSON PersonUsCfpbDataRaceDetails'NonNullable
+instance Data.Aeson.ToJSON PersonUsCfpbDataRaceDetails'NonNullable
+data PersonUsCfpbDataRaceDetails'NonNullableRace'NonNullable
+instance Show PersonUsCfpbDataRaceDetails'NonNullableRace'NonNullable
+instance Eq PersonUsCfpbDataRaceDetails'NonNullableRace'NonNullable
+instance Data.Aeson.FromJSON PersonUsCfpbDataRaceDetails'NonNullableRace'NonNullable
+instance Data.Aeson.ToJSON PersonUsCfpbDataRaceDetails'NonNullableRace'NonNullable

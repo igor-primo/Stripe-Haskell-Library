@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodOptionsMultibanco where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsMultibanco
+instance Show PaymentMethodOptionsMultibanco
+instance Eq PaymentMethodOptionsMultibanco
+instance Data.Aeson.FromJSON PaymentMethodOptionsMultibanco
+instance Data.Aeson.ToJSON PaymentMethodOptionsMultibanco
+data PaymentMethodOptionsMultibancoSetupFutureUsage'
+instance Show PaymentMethodOptionsMultibancoSetupFutureUsage'
+instance Eq PaymentMethodOptionsMultibancoSetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsMultibancoSetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsMultibancoSetupFutureUsage'

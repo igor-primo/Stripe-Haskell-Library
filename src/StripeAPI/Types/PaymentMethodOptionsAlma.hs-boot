@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodOptionsAlma where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsAlma
+instance Show PaymentMethodOptionsAlma
+instance Eq PaymentMethodOptionsAlma
+instance Data.Aeson.FromJSON PaymentMethodOptionsAlma
+instance Data.Aeson.ToJSON PaymentMethodOptionsAlma
+data PaymentMethodOptionsAlmaCaptureMethod'
+instance Show PaymentMethodOptionsAlmaCaptureMethod'
+instance Eq PaymentMethodOptionsAlmaCaptureMethod'
+instance Data.Aeson.FromJSON PaymentMethodOptionsAlmaCaptureMethod'
+instance Data.Aeson.ToJSON PaymentMethodOptionsAlmaCaptureMethod'

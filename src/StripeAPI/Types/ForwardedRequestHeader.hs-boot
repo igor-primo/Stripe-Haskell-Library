@@ -1,0 +1,8 @@
+module StripeAPI.Types.ForwardedRequestHeader where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ForwardedRequestHeader
+instance Show ForwardedRequestHeader
+instance Eq ForwardedRequestHeader
+instance Data.Aeson.FromJSON ForwardedRequestHeader
+instance Data.Aeson.ToJSON ForwardedRequestHeader

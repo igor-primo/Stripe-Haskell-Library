@@ -1,0 +1,13 @@
+module StripeAPI.Types.KlarnaPayerDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data KlarnaPayerDetails
+instance Show KlarnaPayerDetails
+instance Eq KlarnaPayerDetails
+instance Data.Aeson.FromJSON KlarnaPayerDetails
+instance Data.Aeson.ToJSON KlarnaPayerDetails
+data KlarnaPayerDetailsAddress'NonNullable
+instance Show KlarnaPayerDetailsAddress'NonNullable
+instance Eq KlarnaPayerDetailsAddress'NonNullable
+instance Data.Aeson.FromJSON KlarnaPayerDetailsAddress'NonNullable
+instance Data.Aeson.ToJSON KlarnaPayerDetailsAddress'NonNullable

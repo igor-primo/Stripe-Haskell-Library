@@ -1,0 +1,18 @@
+module StripeAPI.Types.PaymentMethodOptionsRevolutPay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsRevolutPay
+instance Show PaymentMethodOptionsRevolutPay
+instance Eq PaymentMethodOptionsRevolutPay
+instance Data.Aeson.FromJSON PaymentMethodOptionsRevolutPay
+instance Data.Aeson.ToJSON PaymentMethodOptionsRevolutPay
+data PaymentMethodOptionsRevolutPayCaptureMethod'
+instance Show PaymentMethodOptionsRevolutPayCaptureMethod'
+instance Eq PaymentMethodOptionsRevolutPayCaptureMethod'
+instance Data.Aeson.FromJSON PaymentMethodOptionsRevolutPayCaptureMethod'
+instance Data.Aeson.ToJSON PaymentMethodOptionsRevolutPayCaptureMethod'
+data PaymentMethodOptionsRevolutPaySetupFutureUsage'
+instance Show PaymentMethodOptionsRevolutPaySetupFutureUsage'
+instance Eq PaymentMethodOptionsRevolutPaySetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsRevolutPaySetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsRevolutPaySetupFutureUsage'

@@ -1,9 +1,8 @@
 module StripeAPI.Types.PersonRelationship where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PersonRelationship
 instance Show PersonRelationship
 instance Eq PersonRelationship
-instance FromJSON PersonRelationship
-instance ToJSON PersonRelationship
+instance Data.Aeson.FromJSON PersonRelationship
+instance Data.Aeson.ToJSON PersonRelationship

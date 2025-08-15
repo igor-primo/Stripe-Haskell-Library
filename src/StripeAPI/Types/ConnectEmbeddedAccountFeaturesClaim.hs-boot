@@ -1,0 +1,8 @@
+module StripeAPI.Types.ConnectEmbeddedAccountFeaturesClaim where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ConnectEmbeddedAccountFeaturesClaim
+instance Show ConnectEmbeddedAccountFeaturesClaim
+instance Eq ConnectEmbeddedAccountFeaturesClaim
+instance Data.Aeson.FromJSON ConnectEmbeddedAccountFeaturesClaim
+instance Data.Aeson.ToJSON ConnectEmbeddedAccountFeaturesClaim

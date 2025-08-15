@@ -1,24 +1,23 @@
 module StripeAPI.Types.GelatoSelfieReport where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data GelatoSelfieReport
 instance Show GelatoSelfieReport
 instance Eq GelatoSelfieReport
-instance FromJSON GelatoSelfieReport
-instance ToJSON GelatoSelfieReport
+instance Data.Aeson.FromJSON GelatoSelfieReport
+instance Data.Aeson.ToJSON GelatoSelfieReport
 data GelatoSelfieReportError'NonNullable
 instance Show GelatoSelfieReportError'NonNullable
 instance Eq GelatoSelfieReportError'NonNullable
-instance FromJSON GelatoSelfieReportError'NonNullable
-instance ToJSON GelatoSelfieReportError'NonNullable
+instance Data.Aeson.FromJSON GelatoSelfieReportError'NonNullable
+instance Data.Aeson.ToJSON GelatoSelfieReportError'NonNullable
 data GelatoSelfieReportError'NonNullableCode'NonNullable
 instance Show GelatoSelfieReportError'NonNullableCode'NonNullable
 instance Eq GelatoSelfieReportError'NonNullableCode'NonNullable
-instance FromJSON GelatoSelfieReportError'NonNullableCode'NonNullable
-instance ToJSON GelatoSelfieReportError'NonNullableCode'NonNullable
+instance Data.Aeson.FromJSON GelatoSelfieReportError'NonNullableCode'NonNullable
+instance Data.Aeson.ToJSON GelatoSelfieReportError'NonNullableCode'NonNullable
 data GelatoSelfieReportStatus'
 instance Show GelatoSelfieReportStatus'
 instance Eq GelatoSelfieReportStatus'
-instance FromJSON GelatoSelfieReportStatus'
-instance ToJSON GelatoSelfieReportStatus'
+instance Data.Aeson.FromJSON GelatoSelfieReportStatus'
+instance Data.Aeson.ToJSON GelatoSelfieReportStatus'

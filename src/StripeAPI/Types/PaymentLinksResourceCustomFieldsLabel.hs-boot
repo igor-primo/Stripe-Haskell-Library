@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentLinksResourceCustomFieldsLabel where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentLinksResourceCustomFieldsLabel
 instance Show PaymentLinksResourceCustomFieldsLabel
 instance Eq PaymentLinksResourceCustomFieldsLabel
-instance FromJSON PaymentLinksResourceCustomFieldsLabel
-instance ToJSON PaymentLinksResourceCustomFieldsLabel
+instance Data.Aeson.FromJSON PaymentLinksResourceCustomFieldsLabel
+instance Data.Aeson.ToJSON PaymentLinksResourceCustomFieldsLabel

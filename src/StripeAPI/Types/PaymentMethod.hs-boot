@@ -1,19 +1,23 @@
 module StripeAPI.Types.PaymentMethod where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentMethod
 instance Show PaymentMethod
 instance Eq PaymentMethod
-instance FromJSON PaymentMethod
-instance ToJSON PaymentMethod
+instance Data.Aeson.FromJSON PaymentMethod
+instance Data.Aeson.ToJSON PaymentMethod
+data PaymentMethodAllowRedisplay'
+instance Show PaymentMethodAllowRedisplay'
+instance Eq PaymentMethodAllowRedisplay'
+instance Data.Aeson.FromJSON PaymentMethodAllowRedisplay'
+instance Data.Aeson.ToJSON PaymentMethodAllowRedisplay'
 data PaymentMethodCustomer'NonNullableVariants
 instance Show PaymentMethodCustomer'NonNullableVariants
 instance Eq PaymentMethodCustomer'NonNullableVariants
-instance FromJSON PaymentMethodCustomer'NonNullableVariants
-instance ToJSON PaymentMethodCustomer'NonNullableVariants
+instance Data.Aeson.FromJSON PaymentMethodCustomer'NonNullableVariants
+instance Data.Aeson.ToJSON PaymentMethodCustomer'NonNullableVariants
 data PaymentMethodType'
 instance Show PaymentMethodType'
 instance Eq PaymentMethodType'
-instance FromJSON PaymentMethodType'
-instance ToJSON PaymentMethodType'
+instance Data.Aeson.FromJSON PaymentMethodType'
+instance Data.Aeson.ToJSON PaymentMethodType'

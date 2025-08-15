@@ -1,0 +1,8 @@
+module StripeAPI.Types.TaxProductResourceShipFromDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data TaxProductResourceShipFromDetails
+instance Show TaxProductResourceShipFromDetails
+instance Eq TaxProductResourceShipFromDetails
+instance Data.Aeson.FromJSON TaxProductResourceShipFromDetails
+instance Data.Aeson.ToJSON TaxProductResourceShipFromDetails

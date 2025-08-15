@@ -1,9 +1,8 @@
 module StripeAPI.Types.DeletedInvoiceitem where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data DeletedInvoiceitem
 instance Show DeletedInvoiceitem
 instance Eq DeletedInvoiceitem
-instance FromJSON DeletedInvoiceitem
-instance ToJSON DeletedInvoiceitem
+instance Data.Aeson.FromJSON DeletedInvoiceitem
+instance Data.Aeson.ToJSON DeletedInvoiceitem

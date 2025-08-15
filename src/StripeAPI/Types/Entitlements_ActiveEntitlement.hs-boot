@@ -1,0 +1,13 @@
+module StripeAPI.Types.Entitlements_ActiveEntitlement where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data Entitlements'activeEntitlement
+instance Show Entitlements'activeEntitlement
+instance Eq Entitlements'activeEntitlement
+instance Data.Aeson.FromJSON Entitlements'activeEntitlement
+instance Data.Aeson.ToJSON Entitlements'activeEntitlement
+data Entitlements'activeEntitlementFeature'Variants
+instance Show Entitlements'activeEntitlementFeature'Variants
+instance Eq Entitlements'activeEntitlementFeature'Variants
+instance Data.Aeson.FromJSON Entitlements'activeEntitlementFeature'Variants
+instance Data.Aeson.ToJSON Entitlements'activeEntitlementFeature'Variants

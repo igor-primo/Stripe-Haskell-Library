@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentFlowsPaymentIntentPresentmentDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentFlowsPaymentIntentPresentmentDetails
+instance Show PaymentFlowsPaymentIntentPresentmentDetails
+instance Eq PaymentFlowsPaymentIntentPresentmentDetails
+instance Data.Aeson.FromJSON PaymentFlowsPaymentIntentPresentmentDetails
+instance Data.Aeson.ToJSON PaymentFlowsPaymentIntentPresentmentDetails

@@ -1,0 +1,8 @@
+module StripeAPI.Types.RefundDestinationDetailsSwish where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data RefundDestinationDetailsSwish
+instance Show RefundDestinationDetailsSwish
+instance Eq RefundDestinationDetailsSwish
+instance Data.Aeson.FromJSON RefundDestinationDetailsSwish
+instance Data.Aeson.ToJSON RefundDestinationDetailsSwish

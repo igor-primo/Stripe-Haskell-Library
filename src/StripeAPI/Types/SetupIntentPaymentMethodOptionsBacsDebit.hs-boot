@@ -1,0 +1,8 @@
+module StripeAPI.Types.SetupIntentPaymentMethodOptionsBacsDebit where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SetupIntentPaymentMethodOptionsBacsDebit
+instance Show SetupIntentPaymentMethodOptionsBacsDebit
+instance Eq SetupIntentPaymentMethodOptionsBacsDebit
+instance Data.Aeson.FromJSON SetupIntentPaymentMethodOptionsBacsDebit
+instance Data.Aeson.ToJSON SetupIntentPaymentMethodOptionsBacsDebit

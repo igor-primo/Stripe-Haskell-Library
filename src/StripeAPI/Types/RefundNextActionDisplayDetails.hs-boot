@@ -1,9 +1,8 @@
 module StripeAPI.Types.RefundNextActionDisplayDetails where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data RefundNextActionDisplayDetails
 instance Show RefundNextActionDisplayDetails
 instance Eq RefundNextActionDisplayDetails
-instance FromJSON RefundNextActionDisplayDetails
-instance ToJSON RefundNextActionDisplayDetails
+instance Data.Aeson.FromJSON RefundNextActionDisplayDetails
+instance Data.Aeson.ToJSON RefundNextActionDisplayDetails

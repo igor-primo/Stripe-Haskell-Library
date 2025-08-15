@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentIntentNextActionDisplayMultibancoDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentIntentNextActionDisplayMultibancoDetails
+instance Show PaymentIntentNextActionDisplayMultibancoDetails
+instance Eq PaymentIntentNextActionDisplayMultibancoDetails
+instance Data.Aeson.FromJSON PaymentIntentNextActionDisplayMultibancoDetails
+instance Data.Aeson.ToJSON PaymentIntentNextActionDisplayMultibancoDetails

@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentMethodAcssDebit where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentMethodAcssDebit
 instance Show PaymentMethodAcssDebit
 instance Eq PaymentMethodAcssDebit
-instance FromJSON PaymentMethodAcssDebit
-instance ToJSON PaymentMethodAcssDebit
+instance Data.Aeson.FromJSON PaymentMethodAcssDebit
+instance Data.Aeson.ToJSON PaymentMethodAcssDebit

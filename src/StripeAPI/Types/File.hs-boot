@@ -1,19 +1,18 @@
 module StripeAPI.Types.File where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data File
 instance Show File
 instance Eq File
-instance FromJSON File
-instance ToJSON File
+instance Data.Aeson.FromJSON File
+instance Data.Aeson.ToJSON File
 data FileLinks'NonNullable
 instance Show FileLinks'NonNullable
 instance Eq FileLinks'NonNullable
-instance FromJSON FileLinks'NonNullable
-instance ToJSON FileLinks'NonNullable
+instance Data.Aeson.FromJSON FileLinks'NonNullable
+instance Data.Aeson.ToJSON FileLinks'NonNullable
 data FilePurpose'
 instance Show FilePurpose'
 instance Eq FilePurpose'
-instance FromJSON FilePurpose'
-instance ToJSON FilePurpose'
+instance Data.Aeson.FromJSON FilePurpose'
+instance Data.Aeson.ToJSON FilePurpose'

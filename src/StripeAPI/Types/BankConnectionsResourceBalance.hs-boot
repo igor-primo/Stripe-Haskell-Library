@@ -1,14 +1,13 @@
 module StripeAPI.Types.BankConnectionsResourceBalance where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data BankConnectionsResourceBalance
 instance Show BankConnectionsResourceBalance
 instance Eq BankConnectionsResourceBalance
-instance FromJSON BankConnectionsResourceBalance
-instance ToJSON BankConnectionsResourceBalance
+instance Data.Aeson.FromJSON BankConnectionsResourceBalance
+instance Data.Aeson.ToJSON BankConnectionsResourceBalance
 data BankConnectionsResourceBalanceType'
 instance Show BankConnectionsResourceBalanceType'
 instance Eq BankConnectionsResourceBalanceType'
-instance FromJSON BankConnectionsResourceBalanceType'
-instance ToJSON BankConnectionsResourceBalanceType'
+instance Data.Aeson.FromJSON BankConnectionsResourceBalanceType'
+instance Data.Aeson.ToJSON BankConnectionsResourceBalanceType'

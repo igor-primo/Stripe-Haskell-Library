@@ -1,9 +1,13 @@
 module StripeAPI.Types.CheckoutPixPaymentMethodOptions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data CheckoutPixPaymentMethodOptions
 instance Show CheckoutPixPaymentMethodOptions
 instance Eq CheckoutPixPaymentMethodOptions
-instance FromJSON CheckoutPixPaymentMethodOptions
-instance ToJSON CheckoutPixPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutPixPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutPixPaymentMethodOptions
+data CheckoutPixPaymentMethodOptionsSetupFutureUsage'
+instance Show CheckoutPixPaymentMethodOptionsSetupFutureUsage'
+instance Eq CheckoutPixPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutPixPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutPixPaymentMethodOptionsSetupFutureUsage'

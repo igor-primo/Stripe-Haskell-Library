@@ -1,14 +1,13 @@
 module StripeAPI.Types.CheckoutGiropayPaymentMethodOptions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data CheckoutGiropayPaymentMethodOptions
 instance Show CheckoutGiropayPaymentMethodOptions
 instance Eq CheckoutGiropayPaymentMethodOptions
-instance FromJSON CheckoutGiropayPaymentMethodOptions
-instance ToJSON CheckoutGiropayPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutGiropayPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutGiropayPaymentMethodOptions
 data CheckoutGiropayPaymentMethodOptionsSetupFutureUsage'
 instance Show CheckoutGiropayPaymentMethodOptionsSetupFutureUsage'
 instance Eq CheckoutGiropayPaymentMethodOptionsSetupFutureUsage'
-instance FromJSON CheckoutGiropayPaymentMethodOptionsSetupFutureUsage'
-instance ToJSON CheckoutGiropayPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutGiropayPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutGiropayPaymentMethodOptionsSetupFutureUsage'

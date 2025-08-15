@@ -1,14 +1,13 @@
 module StripeAPI.Types.IssuingCardholderCardIssuing where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data IssuingCardholderCardIssuing
 instance Show IssuingCardholderCardIssuing
 instance Eq IssuingCardholderCardIssuing
-instance FromJSON IssuingCardholderCardIssuing
-instance ToJSON IssuingCardholderCardIssuing
+instance Data.Aeson.FromJSON IssuingCardholderCardIssuing
+instance Data.Aeson.ToJSON IssuingCardholderCardIssuing
 data IssuingCardholderCardIssuingUserTermsAcceptance'NonNullable
 instance Show IssuingCardholderCardIssuingUserTermsAcceptance'NonNullable
 instance Eq IssuingCardholderCardIssuingUserTermsAcceptance'NonNullable
-instance FromJSON IssuingCardholderCardIssuingUserTermsAcceptance'NonNullable
-instance ToJSON IssuingCardholderCardIssuingUserTermsAcceptance'NonNullable
+instance Data.Aeson.FromJSON IssuingCardholderCardIssuingUserTermsAcceptance'NonNullable
+instance Data.Aeson.ToJSON IssuingCardholderCardIssuingUserTermsAcceptance'NonNullable

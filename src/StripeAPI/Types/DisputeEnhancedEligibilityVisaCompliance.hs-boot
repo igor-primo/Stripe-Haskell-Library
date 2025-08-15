@@ -1,0 +1,13 @@
+module StripeAPI.Types.DisputeEnhancedEligibilityVisaCompliance where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data DisputeEnhancedEligibilityVisaCompliance
+instance Show DisputeEnhancedEligibilityVisaCompliance
+instance Eq DisputeEnhancedEligibilityVisaCompliance
+instance Data.Aeson.FromJSON DisputeEnhancedEligibilityVisaCompliance
+instance Data.Aeson.ToJSON DisputeEnhancedEligibilityVisaCompliance
+data DisputeEnhancedEligibilityVisaComplianceStatus'
+instance Show DisputeEnhancedEligibilityVisaComplianceStatus'
+instance Eq DisputeEnhancedEligibilityVisaComplianceStatus'
+instance Data.Aeson.FromJSON DisputeEnhancedEligibilityVisaComplianceStatus'
+instance Data.Aeson.ToJSON DisputeEnhancedEligibilityVisaComplianceStatus'

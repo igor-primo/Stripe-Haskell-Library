@@ -1,9 +1,8 @@
 module StripeAPI.Types.ApplePayDomain where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ApplePayDomain
 instance Show ApplePayDomain
 instance Eq ApplePayDomain
-instance FromJSON ApplePayDomain
-instance ToJSON ApplePayDomain
+instance Data.Aeson.FromJSON ApplePayDomain
+instance Data.Aeson.ToJSON ApplePayDomain

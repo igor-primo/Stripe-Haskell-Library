@@ -1,0 +1,8 @@
+module StripeAPI.Types.ForwardedRequestContext where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ForwardedRequestContext
+instance Show ForwardedRequestContext
+instance Eq ForwardedRequestContext
+instance Data.Aeson.FromJSON ForwardedRequestContext
+instance Data.Aeson.ToJSON ForwardedRequestContext

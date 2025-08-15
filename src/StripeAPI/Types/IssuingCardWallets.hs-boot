@@ -1,9 +1,8 @@
 module StripeAPI.Types.IssuingCardWallets where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data IssuingCardWallets
 instance Show IssuingCardWallets
 instance Eq IssuingCardWallets
-instance FromJSON IssuingCardWallets
-instance ToJSON IssuingCardWallets
+instance Data.Aeson.FromJSON IssuingCardWallets
+instance Data.Aeson.ToJSON IssuingCardWallets

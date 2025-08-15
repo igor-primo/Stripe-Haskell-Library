@@ -1,0 +1,8 @@
+module StripeAPI.Types.ProductMarketingFeature where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ProductMarketingFeature
+instance Show ProductMarketingFeature
+instance Eq ProductMarketingFeature
+instance Data.Aeson.FromJSON ProductMarketingFeature
+instance Data.Aeson.ToJSON ProductMarketingFeature

@@ -1,9 +1,8 @@
 module StripeAPI.Types.TaxProductResourcePostalAddress where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data TaxProductResourcePostalAddress
 instance Show TaxProductResourcePostalAddress
 instance Eq TaxProductResourcePostalAddress
-instance FromJSON TaxProductResourcePostalAddress
-instance ToJSON TaxProductResourcePostalAddress
+instance Data.Aeson.FromJSON TaxProductResourcePostalAddress
+instance Data.Aeson.ToJSON TaxProductResourcePostalAddress

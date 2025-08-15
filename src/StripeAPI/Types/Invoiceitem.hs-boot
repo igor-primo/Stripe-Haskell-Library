@@ -1,104 +1,53 @@
 module StripeAPI.Types.Invoiceitem where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Invoiceitem
 instance Show Invoiceitem
 instance Eq Invoiceitem
-instance FromJSON Invoiceitem
-instance ToJSON Invoiceitem
+instance Data.Aeson.FromJSON Invoiceitem
+instance Data.Aeson.ToJSON Invoiceitem
 data InvoiceitemCustomer'Variants
 instance Show InvoiceitemCustomer'Variants
 instance Eq InvoiceitemCustomer'Variants
-instance FromJSON InvoiceitemCustomer'Variants
-instance ToJSON InvoiceitemCustomer'Variants
+instance Data.Aeson.FromJSON InvoiceitemCustomer'Variants
+instance Data.Aeson.ToJSON InvoiceitemCustomer'Variants
 data InvoiceitemDiscounts'NonNullableVariants
 instance Show InvoiceitemDiscounts'NonNullableVariants
 instance Eq InvoiceitemDiscounts'NonNullableVariants
-instance FromJSON InvoiceitemDiscounts'NonNullableVariants
-instance ToJSON InvoiceitemDiscounts'NonNullableVariants
+instance Data.Aeson.FromJSON InvoiceitemDiscounts'NonNullableVariants
+instance Data.Aeson.ToJSON InvoiceitemDiscounts'NonNullableVariants
 data InvoiceitemInvoice'NonNullableVariants
 instance Show InvoiceitemInvoice'NonNullableVariants
 instance Eq InvoiceitemInvoice'NonNullableVariants
-instance FromJSON InvoiceitemInvoice'NonNullableVariants
-instance ToJSON InvoiceitemInvoice'NonNullableVariants
-data InvoiceitemPrice'NonNullable
-instance Show InvoiceitemPrice'NonNullable
-instance Eq InvoiceitemPrice'NonNullable
-instance FromJSON InvoiceitemPrice'NonNullable
-instance ToJSON InvoiceitemPrice'NonNullable
-data InvoiceitemPrice'NonNullableBillingScheme'
-instance Show InvoiceitemPrice'NonNullableBillingScheme'
-instance Eq InvoiceitemPrice'NonNullableBillingScheme'
-instance FromJSON InvoiceitemPrice'NonNullableBillingScheme'
-instance ToJSON InvoiceitemPrice'NonNullableBillingScheme'
-data InvoiceitemPrice'NonNullableCustomUnitAmount'NonNullable
-instance Show InvoiceitemPrice'NonNullableCustomUnitAmount'NonNullable
-instance Eq InvoiceitemPrice'NonNullableCustomUnitAmount'NonNullable
-instance FromJSON InvoiceitemPrice'NonNullableCustomUnitAmount'NonNullable
-instance ToJSON InvoiceitemPrice'NonNullableCustomUnitAmount'NonNullable
-data InvoiceitemPrice'NonNullableObject'
-instance Show InvoiceitemPrice'NonNullableObject'
-instance Eq InvoiceitemPrice'NonNullableObject'
-instance FromJSON InvoiceitemPrice'NonNullableObject'
-instance ToJSON InvoiceitemPrice'NonNullableObject'
-data InvoiceitemPrice'NonNullableProduct'Variants
-instance Show InvoiceitemPrice'NonNullableProduct'Variants
-instance Eq InvoiceitemPrice'NonNullableProduct'Variants
-instance FromJSON InvoiceitemPrice'NonNullableProduct'Variants
-instance ToJSON InvoiceitemPrice'NonNullableProduct'Variants
-data InvoiceitemPrice'NonNullableRecurring'NonNullable
-instance Show InvoiceitemPrice'NonNullableRecurring'NonNullable
-instance Eq InvoiceitemPrice'NonNullableRecurring'NonNullable
-instance FromJSON InvoiceitemPrice'NonNullableRecurring'NonNullable
-instance ToJSON InvoiceitemPrice'NonNullableRecurring'NonNullable
-data InvoiceitemPrice'NonNullableRecurring'NonNullableAggregateUsage'NonNullable
-instance Show InvoiceitemPrice'NonNullableRecurring'NonNullableAggregateUsage'NonNullable
-instance Eq InvoiceitemPrice'NonNullableRecurring'NonNullableAggregateUsage'NonNullable
-instance FromJSON InvoiceitemPrice'NonNullableRecurring'NonNullableAggregateUsage'NonNullable
-instance ToJSON InvoiceitemPrice'NonNullableRecurring'NonNullableAggregateUsage'NonNullable
-data InvoiceitemPrice'NonNullableRecurring'NonNullableInterval'
-instance Show InvoiceitemPrice'NonNullableRecurring'NonNullableInterval'
-instance Eq InvoiceitemPrice'NonNullableRecurring'NonNullableInterval'
-instance FromJSON InvoiceitemPrice'NonNullableRecurring'NonNullableInterval'
-instance ToJSON InvoiceitemPrice'NonNullableRecurring'NonNullableInterval'
-data InvoiceitemPrice'NonNullableRecurring'NonNullableUsageType'
-instance Show InvoiceitemPrice'NonNullableRecurring'NonNullableUsageType'
-instance Eq InvoiceitemPrice'NonNullableRecurring'NonNullableUsageType'
-instance FromJSON InvoiceitemPrice'NonNullableRecurring'NonNullableUsageType'
-instance ToJSON InvoiceitemPrice'NonNullableRecurring'NonNullableUsageType'
-data InvoiceitemPrice'NonNullableTaxBehavior'NonNullable
-instance Show InvoiceitemPrice'NonNullableTaxBehavior'NonNullable
-instance Eq InvoiceitemPrice'NonNullableTaxBehavior'NonNullable
-instance FromJSON InvoiceitemPrice'NonNullableTaxBehavior'NonNullable
-instance ToJSON InvoiceitemPrice'NonNullableTaxBehavior'NonNullable
-data InvoiceitemPrice'NonNullableTiersMode'NonNullable
-instance Show InvoiceitemPrice'NonNullableTiersMode'NonNullable
-instance Eq InvoiceitemPrice'NonNullableTiersMode'NonNullable
-instance FromJSON InvoiceitemPrice'NonNullableTiersMode'NonNullable
-instance ToJSON InvoiceitemPrice'NonNullableTiersMode'NonNullable
-data InvoiceitemPrice'NonNullableTransformQuantity'NonNullable
-instance Show InvoiceitemPrice'NonNullableTransformQuantity'NonNullable
-instance Eq InvoiceitemPrice'NonNullableTransformQuantity'NonNullable
-instance FromJSON InvoiceitemPrice'NonNullableTransformQuantity'NonNullable
-instance ToJSON InvoiceitemPrice'NonNullableTransformQuantity'NonNullable
-data InvoiceitemPrice'NonNullableTransformQuantity'NonNullableRound'
-instance Show InvoiceitemPrice'NonNullableTransformQuantity'NonNullableRound'
-instance Eq InvoiceitemPrice'NonNullableTransformQuantity'NonNullableRound'
-instance FromJSON InvoiceitemPrice'NonNullableTransformQuantity'NonNullableRound'
-instance ToJSON InvoiceitemPrice'NonNullableTransformQuantity'NonNullableRound'
-data InvoiceitemPrice'NonNullableType'
-instance Show InvoiceitemPrice'NonNullableType'
-instance Eq InvoiceitemPrice'NonNullableType'
-instance FromJSON InvoiceitemPrice'NonNullableType'
-instance ToJSON InvoiceitemPrice'NonNullableType'
-data InvoiceitemSubscription'NonNullableVariants
-instance Show InvoiceitemSubscription'NonNullableVariants
-instance Eq InvoiceitemSubscription'NonNullableVariants
-instance FromJSON InvoiceitemSubscription'NonNullableVariants
-instance ToJSON InvoiceitemSubscription'NonNullableVariants
+instance Data.Aeson.FromJSON InvoiceitemInvoice'NonNullableVariants
+instance Data.Aeson.ToJSON InvoiceitemInvoice'NonNullableVariants
+data InvoiceitemParent'NonNullable
+instance Show InvoiceitemParent'NonNullable
+instance Eq InvoiceitemParent'NonNullable
+instance Data.Aeson.FromJSON InvoiceitemParent'NonNullable
+instance Data.Aeson.ToJSON InvoiceitemParent'NonNullable
+data InvoiceitemParent'NonNullableSubscriptionDetails'NonNullable
+instance Show InvoiceitemParent'NonNullableSubscriptionDetails'NonNullable
+instance Eq InvoiceitemParent'NonNullableSubscriptionDetails'NonNullable
+instance Data.Aeson.FromJSON InvoiceitemParent'NonNullableSubscriptionDetails'NonNullable
+instance Data.Aeson.ToJSON InvoiceitemParent'NonNullableSubscriptionDetails'NonNullable
+data InvoiceitemParent'NonNullableType'
+instance Show InvoiceitemParent'NonNullableType'
+instance Eq InvoiceitemParent'NonNullableType'
+instance Data.Aeson.FromJSON InvoiceitemParent'NonNullableType'
+instance Data.Aeson.ToJSON InvoiceitemParent'NonNullableType'
+data InvoiceitemPricing'NonNullable
+instance Show InvoiceitemPricing'NonNullable
+instance Eq InvoiceitemPricing'NonNullable
+instance Data.Aeson.FromJSON InvoiceitemPricing'NonNullable
+instance Data.Aeson.ToJSON InvoiceitemPricing'NonNullable
+data InvoiceitemPricing'NonNullableType'
+instance Show InvoiceitemPricing'NonNullableType'
+instance Eq InvoiceitemPricing'NonNullableType'
+instance Data.Aeson.FromJSON InvoiceitemPricing'NonNullableType'
+instance Data.Aeson.ToJSON InvoiceitemPricing'NonNullableType'
 data InvoiceitemTestClock'NonNullableVariants
 instance Show InvoiceitemTestClock'NonNullableVariants
 instance Eq InvoiceitemTestClock'NonNullableVariants
-instance FromJSON InvoiceitemTestClock'NonNullableVariants
-instance ToJSON InvoiceitemTestClock'NonNullableVariants
+instance Data.Aeson.FromJSON InvoiceitemTestClock'NonNullableVariants
+instance Data.Aeson.ToJSON InvoiceitemTestClock'NonNullableVariants

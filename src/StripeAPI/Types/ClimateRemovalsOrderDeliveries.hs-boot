@@ -1,14 +1,13 @@
 module StripeAPI.Types.ClimateRemovalsOrderDeliveries where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ClimateRemovalsOrderDeliveries
 instance Show ClimateRemovalsOrderDeliveries
 instance Eq ClimateRemovalsOrderDeliveries
-instance FromJSON ClimateRemovalsOrderDeliveries
-instance ToJSON ClimateRemovalsOrderDeliveries
+instance Data.Aeson.FromJSON ClimateRemovalsOrderDeliveries
+instance Data.Aeson.ToJSON ClimateRemovalsOrderDeliveries
 data ClimateRemovalsOrderDeliveriesLocation'NonNullable
 instance Show ClimateRemovalsOrderDeliveriesLocation'NonNullable
 instance Eq ClimateRemovalsOrderDeliveriesLocation'NonNullable
-instance FromJSON ClimateRemovalsOrderDeliveriesLocation'NonNullable
-instance ToJSON ClimateRemovalsOrderDeliveriesLocation'NonNullable
+instance Data.Aeson.FromJSON ClimateRemovalsOrderDeliveriesLocation'NonNullable
+instance Data.Aeson.ToJSON ClimateRemovalsOrderDeliveriesLocation'NonNullable

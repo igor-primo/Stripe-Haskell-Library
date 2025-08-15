@@ -1,0 +1,8 @@
+module StripeAPI.Types.BillingClocksResourceStatusDetailsStatusDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data BillingClocksResourceStatusDetailsStatusDetails
+instance Show BillingClocksResourceStatusDetailsStatusDetails
+instance Eq BillingClocksResourceStatusDetailsStatusDetails
+instance Data.Aeson.FromJSON BillingClocksResourceStatusDetailsStatusDetails
+instance Data.Aeson.ToJSON BillingClocksResourceStatusDetailsStatusDetails

@@ -1,9 +1,8 @@
 module StripeAPI.Types.SourceTransactionPaperCheckData where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SourceTransactionPaperCheckData
 instance Show SourceTransactionPaperCheckData
 instance Eq SourceTransactionPaperCheckData
-instance FromJSON SourceTransactionPaperCheckData
-instance ToJSON SourceTransactionPaperCheckData
+instance Data.Aeson.FromJSON SourceTransactionPaperCheckData
+instance Data.Aeson.ToJSON SourceTransactionPaperCheckData

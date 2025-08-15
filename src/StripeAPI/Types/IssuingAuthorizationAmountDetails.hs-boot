@@ -1,9 +1,8 @@
 module StripeAPI.Types.IssuingAuthorizationAmountDetails where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data IssuingAuthorizationAmountDetails
 instance Show IssuingAuthorizationAmountDetails
 instance Eq IssuingAuthorizationAmountDetails
-instance FromJSON IssuingAuthorizationAmountDetails
-instance ToJSON IssuingAuthorizationAmountDetails
+instance Data.Aeson.FromJSON IssuingAuthorizationAmountDetails
+instance Data.Aeson.ToJSON IssuingAuthorizationAmountDetails

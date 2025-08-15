@@ -1,19 +1,18 @@
 module StripeAPI.Types.SepaDebitGeneratedFrom where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SepaDebitGeneratedFrom
 instance Show SepaDebitGeneratedFrom
 instance Eq SepaDebitGeneratedFrom
-instance FromJSON SepaDebitGeneratedFrom
-instance ToJSON SepaDebitGeneratedFrom
+instance Data.Aeson.FromJSON SepaDebitGeneratedFrom
+instance Data.Aeson.ToJSON SepaDebitGeneratedFrom
 data SepaDebitGeneratedFromCharge'NonNullableVariants
 instance Show SepaDebitGeneratedFromCharge'NonNullableVariants
 instance Eq SepaDebitGeneratedFromCharge'NonNullableVariants
-instance FromJSON SepaDebitGeneratedFromCharge'NonNullableVariants
-instance ToJSON SepaDebitGeneratedFromCharge'NonNullableVariants
+instance Data.Aeson.FromJSON SepaDebitGeneratedFromCharge'NonNullableVariants
+instance Data.Aeson.ToJSON SepaDebitGeneratedFromCharge'NonNullableVariants
 data SepaDebitGeneratedFromSetupAttempt'NonNullableVariants
 instance Show SepaDebitGeneratedFromSetupAttempt'NonNullableVariants
 instance Eq SepaDebitGeneratedFromSetupAttempt'NonNullableVariants
-instance FromJSON SepaDebitGeneratedFromSetupAttempt'NonNullableVariants
-instance ToJSON SepaDebitGeneratedFromSetupAttempt'NonNullableVariants
+instance Data.Aeson.FromJSON SepaDebitGeneratedFromSetupAttempt'NonNullableVariants
+instance Data.Aeson.ToJSON SepaDebitGeneratedFromSetupAttempt'NonNullableVariants

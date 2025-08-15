@@ -1,9 +1,8 @@
 module StripeAPI.Types.InboundTransfers where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data InboundTransfers
 instance Show InboundTransfers
 instance Eq InboundTransfers
-instance FromJSON InboundTransfers
-instance ToJSON InboundTransfers
+instance Data.Aeson.FromJSON InboundTransfers
+instance Data.Aeson.ToJSON InboundTransfers

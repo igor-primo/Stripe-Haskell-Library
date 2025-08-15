@@ -1,0 +1,13 @@
+module StripeAPI.Types.InvoiceRenderingTemplate where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data InvoiceRenderingTemplate
+instance Show InvoiceRenderingTemplate
+instance Eq InvoiceRenderingTemplate
+instance Data.Aeson.FromJSON InvoiceRenderingTemplate
+instance Data.Aeson.ToJSON InvoiceRenderingTemplate
+data InvoiceRenderingTemplateStatus'
+instance Show InvoiceRenderingTemplateStatus'
+instance Eq InvoiceRenderingTemplateStatus'
+instance Data.Aeson.FromJSON InvoiceRenderingTemplateStatus'
+instance Data.Aeson.ToJSON InvoiceRenderingTemplateStatus'

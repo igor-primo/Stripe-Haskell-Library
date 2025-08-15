@@ -1,9 +1,8 @@
 module StripeAPI.Types.Networks where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Networks
 instance Show Networks
 instance Eq Networks
-instance FromJSON Networks
-instance ToJSON Networks
+instance Data.Aeson.FromJSON Networks
+instance Data.Aeson.ToJSON Networks

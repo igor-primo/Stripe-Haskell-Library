@@ -1,0 +1,8 @@
+module StripeAPI.Types.ConfirmationTokensResourceShipping where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ConfirmationTokensResourceShipping
+instance Show ConfirmationTokensResourceShipping
+instance Eq ConfirmationTokensResourceShipping
+instance Data.Aeson.FromJSON ConfirmationTokensResourceShipping
+instance Data.Aeson.ToJSON ConfirmationTokensResourceShipping

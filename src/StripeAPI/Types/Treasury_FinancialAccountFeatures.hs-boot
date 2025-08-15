@@ -1,9 +1,8 @@
 module StripeAPI.Types.Treasury_FinancialAccountFeatures where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Treasury'financialAccountFeatures
 instance Show Treasury'financialAccountFeatures
 instance Eq Treasury'financialAccountFeatures
-instance FromJSON Treasury'financialAccountFeatures
-instance ToJSON Treasury'financialAccountFeatures
+instance Data.Aeson.FromJSON Treasury'financialAccountFeatures
+instance Data.Aeson.ToJSON Treasury'financialAccountFeatures

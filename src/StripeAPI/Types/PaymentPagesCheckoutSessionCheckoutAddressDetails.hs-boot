@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentPagesCheckoutSessionCheckoutAddressDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentPagesCheckoutSessionCheckoutAddressDetails
+instance Show PaymentPagesCheckoutSessionCheckoutAddressDetails
+instance Eq PaymentPagesCheckoutSessionCheckoutAddressDetails
+instance Data.Aeson.FromJSON PaymentPagesCheckoutSessionCheckoutAddressDetails
+instance Data.Aeson.ToJSON PaymentPagesCheckoutSessionCheckoutAddressDetails

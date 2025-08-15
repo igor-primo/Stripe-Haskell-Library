@@ -1,9 +1,8 @@
 module StripeAPI.Types.TreasuryReceivedCreditsResourceStatusTransitions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data TreasuryReceivedCreditsResourceStatusTransitions
 instance Show TreasuryReceivedCreditsResourceStatusTransitions
 instance Eq TreasuryReceivedCreditsResourceStatusTransitions
-instance FromJSON TreasuryReceivedCreditsResourceStatusTransitions
-instance ToJSON TreasuryReceivedCreditsResourceStatusTransitions
+instance Data.Aeson.FromJSON TreasuryReceivedCreditsResourceStatusTransitions
+instance Data.Aeson.ToJSON TreasuryReceivedCreditsResourceStatusTransitions

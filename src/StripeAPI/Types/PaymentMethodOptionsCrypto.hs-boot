@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodOptionsCrypto where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsCrypto
+instance Show PaymentMethodOptionsCrypto
+instance Eq PaymentMethodOptionsCrypto
+instance Data.Aeson.FromJSON PaymentMethodOptionsCrypto
+instance Data.Aeson.ToJSON PaymentMethodOptionsCrypto
+data PaymentMethodOptionsCryptoSetupFutureUsage'
+instance Show PaymentMethodOptionsCryptoSetupFutureUsage'
+instance Eq PaymentMethodOptionsCryptoSetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsCryptoSetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsCryptoSetupFutureUsage'

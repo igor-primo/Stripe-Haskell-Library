@@ -1,59 +1,53 @@
 module StripeAPI.Types.CreditNote where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data CreditNote
 instance Show CreditNote
 instance Eq CreditNote
-instance FromJSON CreditNote
-instance ToJSON CreditNote
+instance Data.Aeson.FromJSON CreditNote
+instance Data.Aeson.ToJSON CreditNote
 data CreditNoteCustomer'Variants
 instance Show CreditNoteCustomer'Variants
 instance Eq CreditNoteCustomer'Variants
-instance FromJSON CreditNoteCustomer'Variants
-instance ToJSON CreditNoteCustomer'Variants
+instance Data.Aeson.FromJSON CreditNoteCustomer'Variants
+instance Data.Aeson.ToJSON CreditNoteCustomer'Variants
 data CreditNoteCustomerBalanceTransaction'NonNullableVariants
 instance Show CreditNoteCustomerBalanceTransaction'NonNullableVariants
 instance Eq CreditNoteCustomerBalanceTransaction'NonNullableVariants
-instance FromJSON CreditNoteCustomerBalanceTransaction'NonNullableVariants
-instance ToJSON CreditNoteCustomerBalanceTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON CreditNoteCustomerBalanceTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON CreditNoteCustomerBalanceTransaction'NonNullableVariants
 data CreditNoteInvoice'Variants
 instance Show CreditNoteInvoice'Variants
 instance Eq CreditNoteInvoice'Variants
-instance FromJSON CreditNoteInvoice'Variants
-instance ToJSON CreditNoteInvoice'Variants
+instance Data.Aeson.FromJSON CreditNoteInvoice'Variants
+instance Data.Aeson.ToJSON CreditNoteInvoice'Variants
 data CreditNoteLines'
 instance Show CreditNoteLines'
 instance Eq CreditNoteLines'
-instance FromJSON CreditNoteLines'
-instance ToJSON CreditNoteLines'
+instance Data.Aeson.FromJSON CreditNoteLines'
+instance Data.Aeson.ToJSON CreditNoteLines'
 data CreditNoteReason'NonNullable
 instance Show CreditNoteReason'NonNullable
 instance Eq CreditNoteReason'NonNullable
-instance FromJSON CreditNoteReason'NonNullable
-instance ToJSON CreditNoteReason'NonNullable
-data CreditNoteRefund'NonNullableVariants
-instance Show CreditNoteRefund'NonNullableVariants
-instance Eq CreditNoteRefund'NonNullableVariants
-instance FromJSON CreditNoteRefund'NonNullableVariants
-instance ToJSON CreditNoteRefund'NonNullableVariants
+instance Data.Aeson.FromJSON CreditNoteReason'NonNullable
+instance Data.Aeson.ToJSON CreditNoteReason'NonNullable
 data CreditNoteShippingCost'NonNullable
 instance Show CreditNoteShippingCost'NonNullable
 instance Eq CreditNoteShippingCost'NonNullable
-instance FromJSON CreditNoteShippingCost'NonNullable
-instance ToJSON CreditNoteShippingCost'NonNullable
+instance Data.Aeson.FromJSON CreditNoteShippingCost'NonNullable
+instance Data.Aeson.ToJSON CreditNoteShippingCost'NonNullable
 data CreditNoteShippingCost'NonNullableShippingRate'NonNullableVariants
 instance Show CreditNoteShippingCost'NonNullableShippingRate'NonNullableVariants
 instance Eq CreditNoteShippingCost'NonNullableShippingRate'NonNullableVariants
-instance FromJSON CreditNoteShippingCost'NonNullableShippingRate'NonNullableVariants
-instance ToJSON CreditNoteShippingCost'NonNullableShippingRate'NonNullableVariants
+instance Data.Aeson.FromJSON CreditNoteShippingCost'NonNullableShippingRate'NonNullableVariants
+instance Data.Aeson.ToJSON CreditNoteShippingCost'NonNullableShippingRate'NonNullableVariants
 data CreditNoteStatus'
 instance Show CreditNoteStatus'
 instance Eq CreditNoteStatus'
-instance FromJSON CreditNoteStatus'
-instance ToJSON CreditNoteStatus'
+instance Data.Aeson.FromJSON CreditNoteStatus'
+instance Data.Aeson.ToJSON CreditNoteStatus'
 data CreditNoteType'
 instance Show CreditNoteType'
 instance Eq CreditNoteType'
-instance FromJSON CreditNoteType'
-instance ToJSON CreditNoteType'
+instance Data.Aeson.FromJSON CreditNoteType'
+instance Data.Aeson.ToJSON CreditNoteType'

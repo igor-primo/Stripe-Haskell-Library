@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentPagesCheckoutSessionCustomFieldsDropdown where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentPagesCheckoutSessionCustomFieldsDropdown
 instance Show PaymentPagesCheckoutSessionCustomFieldsDropdown
 instance Eq PaymentPagesCheckoutSessionCustomFieldsDropdown
-instance FromJSON PaymentPagesCheckoutSessionCustomFieldsDropdown
-instance ToJSON PaymentPagesCheckoutSessionCustomFieldsDropdown
+instance Data.Aeson.FromJSON PaymentPagesCheckoutSessionCustomFieldsDropdown
+instance Data.Aeson.ToJSON PaymentPagesCheckoutSessionCustomFieldsDropdown

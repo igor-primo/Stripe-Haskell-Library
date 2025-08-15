@@ -1,44 +1,53 @@
 module StripeAPI.Types.Payout where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Payout
 instance Show Payout
 instance Eq Payout
-instance FromJSON Payout
-instance ToJSON Payout
+instance Data.Aeson.FromJSON Payout
+instance Data.Aeson.ToJSON Payout
+data PayoutApplicationFee'NonNullableVariants
+instance Show PayoutApplicationFee'NonNullableVariants
+instance Eq PayoutApplicationFee'NonNullableVariants
+instance Data.Aeson.FromJSON PayoutApplicationFee'NonNullableVariants
+instance Data.Aeson.ToJSON PayoutApplicationFee'NonNullableVariants
 data PayoutBalanceTransaction'NonNullableVariants
 instance Show PayoutBalanceTransaction'NonNullableVariants
 instance Eq PayoutBalanceTransaction'NonNullableVariants
-instance FromJSON PayoutBalanceTransaction'NonNullableVariants
-instance ToJSON PayoutBalanceTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON PayoutBalanceTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON PayoutBalanceTransaction'NonNullableVariants
 data PayoutDestination'NonNullableVariants
 instance Show PayoutDestination'NonNullableVariants
 instance Eq PayoutDestination'NonNullableVariants
-instance FromJSON PayoutDestination'NonNullableVariants
-instance ToJSON PayoutDestination'NonNullableVariants
+instance Data.Aeson.FromJSON PayoutDestination'NonNullableVariants
+instance Data.Aeson.ToJSON PayoutDestination'NonNullableVariants
 data PayoutFailureBalanceTransaction'NonNullableVariants
 instance Show PayoutFailureBalanceTransaction'NonNullableVariants
 instance Eq PayoutFailureBalanceTransaction'NonNullableVariants
-instance FromJSON PayoutFailureBalanceTransaction'NonNullableVariants
-instance ToJSON PayoutFailureBalanceTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON PayoutFailureBalanceTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON PayoutFailureBalanceTransaction'NonNullableVariants
 data PayoutOriginalPayout'NonNullableVariants
 instance Show PayoutOriginalPayout'NonNullableVariants
 instance Eq PayoutOriginalPayout'NonNullableVariants
-instance FromJSON PayoutOriginalPayout'NonNullableVariants
-instance ToJSON PayoutOriginalPayout'NonNullableVariants
+instance Data.Aeson.FromJSON PayoutOriginalPayout'NonNullableVariants
+instance Data.Aeson.ToJSON PayoutOriginalPayout'NonNullableVariants
 data PayoutReconciliationStatus'
 instance Show PayoutReconciliationStatus'
 instance Eq PayoutReconciliationStatus'
-instance FromJSON PayoutReconciliationStatus'
-instance ToJSON PayoutReconciliationStatus'
+instance Data.Aeson.FromJSON PayoutReconciliationStatus'
+instance Data.Aeson.ToJSON PayoutReconciliationStatus'
 data PayoutReversedBy'NonNullableVariants
 instance Show PayoutReversedBy'NonNullableVariants
 instance Eq PayoutReversedBy'NonNullableVariants
-instance FromJSON PayoutReversedBy'NonNullableVariants
-instance ToJSON PayoutReversedBy'NonNullableVariants
+instance Data.Aeson.FromJSON PayoutReversedBy'NonNullableVariants
+instance Data.Aeson.ToJSON PayoutReversedBy'NonNullableVariants
+data PayoutTraceId'NonNullable
+instance Show PayoutTraceId'NonNullable
+instance Eq PayoutTraceId'NonNullable
+instance Data.Aeson.FromJSON PayoutTraceId'NonNullable
+instance Data.Aeson.ToJSON PayoutTraceId'NonNullable
 data PayoutType'
 instance Show PayoutType'
 instance Eq PayoutType'
-instance FromJSON PayoutType'
-instance ToJSON PayoutType'
+instance Data.Aeson.FromJSON PayoutType'
+instance Data.Aeson.ToJSON PayoutType'

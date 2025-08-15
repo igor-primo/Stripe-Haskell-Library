@@ -1,0 +1,8 @@
+module StripeAPI.Types.RefundDestinationDetailsPaypal where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data RefundDestinationDetailsPaypal
+instance Show RefundDestinationDetailsPaypal
+instance Eq RefundDestinationDetailsPaypal
+instance Data.Aeson.FromJSON RefundDestinationDetailsPaypal
+instance Data.Aeson.ToJSON RefundDestinationDetailsPaypal

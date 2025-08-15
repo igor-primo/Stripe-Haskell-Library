@@ -1,0 +1,8 @@
+module StripeAPI.Types.TerminalReaderReaderResourceRefundPaymentConfig where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data TerminalReaderReaderResourceRefundPaymentConfig
+instance Show TerminalReaderReaderResourceRefundPaymentConfig
+instance Eq TerminalReaderReaderResourceRefundPaymentConfig
+instance Data.Aeson.FromJSON TerminalReaderReaderResourceRefundPaymentConfig
+instance Data.Aeson.ToJSON TerminalReaderReaderResourceRefundPaymentConfig

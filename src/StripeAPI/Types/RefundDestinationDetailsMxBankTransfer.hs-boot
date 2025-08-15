@@ -1,0 +1,8 @@
+module StripeAPI.Types.RefundDestinationDetailsMxBankTransfer where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data RefundDestinationDetailsMxBankTransfer
+instance Show RefundDestinationDetailsMxBankTransfer
+instance Eq RefundDestinationDetailsMxBankTransfer
+instance Data.Aeson.FromJSON RefundDestinationDetailsMxBankTransfer
+instance Data.Aeson.ToJSON RefundDestinationDetailsMxBankTransfer

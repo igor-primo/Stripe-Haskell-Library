@@ -1,9 +1,8 @@
 module StripeAPI.Types.AccountTermsOfService where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data AccountTermsOfService
 instance Show AccountTermsOfService
 instance Eq AccountTermsOfService
-instance FromJSON AccountTermsOfService
-instance ToJSON AccountTermsOfService
+instance Data.Aeson.FromJSON AccountTermsOfService
+instance Data.Aeson.ToJSON AccountTermsOfService

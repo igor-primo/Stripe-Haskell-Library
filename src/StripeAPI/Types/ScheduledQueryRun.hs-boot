@@ -1,29 +1,28 @@
 module StripeAPI.Types.ScheduledQueryRun where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ScheduledQueryRun
 instance Show ScheduledQueryRun
 instance Eq ScheduledQueryRun
-instance FromJSON ScheduledQueryRun
-instance ToJSON ScheduledQueryRun
+instance Data.Aeson.FromJSON ScheduledQueryRun
+instance Data.Aeson.ToJSON ScheduledQueryRun
 data ScheduledQueryRunFile'NonNullable
 instance Show ScheduledQueryRunFile'NonNullable
 instance Eq ScheduledQueryRunFile'NonNullable
-instance FromJSON ScheduledQueryRunFile'NonNullable
-instance ToJSON ScheduledQueryRunFile'NonNullable
+instance Data.Aeson.FromJSON ScheduledQueryRunFile'NonNullable
+instance Data.Aeson.ToJSON ScheduledQueryRunFile'NonNullable
 data ScheduledQueryRunFile'NonNullableLinks'NonNullable
 instance Show ScheduledQueryRunFile'NonNullableLinks'NonNullable
 instance Eq ScheduledQueryRunFile'NonNullableLinks'NonNullable
-instance FromJSON ScheduledQueryRunFile'NonNullableLinks'NonNullable
-instance ToJSON ScheduledQueryRunFile'NonNullableLinks'NonNullable
+instance Data.Aeson.FromJSON ScheduledQueryRunFile'NonNullableLinks'NonNullable
+instance Data.Aeson.ToJSON ScheduledQueryRunFile'NonNullableLinks'NonNullable
 data ScheduledQueryRunFile'NonNullableObject'
 instance Show ScheduledQueryRunFile'NonNullableObject'
 instance Eq ScheduledQueryRunFile'NonNullableObject'
-instance FromJSON ScheduledQueryRunFile'NonNullableObject'
-instance ToJSON ScheduledQueryRunFile'NonNullableObject'
+instance Data.Aeson.FromJSON ScheduledQueryRunFile'NonNullableObject'
+instance Data.Aeson.ToJSON ScheduledQueryRunFile'NonNullableObject'
 data ScheduledQueryRunFile'NonNullablePurpose'
 instance Show ScheduledQueryRunFile'NonNullablePurpose'
 instance Eq ScheduledQueryRunFile'NonNullablePurpose'
-instance FromJSON ScheduledQueryRunFile'NonNullablePurpose'
-instance ToJSON ScheduledQueryRunFile'NonNullablePurpose'
+instance Data.Aeson.FromJSON ScheduledQueryRunFile'NonNullablePurpose'
+instance Data.Aeson.ToJSON ScheduledQueryRunFile'NonNullablePurpose'

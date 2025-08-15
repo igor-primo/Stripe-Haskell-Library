@@ -1,19 +1,18 @@
 module StripeAPI.Types.PaymentMethodOptionsPaypal where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentMethodOptionsPaypal
 instance Show PaymentMethodOptionsPaypal
 instance Eq PaymentMethodOptionsPaypal
-instance FromJSON PaymentMethodOptionsPaypal
-instance ToJSON PaymentMethodOptionsPaypal
+instance Data.Aeson.FromJSON PaymentMethodOptionsPaypal
+instance Data.Aeson.ToJSON PaymentMethodOptionsPaypal
 data PaymentMethodOptionsPaypalCaptureMethod'
 instance Show PaymentMethodOptionsPaypalCaptureMethod'
 instance Eq PaymentMethodOptionsPaypalCaptureMethod'
-instance FromJSON PaymentMethodOptionsPaypalCaptureMethod'
-instance ToJSON PaymentMethodOptionsPaypalCaptureMethod'
+instance Data.Aeson.FromJSON PaymentMethodOptionsPaypalCaptureMethod'
+instance Data.Aeson.ToJSON PaymentMethodOptionsPaypalCaptureMethod'
 data PaymentMethodOptionsPaypalSetupFutureUsage'
 instance Show PaymentMethodOptionsPaypalSetupFutureUsage'
 instance Eq PaymentMethodOptionsPaypalSetupFutureUsage'
-instance FromJSON PaymentMethodOptionsPaypalSetupFutureUsage'
-instance ToJSON PaymentMethodOptionsPaypalSetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsPaypalSetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsPaypalSetupFutureUsage'

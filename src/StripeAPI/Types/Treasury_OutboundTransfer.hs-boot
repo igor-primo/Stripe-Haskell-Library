@@ -1,34 +1,43 @@
 module StripeAPI.Types.Treasury_OutboundTransfer where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Treasury'outboundTransfer
 instance Show Treasury'outboundTransfer
 instance Eq Treasury'outboundTransfer
-instance FromJSON Treasury'outboundTransfer
-instance ToJSON Treasury'outboundTransfer
+instance Data.Aeson.FromJSON Treasury'outboundTransfer
+instance Data.Aeson.ToJSON Treasury'outboundTransfer
 data Treasury'outboundTransferReturnedDetails'NonNullable
 instance Show Treasury'outboundTransferReturnedDetails'NonNullable
 instance Eq Treasury'outboundTransferReturnedDetails'NonNullable
-instance FromJSON Treasury'outboundTransferReturnedDetails'NonNullable
-instance ToJSON Treasury'outboundTransferReturnedDetails'NonNullable
+instance Data.Aeson.FromJSON Treasury'outboundTransferReturnedDetails'NonNullable
+instance Data.Aeson.ToJSON Treasury'outboundTransferReturnedDetails'NonNullable
 data Treasury'outboundTransferReturnedDetails'NonNullableCode'
 instance Show Treasury'outboundTransferReturnedDetails'NonNullableCode'
 instance Eq Treasury'outboundTransferReturnedDetails'NonNullableCode'
-instance FromJSON Treasury'outboundTransferReturnedDetails'NonNullableCode'
-instance ToJSON Treasury'outboundTransferReturnedDetails'NonNullableCode'
+instance Data.Aeson.FromJSON Treasury'outboundTransferReturnedDetails'NonNullableCode'
+instance Data.Aeson.ToJSON Treasury'outboundTransferReturnedDetails'NonNullableCode'
 data Treasury'outboundTransferReturnedDetails'NonNullableTransaction'Variants
 instance Show Treasury'outboundTransferReturnedDetails'NonNullableTransaction'Variants
 instance Eq Treasury'outboundTransferReturnedDetails'NonNullableTransaction'Variants
-instance FromJSON Treasury'outboundTransferReturnedDetails'NonNullableTransaction'Variants
-instance ToJSON Treasury'outboundTransferReturnedDetails'NonNullableTransaction'Variants
+instance Data.Aeson.FromJSON Treasury'outboundTransferReturnedDetails'NonNullableTransaction'Variants
+instance Data.Aeson.ToJSON Treasury'outboundTransferReturnedDetails'NonNullableTransaction'Variants
 data Treasury'outboundTransferStatus'
 instance Show Treasury'outboundTransferStatus'
 instance Eq Treasury'outboundTransferStatus'
-instance FromJSON Treasury'outboundTransferStatus'
-instance ToJSON Treasury'outboundTransferStatus'
+instance Data.Aeson.FromJSON Treasury'outboundTransferStatus'
+instance Data.Aeson.ToJSON Treasury'outboundTransferStatus'
+data Treasury'outboundTransferTrackingDetails'NonNullable
+instance Show Treasury'outboundTransferTrackingDetails'NonNullable
+instance Eq Treasury'outboundTransferTrackingDetails'NonNullable
+instance Data.Aeson.FromJSON Treasury'outboundTransferTrackingDetails'NonNullable
+instance Data.Aeson.ToJSON Treasury'outboundTransferTrackingDetails'NonNullable
+data Treasury'outboundTransferTrackingDetails'NonNullableType'
+instance Show Treasury'outboundTransferTrackingDetails'NonNullableType'
+instance Eq Treasury'outboundTransferTrackingDetails'NonNullableType'
+instance Data.Aeson.FromJSON Treasury'outboundTransferTrackingDetails'NonNullableType'
+instance Data.Aeson.ToJSON Treasury'outboundTransferTrackingDetails'NonNullableType'
 data Treasury'outboundTransferTransaction'Variants
 instance Show Treasury'outboundTransferTransaction'Variants
 instance Eq Treasury'outboundTransferTransaction'Variants
-instance FromJSON Treasury'outboundTransferTransaction'Variants
-instance ToJSON Treasury'outboundTransferTransaction'Variants
+instance Data.Aeson.FromJSON Treasury'outboundTransferTransaction'Variants
+instance Data.Aeson.ToJSON Treasury'outboundTransferTransaction'Variants

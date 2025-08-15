@@ -1,0 +1,8 @@
+module StripeAPI.Types.InvoicesResourceStatusTransitions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data InvoicesResourceStatusTransitions
+instance Show InvoicesResourceStatusTransitions
+instance Eq InvoicesResourceStatusTransitions
+instance Data.Aeson.FromJSON InvoicesResourceStatusTransitions
+instance Data.Aeson.ToJSON InvoicesResourceStatusTransitions

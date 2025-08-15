@@ -1,14 +1,13 @@
 module StripeAPI.Types.GelatoSessionDocumentOptions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data GelatoSessionDocumentOptions
 instance Show GelatoSessionDocumentOptions
 instance Eq GelatoSessionDocumentOptions
-instance FromJSON GelatoSessionDocumentOptions
-instance ToJSON GelatoSessionDocumentOptions
+instance Data.Aeson.FromJSON GelatoSessionDocumentOptions
+instance Data.Aeson.ToJSON GelatoSessionDocumentOptions
 data GelatoSessionDocumentOptionsAllowedTypes'
 instance Show GelatoSessionDocumentOptionsAllowedTypes'
 instance Eq GelatoSessionDocumentOptionsAllowedTypes'
-instance FromJSON GelatoSessionDocumentOptionsAllowedTypes'
-instance ToJSON GelatoSessionDocumentOptionsAllowedTypes'
+instance Data.Aeson.FromJSON GelatoSessionDocumentOptionsAllowedTypes'
+instance Data.Aeson.ToJSON GelatoSessionDocumentOptionsAllowedTypes'

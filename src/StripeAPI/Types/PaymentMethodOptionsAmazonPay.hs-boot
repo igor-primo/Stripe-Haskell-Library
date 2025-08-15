@@ -1,0 +1,18 @@
+module StripeAPI.Types.PaymentMethodOptionsAmazonPay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsAmazonPay
+instance Show PaymentMethodOptionsAmazonPay
+instance Eq PaymentMethodOptionsAmazonPay
+instance Data.Aeson.FromJSON PaymentMethodOptionsAmazonPay
+instance Data.Aeson.ToJSON PaymentMethodOptionsAmazonPay
+data PaymentMethodOptionsAmazonPayCaptureMethod'
+instance Show PaymentMethodOptionsAmazonPayCaptureMethod'
+instance Eq PaymentMethodOptionsAmazonPayCaptureMethod'
+instance Data.Aeson.FromJSON PaymentMethodOptionsAmazonPayCaptureMethod'
+instance Data.Aeson.ToJSON PaymentMethodOptionsAmazonPayCaptureMethod'
+data PaymentMethodOptionsAmazonPaySetupFutureUsage'
+instance Show PaymentMethodOptionsAmazonPaySetupFutureUsage'
+instance Eq PaymentMethodOptionsAmazonPaySetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsAmazonPaySetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsAmazonPaySetupFutureUsage'

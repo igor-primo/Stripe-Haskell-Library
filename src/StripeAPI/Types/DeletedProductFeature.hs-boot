@@ -1,0 +1,8 @@
+module StripeAPI.Types.DeletedProductFeature where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data DeletedProductFeature
+instance Show DeletedProductFeature
+instance Eq DeletedProductFeature
+instance Data.Aeson.FromJSON DeletedProductFeature
+instance Data.Aeson.ToJSON DeletedProductFeature

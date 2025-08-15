@@ -1,34 +1,33 @@
 module StripeAPI.Types.BankAccount where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data BankAccount
 instance Show BankAccount
 instance Eq BankAccount
-instance FromJSON BankAccount
-instance ToJSON BankAccount
+instance Data.Aeson.FromJSON BankAccount
+instance Data.Aeson.ToJSON BankAccount
 data BankAccountAccount'NonNullableVariants
 instance Show BankAccountAccount'NonNullableVariants
 instance Eq BankAccountAccount'NonNullableVariants
-instance FromJSON BankAccountAccount'NonNullableVariants
-instance ToJSON BankAccountAccount'NonNullableVariants
+instance Data.Aeson.FromJSON BankAccountAccount'NonNullableVariants
+instance Data.Aeson.ToJSON BankAccountAccount'NonNullableVariants
 data BankAccountAvailablePayoutMethods'NonNullable
 instance Show BankAccountAvailablePayoutMethods'NonNullable
 instance Eq BankAccountAvailablePayoutMethods'NonNullable
-instance FromJSON BankAccountAvailablePayoutMethods'NonNullable
-instance ToJSON BankAccountAvailablePayoutMethods'NonNullable
+instance Data.Aeson.FromJSON BankAccountAvailablePayoutMethods'NonNullable
+instance Data.Aeson.ToJSON BankAccountAvailablePayoutMethods'NonNullable
 data BankAccountCustomer'NonNullableVariants
 instance Show BankAccountCustomer'NonNullableVariants
 instance Eq BankAccountCustomer'NonNullableVariants
-instance FromJSON BankAccountCustomer'NonNullableVariants
-instance ToJSON BankAccountCustomer'NonNullableVariants
+instance Data.Aeson.FromJSON BankAccountCustomer'NonNullableVariants
+instance Data.Aeson.ToJSON BankAccountCustomer'NonNullableVariants
 data BankAccountFutureRequirements'NonNullable
 instance Show BankAccountFutureRequirements'NonNullable
 instance Eq BankAccountFutureRequirements'NonNullable
-instance FromJSON BankAccountFutureRequirements'NonNullable
-instance ToJSON BankAccountFutureRequirements'NonNullable
+instance Data.Aeson.FromJSON BankAccountFutureRequirements'NonNullable
+instance Data.Aeson.ToJSON BankAccountFutureRequirements'NonNullable
 data BankAccountRequirements'NonNullable
 instance Show BankAccountRequirements'NonNullable
 instance Eq BankAccountRequirements'NonNullable
-instance FromJSON BankAccountRequirements'NonNullable
-instance ToJSON BankAccountRequirements'NonNullable
+instance Data.Aeson.FromJSON BankAccountRequirements'NonNullable
+instance Data.Aeson.ToJSON BankAccountRequirements'NonNullable

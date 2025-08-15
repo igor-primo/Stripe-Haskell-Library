@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsKakaoPay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsKakaoPay
+instance Show PaymentMethodDetailsKakaoPay
+instance Eq PaymentMethodDetailsKakaoPay
+instance Data.Aeson.FromJSON PaymentMethodDetailsKakaoPay
+instance Data.Aeson.ToJSON PaymentMethodDetailsKakaoPay

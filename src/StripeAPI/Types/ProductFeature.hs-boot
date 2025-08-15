@@ -1,9 +1,8 @@
 module StripeAPI.Types.ProductFeature where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ProductFeature
 instance Show ProductFeature
 instance Eq ProductFeature
-instance FromJSON ProductFeature
-instance ToJSON ProductFeature
+instance Data.Aeson.FromJSON ProductFeature
+instance Data.Aeson.ToJSON ProductFeature

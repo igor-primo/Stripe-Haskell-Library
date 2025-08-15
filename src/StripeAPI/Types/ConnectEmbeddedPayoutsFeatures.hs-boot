@@ -1,9 +1,8 @@
 module StripeAPI.Types.ConnectEmbeddedPayoutsFeatures where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ConnectEmbeddedPayoutsFeatures
 instance Show ConnectEmbeddedPayoutsFeatures
 instance Eq ConnectEmbeddedPayoutsFeatures
-instance FromJSON ConnectEmbeddedPayoutsFeatures
-instance ToJSON ConnectEmbeddedPayoutsFeatures
+instance Data.Aeson.FromJSON ConnectEmbeddedPayoutsFeatures
+instance Data.Aeson.ToJSON ConnectEmbeddedPayoutsFeatures

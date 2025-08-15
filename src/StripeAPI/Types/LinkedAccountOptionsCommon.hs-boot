@@ -1,0 +1,18 @@
+module StripeAPI.Types.LinkedAccountOptionsCommon where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data LinkedAccountOptionsCommon
+instance Show LinkedAccountOptionsCommon
+instance Eq LinkedAccountOptionsCommon
+instance Data.Aeson.FromJSON LinkedAccountOptionsCommon
+instance Data.Aeson.ToJSON LinkedAccountOptionsCommon
+data LinkedAccountOptionsCommonPermissions'
+instance Show LinkedAccountOptionsCommonPermissions'
+instance Eq LinkedAccountOptionsCommonPermissions'
+instance Data.Aeson.FromJSON LinkedAccountOptionsCommonPermissions'
+instance Data.Aeson.ToJSON LinkedAccountOptionsCommonPermissions'
+data LinkedAccountOptionsCommonPrefetch'NonNullable
+instance Show LinkedAccountOptionsCommonPrefetch'NonNullable
+instance Eq LinkedAccountOptionsCommonPrefetch'NonNullable
+instance Data.Aeson.FromJSON LinkedAccountOptionsCommonPrefetch'NonNullable
+instance Data.Aeson.ToJSON LinkedAccountOptionsCommonPrefetch'NonNullable

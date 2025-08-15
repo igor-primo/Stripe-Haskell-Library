@@ -1,9 +1,8 @@
 module StripeAPI.Types.SigmaScheduledQueryRunError where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SigmaScheduledQueryRunError
 instance Show SigmaScheduledQueryRunError
 instance Eq SigmaScheduledQueryRunError
-instance FromJSON SigmaScheduledQueryRunError
-instance ToJSON SigmaScheduledQueryRunError
+instance Data.Aeson.FromJSON SigmaScheduledQueryRunError
+instance Data.Aeson.ToJSON SigmaScheduledQueryRunError

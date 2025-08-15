@@ -1,9 +1,8 @@
 module StripeAPI.Types.FundingInstructions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data FundingInstructions
 instance Show FundingInstructions
 instance Eq FundingInstructions
-instance FromJSON FundingInstructions
-instance ToJSON FundingInstructions
+instance Data.Aeson.FromJSON FundingInstructions
+instance Data.Aeson.ToJSON FundingInstructions

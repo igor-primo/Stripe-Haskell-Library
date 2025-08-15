@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsAffirm where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsAffirm
+instance Show PaymentMethodDetailsAffirm
+instance Eq PaymentMethodDetailsAffirm
+instance Data.Aeson.FromJSON PaymentMethodDetailsAffirm
+instance Data.Aeson.ToJSON PaymentMethodDetailsAffirm

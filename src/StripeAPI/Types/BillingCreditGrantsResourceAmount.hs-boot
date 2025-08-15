@@ -1,0 +1,13 @@
+module StripeAPI.Types.BillingCreditGrantsResourceAmount where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data BillingCreditGrantsResourceAmount
+instance Show BillingCreditGrantsResourceAmount
+instance Eq BillingCreditGrantsResourceAmount
+instance Data.Aeson.FromJSON BillingCreditGrantsResourceAmount
+instance Data.Aeson.ToJSON BillingCreditGrantsResourceAmount
+data BillingCreditGrantsResourceAmountMonetary'NonNullable
+instance Show BillingCreditGrantsResourceAmountMonetary'NonNullable
+instance Eq BillingCreditGrantsResourceAmountMonetary'NonNullable
+instance Data.Aeson.FromJSON BillingCreditGrantsResourceAmountMonetary'NonNullable
+instance Data.Aeson.ToJSON BillingCreditGrantsResourceAmountMonetary'NonNullable

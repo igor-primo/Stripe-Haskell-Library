@@ -1,9 +1,13 @@
 module StripeAPI.Types.AccountFutureRequirements where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data AccountFutureRequirements
 instance Show AccountFutureRequirements
 instance Eq AccountFutureRequirements
-instance FromJSON AccountFutureRequirements
-instance ToJSON AccountFutureRequirements
+instance Data.Aeson.FromJSON AccountFutureRequirements
+instance Data.Aeson.ToJSON AccountFutureRequirements
+data AccountFutureRequirementsDisabledReason'NonNullable
+instance Show AccountFutureRequirementsDisabledReason'NonNullable
+instance Eq AccountFutureRequirementsDisabledReason'NonNullable
+instance Data.Aeson.FromJSON AccountFutureRequirementsDisabledReason'NonNullable
+instance Data.Aeson.ToJSON AccountFutureRequirementsDisabledReason'NonNullable

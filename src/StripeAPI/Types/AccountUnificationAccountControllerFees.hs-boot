@@ -1,0 +1,13 @@
+module StripeAPI.Types.AccountUnificationAccountControllerFees where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountUnificationAccountControllerFees
+instance Show AccountUnificationAccountControllerFees
+instance Eq AccountUnificationAccountControllerFees
+instance Data.Aeson.FromJSON AccountUnificationAccountControllerFees
+instance Data.Aeson.ToJSON AccountUnificationAccountControllerFees
+data AccountUnificationAccountControllerFeesPayer'
+instance Show AccountUnificationAccountControllerFeesPayer'
+instance Eq AccountUnificationAccountControllerFeesPayer'
+instance Data.Aeson.FromJSON AccountUnificationAccountControllerFeesPayer'
+instance Data.Aeson.ToJSON AccountUnificationAccountControllerFeesPayer'

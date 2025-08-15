@@ -1,19 +1,18 @@
 module StripeAPI.Types.PortalSubscriptionUpdate where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PortalSubscriptionUpdate
 instance Show PortalSubscriptionUpdate
 instance Eq PortalSubscriptionUpdate
-instance FromJSON PortalSubscriptionUpdate
-instance ToJSON PortalSubscriptionUpdate
+instance Data.Aeson.FromJSON PortalSubscriptionUpdate
+instance Data.Aeson.ToJSON PortalSubscriptionUpdate
 data PortalSubscriptionUpdateDefaultAllowedUpdates'
 instance Show PortalSubscriptionUpdateDefaultAllowedUpdates'
 instance Eq PortalSubscriptionUpdateDefaultAllowedUpdates'
-instance FromJSON PortalSubscriptionUpdateDefaultAllowedUpdates'
-instance ToJSON PortalSubscriptionUpdateDefaultAllowedUpdates'
+instance Data.Aeson.FromJSON PortalSubscriptionUpdateDefaultAllowedUpdates'
+instance Data.Aeson.ToJSON PortalSubscriptionUpdateDefaultAllowedUpdates'
 data PortalSubscriptionUpdateProrationBehavior'
 instance Show PortalSubscriptionUpdateProrationBehavior'
 instance Eq PortalSubscriptionUpdateProrationBehavior'
-instance FromJSON PortalSubscriptionUpdateProrationBehavior'
-instance ToJSON PortalSubscriptionUpdateProrationBehavior'
+instance Data.Aeson.FromJSON PortalSubscriptionUpdateProrationBehavior'
+instance Data.Aeson.ToJSON PortalSubscriptionUpdateProrationBehavior'

@@ -1,14 +1,13 @@
 module StripeAPI.Types.PaymentMethodDetailsFpx where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentMethodDetailsFpx
 instance Show PaymentMethodDetailsFpx
 instance Eq PaymentMethodDetailsFpx
-instance FromJSON PaymentMethodDetailsFpx
-instance ToJSON PaymentMethodDetailsFpx
+instance Data.Aeson.FromJSON PaymentMethodDetailsFpx
+instance Data.Aeson.ToJSON PaymentMethodDetailsFpx
 data PaymentMethodDetailsFpxBank'
 instance Show PaymentMethodDetailsFpxBank'
 instance Eq PaymentMethodDetailsFpxBank'
-instance FromJSON PaymentMethodDetailsFpxBank'
-instance ToJSON PaymentMethodDetailsFpxBank'
+instance Data.Aeson.FromJSON PaymentMethodDetailsFpxBank'
+instance Data.Aeson.ToJSON PaymentMethodDetailsFpxBank'

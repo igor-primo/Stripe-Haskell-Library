@@ -1,19 +1,18 @@
 module StripeAPI.Types.DeletedPaymentSource where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data DeletedPaymentSource
 instance Show DeletedPaymentSource
 instance Eq DeletedPaymentSource
-instance FromJSON DeletedPaymentSource
-instance ToJSON DeletedPaymentSource
+instance Data.Aeson.FromJSON DeletedPaymentSource
+instance Data.Aeson.ToJSON DeletedPaymentSource
 data DeletedPaymentSourceDeleted'
 instance Show DeletedPaymentSourceDeleted'
 instance Eq DeletedPaymentSourceDeleted'
-instance FromJSON DeletedPaymentSourceDeleted'
-instance ToJSON DeletedPaymentSourceDeleted'
+instance Data.Aeson.FromJSON DeletedPaymentSourceDeleted'
+instance Data.Aeson.ToJSON DeletedPaymentSourceDeleted'
 data DeletedPaymentSourceObject'
 instance Show DeletedPaymentSourceObject'
 instance Eq DeletedPaymentSourceObject'
-instance FromJSON DeletedPaymentSourceObject'
-instance ToJSON DeletedPaymentSourceObject'
+instance Data.Aeson.FromJSON DeletedPaymentSourceObject'
+instance Data.Aeson.ToJSON DeletedPaymentSourceObject'

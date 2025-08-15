@@ -1,0 +1,13 @@
+module StripeAPI.Types.BillingMeterResourceAggregationSettings where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data BillingMeterResourceAggregationSettings
+instance Show BillingMeterResourceAggregationSettings
+instance Eq BillingMeterResourceAggregationSettings
+instance Data.Aeson.FromJSON BillingMeterResourceAggregationSettings
+instance Data.Aeson.ToJSON BillingMeterResourceAggregationSettings
+data BillingMeterResourceAggregationSettingsFormula'
+instance Show BillingMeterResourceAggregationSettingsFormula'
+instance Eq BillingMeterResourceAggregationSettingsFormula'
+instance Data.Aeson.FromJSON BillingMeterResourceAggregationSettingsFormula'
+instance Data.Aeson.ToJSON BillingMeterResourceAggregationSettingsFormula'

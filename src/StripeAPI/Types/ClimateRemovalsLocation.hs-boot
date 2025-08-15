@@ -1,9 +1,8 @@
 module StripeAPI.Types.ClimateRemovalsLocation where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ClimateRemovalsLocation
 instance Show ClimateRemovalsLocation
 instance Eq ClimateRemovalsLocation
-instance FromJSON ClimateRemovalsLocation
-instance ToJSON ClimateRemovalsLocation
+instance Data.Aeson.FromJSON ClimateRemovalsLocation
+instance Data.Aeson.ToJSON ClimateRemovalsLocation

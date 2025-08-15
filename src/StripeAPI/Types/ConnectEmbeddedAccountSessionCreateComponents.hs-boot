@@ -1,9 +1,8 @@
 module StripeAPI.Types.ConnectEmbeddedAccountSessionCreateComponents where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ConnectEmbeddedAccountSessionCreateComponents
 instance Show ConnectEmbeddedAccountSessionCreateComponents
 instance Eq ConnectEmbeddedAccountSessionCreateComponents
-instance FromJSON ConnectEmbeddedAccountSessionCreateComponents
-instance ToJSON ConnectEmbeddedAccountSessionCreateComponents
+instance Data.Aeson.FromJSON ConnectEmbeddedAccountSessionCreateComponents
+instance Data.Aeson.ToJSON ConnectEmbeddedAccountSessionCreateComponents

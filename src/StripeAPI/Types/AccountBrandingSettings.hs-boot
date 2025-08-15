@@ -1,19 +1,18 @@
 module StripeAPI.Types.AccountBrandingSettings where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data AccountBrandingSettings
 instance Show AccountBrandingSettings
 instance Eq AccountBrandingSettings
-instance FromJSON AccountBrandingSettings
-instance ToJSON AccountBrandingSettings
+instance Data.Aeson.FromJSON AccountBrandingSettings
+instance Data.Aeson.ToJSON AccountBrandingSettings
 data AccountBrandingSettingsIcon'NonNullableVariants
 instance Show AccountBrandingSettingsIcon'NonNullableVariants
 instance Eq AccountBrandingSettingsIcon'NonNullableVariants
-instance FromJSON AccountBrandingSettingsIcon'NonNullableVariants
-instance ToJSON AccountBrandingSettingsIcon'NonNullableVariants
+instance Data.Aeson.FromJSON AccountBrandingSettingsIcon'NonNullableVariants
+instance Data.Aeson.ToJSON AccountBrandingSettingsIcon'NonNullableVariants
 data AccountBrandingSettingsLogo'NonNullableVariants
 instance Show AccountBrandingSettingsLogo'NonNullableVariants
 instance Eq AccountBrandingSettingsLogo'NonNullableVariants
-instance FromJSON AccountBrandingSettingsLogo'NonNullableVariants
-instance ToJSON AccountBrandingSettingsLogo'NonNullableVariants
+instance Data.Aeson.FromJSON AccountBrandingSettingsLogo'NonNullableVariants
+instance Data.Aeson.ToJSON AccountBrandingSettingsLogo'NonNullableVariants

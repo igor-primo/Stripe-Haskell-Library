@@ -1,14 +1,13 @@
 module StripeAPI.Types.Coupon where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Coupon
 instance Show Coupon
 instance Eq Coupon
-instance FromJSON Coupon
-instance ToJSON Coupon
+instance Data.Aeson.FromJSON Coupon
+instance Data.Aeson.ToJSON Coupon
 data CouponDuration'
 instance Show CouponDuration'
 instance Eq CouponDuration'
-instance FromJSON CouponDuration'
-instance ToJSON CouponDuration'
+instance Data.Aeson.FromJSON CouponDuration'
+instance Data.Aeson.ToJSON CouponDuration'

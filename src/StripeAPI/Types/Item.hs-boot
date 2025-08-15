@@ -1,79 +1,73 @@
 module StripeAPI.Types.Item where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Item
 instance Show Item
 instance Eq Item
-instance FromJSON Item
-instance ToJSON Item
+instance Data.Aeson.FromJSON Item
+instance Data.Aeson.ToJSON Item
 data ItemPrice'NonNullable
 instance Show ItemPrice'NonNullable
 instance Eq ItemPrice'NonNullable
-instance FromJSON ItemPrice'NonNullable
-instance ToJSON ItemPrice'NonNullable
+instance Data.Aeson.FromJSON ItemPrice'NonNullable
+instance Data.Aeson.ToJSON ItemPrice'NonNullable
 data ItemPrice'NonNullableBillingScheme'
 instance Show ItemPrice'NonNullableBillingScheme'
 instance Eq ItemPrice'NonNullableBillingScheme'
-instance FromJSON ItemPrice'NonNullableBillingScheme'
-instance ToJSON ItemPrice'NonNullableBillingScheme'
+instance Data.Aeson.FromJSON ItemPrice'NonNullableBillingScheme'
+instance Data.Aeson.ToJSON ItemPrice'NonNullableBillingScheme'
 data ItemPrice'NonNullableCustomUnitAmount'NonNullable
 instance Show ItemPrice'NonNullableCustomUnitAmount'NonNullable
 instance Eq ItemPrice'NonNullableCustomUnitAmount'NonNullable
-instance FromJSON ItemPrice'NonNullableCustomUnitAmount'NonNullable
-instance ToJSON ItemPrice'NonNullableCustomUnitAmount'NonNullable
+instance Data.Aeson.FromJSON ItemPrice'NonNullableCustomUnitAmount'NonNullable
+instance Data.Aeson.ToJSON ItemPrice'NonNullableCustomUnitAmount'NonNullable
 data ItemPrice'NonNullableObject'
 instance Show ItemPrice'NonNullableObject'
 instance Eq ItemPrice'NonNullableObject'
-instance FromJSON ItemPrice'NonNullableObject'
-instance ToJSON ItemPrice'NonNullableObject'
+instance Data.Aeson.FromJSON ItemPrice'NonNullableObject'
+instance Data.Aeson.ToJSON ItemPrice'NonNullableObject'
 data ItemPrice'NonNullableProduct'Variants
 instance Show ItemPrice'NonNullableProduct'Variants
 instance Eq ItemPrice'NonNullableProduct'Variants
-instance FromJSON ItemPrice'NonNullableProduct'Variants
-instance ToJSON ItemPrice'NonNullableProduct'Variants
+instance Data.Aeson.FromJSON ItemPrice'NonNullableProduct'Variants
+instance Data.Aeson.ToJSON ItemPrice'NonNullableProduct'Variants
 data ItemPrice'NonNullableRecurring'NonNullable
 instance Show ItemPrice'NonNullableRecurring'NonNullable
 instance Eq ItemPrice'NonNullableRecurring'NonNullable
-instance FromJSON ItemPrice'NonNullableRecurring'NonNullable
-instance ToJSON ItemPrice'NonNullableRecurring'NonNullable
-data ItemPrice'NonNullableRecurring'NonNullableAggregateUsage'NonNullable
-instance Show ItemPrice'NonNullableRecurring'NonNullableAggregateUsage'NonNullable
-instance Eq ItemPrice'NonNullableRecurring'NonNullableAggregateUsage'NonNullable
-instance FromJSON ItemPrice'NonNullableRecurring'NonNullableAggregateUsage'NonNullable
-instance ToJSON ItemPrice'NonNullableRecurring'NonNullableAggregateUsage'NonNullable
+instance Data.Aeson.FromJSON ItemPrice'NonNullableRecurring'NonNullable
+instance Data.Aeson.ToJSON ItemPrice'NonNullableRecurring'NonNullable
 data ItemPrice'NonNullableRecurring'NonNullableInterval'
 instance Show ItemPrice'NonNullableRecurring'NonNullableInterval'
 instance Eq ItemPrice'NonNullableRecurring'NonNullableInterval'
-instance FromJSON ItemPrice'NonNullableRecurring'NonNullableInterval'
-instance ToJSON ItemPrice'NonNullableRecurring'NonNullableInterval'
+instance Data.Aeson.FromJSON ItemPrice'NonNullableRecurring'NonNullableInterval'
+instance Data.Aeson.ToJSON ItemPrice'NonNullableRecurring'NonNullableInterval'
 data ItemPrice'NonNullableRecurring'NonNullableUsageType'
 instance Show ItemPrice'NonNullableRecurring'NonNullableUsageType'
 instance Eq ItemPrice'NonNullableRecurring'NonNullableUsageType'
-instance FromJSON ItemPrice'NonNullableRecurring'NonNullableUsageType'
-instance ToJSON ItemPrice'NonNullableRecurring'NonNullableUsageType'
+instance Data.Aeson.FromJSON ItemPrice'NonNullableRecurring'NonNullableUsageType'
+instance Data.Aeson.ToJSON ItemPrice'NonNullableRecurring'NonNullableUsageType'
 data ItemPrice'NonNullableTaxBehavior'NonNullable
 instance Show ItemPrice'NonNullableTaxBehavior'NonNullable
 instance Eq ItemPrice'NonNullableTaxBehavior'NonNullable
-instance FromJSON ItemPrice'NonNullableTaxBehavior'NonNullable
-instance ToJSON ItemPrice'NonNullableTaxBehavior'NonNullable
+instance Data.Aeson.FromJSON ItemPrice'NonNullableTaxBehavior'NonNullable
+instance Data.Aeson.ToJSON ItemPrice'NonNullableTaxBehavior'NonNullable
 data ItemPrice'NonNullableTiersMode'NonNullable
 instance Show ItemPrice'NonNullableTiersMode'NonNullable
 instance Eq ItemPrice'NonNullableTiersMode'NonNullable
-instance FromJSON ItemPrice'NonNullableTiersMode'NonNullable
-instance ToJSON ItemPrice'NonNullableTiersMode'NonNullable
+instance Data.Aeson.FromJSON ItemPrice'NonNullableTiersMode'NonNullable
+instance Data.Aeson.ToJSON ItemPrice'NonNullableTiersMode'NonNullable
 data ItemPrice'NonNullableTransformQuantity'NonNullable
 instance Show ItemPrice'NonNullableTransformQuantity'NonNullable
 instance Eq ItemPrice'NonNullableTransformQuantity'NonNullable
-instance FromJSON ItemPrice'NonNullableTransformQuantity'NonNullable
-instance ToJSON ItemPrice'NonNullableTransformQuantity'NonNullable
+instance Data.Aeson.FromJSON ItemPrice'NonNullableTransformQuantity'NonNullable
+instance Data.Aeson.ToJSON ItemPrice'NonNullableTransformQuantity'NonNullable
 data ItemPrice'NonNullableTransformQuantity'NonNullableRound'
 instance Show ItemPrice'NonNullableTransformQuantity'NonNullableRound'
 instance Eq ItemPrice'NonNullableTransformQuantity'NonNullableRound'
-instance FromJSON ItemPrice'NonNullableTransformQuantity'NonNullableRound'
-instance ToJSON ItemPrice'NonNullableTransformQuantity'NonNullableRound'
+instance Data.Aeson.FromJSON ItemPrice'NonNullableTransformQuantity'NonNullableRound'
+instance Data.Aeson.ToJSON ItemPrice'NonNullableTransformQuantity'NonNullableRound'
 data ItemPrice'NonNullableType'
 instance Show ItemPrice'NonNullableType'
 instance Eq ItemPrice'NonNullableType'
-instance FromJSON ItemPrice'NonNullableType'
-instance ToJSON ItemPrice'NonNullableType'
+instance Data.Aeson.FromJSON ItemPrice'NonNullableType'
+instance Data.Aeson.ToJSON ItemPrice'NonNullableType'

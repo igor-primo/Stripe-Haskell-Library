@@ -1,9 +1,8 @@
 module StripeAPI.Types.LegalEntityUboDeclaration where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data LegalEntityUboDeclaration
 instance Show LegalEntityUboDeclaration
 instance Eq LegalEntityUboDeclaration
-instance FromJSON LegalEntityUboDeclaration
-instance ToJSON LegalEntityUboDeclaration
+instance Data.Aeson.FromJSON LegalEntityUboDeclaration
+instance Data.Aeson.ToJSON LegalEntityUboDeclaration

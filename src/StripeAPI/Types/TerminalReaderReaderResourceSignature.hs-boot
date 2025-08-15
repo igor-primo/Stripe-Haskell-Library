@@ -1,0 +1,8 @@
+module StripeAPI.Types.TerminalReaderReaderResourceSignature where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data TerminalReaderReaderResourceSignature
+instance Show TerminalReaderReaderResourceSignature
+instance Eq TerminalReaderReaderResourceSignature
+instance Data.Aeson.FromJSON TerminalReaderReaderResourceSignature
+instance Data.Aeson.ToJSON TerminalReaderReaderResourceSignature

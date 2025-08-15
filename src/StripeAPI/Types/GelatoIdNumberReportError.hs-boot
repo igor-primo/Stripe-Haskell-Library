@@ -1,14 +1,13 @@
 module StripeAPI.Types.GelatoIdNumberReportError where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data GelatoIdNumberReportError
 instance Show GelatoIdNumberReportError
 instance Eq GelatoIdNumberReportError
-instance FromJSON GelatoIdNumberReportError
-instance ToJSON GelatoIdNumberReportError
+instance Data.Aeson.FromJSON GelatoIdNumberReportError
+instance Data.Aeson.ToJSON GelatoIdNumberReportError
 data GelatoIdNumberReportErrorCode'NonNullable
 instance Show GelatoIdNumberReportErrorCode'NonNullable
 instance Eq GelatoIdNumberReportErrorCode'NonNullable
-instance FromJSON GelatoIdNumberReportErrorCode'NonNullable
-instance ToJSON GelatoIdNumberReportErrorCode'NonNullable
+instance Data.Aeson.FromJSON GelatoIdNumberReportErrorCode'NonNullable
+instance Data.Aeson.ToJSON GelatoIdNumberReportErrorCode'NonNullable

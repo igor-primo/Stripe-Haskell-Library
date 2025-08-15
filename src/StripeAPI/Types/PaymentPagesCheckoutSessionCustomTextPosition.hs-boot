@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentPagesCheckoutSessionCustomTextPosition where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentPagesCheckoutSessionCustomTextPosition
 instance Show PaymentPagesCheckoutSessionCustomTextPosition
 instance Eq PaymentPagesCheckoutSessionCustomTextPosition
-instance FromJSON PaymentPagesCheckoutSessionCustomTextPosition
-instance ToJSON PaymentPagesCheckoutSessionCustomTextPosition
+instance Data.Aeson.FromJSON PaymentPagesCheckoutSessionCustomTextPosition
+instance Data.Aeson.ToJSON PaymentPagesCheckoutSessionCustomTextPosition

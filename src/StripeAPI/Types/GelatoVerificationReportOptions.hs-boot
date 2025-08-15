@@ -1,9 +1,8 @@
 module StripeAPI.Types.GelatoVerificationReportOptions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data GelatoVerificationReportOptions
 instance Show GelatoVerificationReportOptions
 instance Eq GelatoVerificationReportOptions
-instance FromJSON GelatoVerificationReportOptions
-instance ToJSON GelatoVerificationReportOptions
+instance Data.Aeson.FromJSON GelatoVerificationReportOptions
+instance Data.Aeson.ToJSON GelatoVerificationReportOptions

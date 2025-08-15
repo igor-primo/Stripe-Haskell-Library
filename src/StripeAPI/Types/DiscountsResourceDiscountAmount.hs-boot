@@ -1,14 +1,13 @@
 module StripeAPI.Types.DiscountsResourceDiscountAmount where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data DiscountsResourceDiscountAmount
 instance Show DiscountsResourceDiscountAmount
 instance Eq DiscountsResourceDiscountAmount
-instance FromJSON DiscountsResourceDiscountAmount
-instance ToJSON DiscountsResourceDiscountAmount
+instance Data.Aeson.FromJSON DiscountsResourceDiscountAmount
+instance Data.Aeson.ToJSON DiscountsResourceDiscountAmount
 data DiscountsResourceDiscountAmountDiscount'Variants
 instance Show DiscountsResourceDiscountAmountDiscount'Variants
 instance Eq DiscountsResourceDiscountAmountDiscount'Variants
-instance FromJSON DiscountsResourceDiscountAmountDiscount'Variants
-instance ToJSON DiscountsResourceDiscountAmountDiscount'Variants
+instance Data.Aeson.FromJSON DiscountsResourceDiscountAmountDiscount'Variants
+instance Data.Aeson.ToJSON DiscountsResourceDiscountAmountDiscount'Variants

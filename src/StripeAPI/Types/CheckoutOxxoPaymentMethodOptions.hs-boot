@@ -1,14 +1,13 @@
 module StripeAPI.Types.CheckoutOxxoPaymentMethodOptions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data CheckoutOxxoPaymentMethodOptions
 instance Show CheckoutOxxoPaymentMethodOptions
 instance Eq CheckoutOxxoPaymentMethodOptions
-instance FromJSON CheckoutOxxoPaymentMethodOptions
-instance ToJSON CheckoutOxxoPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutOxxoPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutOxxoPaymentMethodOptions
 data CheckoutOxxoPaymentMethodOptionsSetupFutureUsage'
 instance Show CheckoutOxxoPaymentMethodOptionsSetupFutureUsage'
 instance Eq CheckoutOxxoPaymentMethodOptionsSetupFutureUsage'
-instance FromJSON CheckoutOxxoPaymentMethodOptionsSetupFutureUsage'
-instance ToJSON CheckoutOxxoPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutOxxoPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutOxxoPaymentMethodOptionsSetupFutureUsage'

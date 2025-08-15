@@ -1,14 +1,13 @@
 module StripeAPI.Types.ConnectCollectionTransfer where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ConnectCollectionTransfer
 instance Show ConnectCollectionTransfer
 instance Eq ConnectCollectionTransfer
-instance FromJSON ConnectCollectionTransfer
-instance ToJSON ConnectCollectionTransfer
+instance Data.Aeson.FromJSON ConnectCollectionTransfer
+instance Data.Aeson.ToJSON ConnectCollectionTransfer
 data ConnectCollectionTransferDestination'Variants
 instance Show ConnectCollectionTransferDestination'Variants
 instance Eq ConnectCollectionTransferDestination'Variants
-instance FromJSON ConnectCollectionTransferDestination'Variants
-instance ToJSON ConnectCollectionTransferDestination'Variants
+instance Data.Aeson.FromJSON ConnectCollectionTransferDestination'Variants
+instance Data.Aeson.ToJSON ConnectCollectionTransferDestination'Variants

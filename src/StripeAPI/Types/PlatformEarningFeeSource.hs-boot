@@ -1,0 +1,13 @@
+module StripeAPI.Types.PlatformEarningFeeSource where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PlatformEarningFeeSource
+instance Show PlatformEarningFeeSource
+instance Eq PlatformEarningFeeSource
+instance Data.Aeson.FromJSON PlatformEarningFeeSource
+instance Data.Aeson.ToJSON PlatformEarningFeeSource
+data PlatformEarningFeeSourceType'
+instance Show PlatformEarningFeeSourceType'
+instance Eq PlatformEarningFeeSourceType'
+instance Data.Aeson.FromJSON PlatformEarningFeeSourceType'
+instance Data.Aeson.ToJSON PlatformEarningFeeSourceType'

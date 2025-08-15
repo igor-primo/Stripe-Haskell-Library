@@ -1,14 +1,13 @@
 module StripeAPI.Types.QuotesResourceRecurring where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data QuotesResourceRecurring
 instance Show QuotesResourceRecurring
 instance Eq QuotesResourceRecurring
-instance FromJSON QuotesResourceRecurring
-instance ToJSON QuotesResourceRecurring
+instance Data.Aeson.FromJSON QuotesResourceRecurring
+instance Data.Aeson.ToJSON QuotesResourceRecurring
 data QuotesResourceRecurringInterval'
 instance Show QuotesResourceRecurringInterval'
 instance Eq QuotesResourceRecurringInterval'
-instance FromJSON QuotesResourceRecurringInterval'
-instance ToJSON QuotesResourceRecurringInterval'
+instance Data.Aeson.FromJSON QuotesResourceRecurringInterval'
+instance Data.Aeson.ToJSON QuotesResourceRecurringInterval'

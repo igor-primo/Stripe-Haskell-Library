@@ -1,9 +1,8 @@
 module StripeAPI.Types.IssuingTransactionLodgingData where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data IssuingTransactionLodgingData
 instance Show IssuingTransactionLodgingData
 instance Eq IssuingTransactionLodgingData
-instance FromJSON IssuingTransactionLodgingData
-instance ToJSON IssuingTransactionLodgingData
+instance Data.Aeson.FromJSON IssuingTransactionLodgingData
+instance Data.Aeson.ToJSON IssuingTransactionLodgingData

@@ -1,0 +1,13 @@
+module StripeAPI.Types.InvoicesResourceShippingCost where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data InvoicesResourceShippingCost
+instance Show InvoicesResourceShippingCost
+instance Eq InvoicesResourceShippingCost
+instance Data.Aeson.FromJSON InvoicesResourceShippingCost
+instance Data.Aeson.ToJSON InvoicesResourceShippingCost
+data InvoicesResourceShippingCostShippingRate'NonNullableVariants
+instance Show InvoicesResourceShippingCostShippingRate'NonNullableVariants
+instance Eq InvoicesResourceShippingCostShippingRate'NonNullableVariants
+instance Data.Aeson.FromJSON InvoicesResourceShippingCostShippingRate'NonNullableVariants
+instance Data.Aeson.ToJSON InvoicesResourceShippingCostShippingRate'NonNullableVariants

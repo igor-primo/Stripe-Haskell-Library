@@ -1,0 +1,8 @@
+module StripeAPI.Types.ForwardedResponseDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ForwardedResponseDetails
+instance Show ForwardedResponseDetails
+instance Eq ForwardedResponseDetails
+instance Data.Aeson.FromJSON ForwardedResponseDetails
+instance Data.Aeson.ToJSON ForwardedResponseDetails

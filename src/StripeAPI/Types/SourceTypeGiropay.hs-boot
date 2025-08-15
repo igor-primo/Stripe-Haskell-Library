@@ -1,9 +1,8 @@
 module StripeAPI.Types.SourceTypeGiropay where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SourceTypeGiropay
 instance Show SourceTypeGiropay
 instance Eq SourceTypeGiropay
-instance FromJSON SourceTypeGiropay
-instance ToJSON SourceTypeGiropay
+instance Data.Aeson.FromJSON SourceTypeGiropay
+instance Data.Aeson.ToJSON SourceTypeGiropay

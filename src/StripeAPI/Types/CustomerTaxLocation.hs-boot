@@ -1,14 +1,13 @@
 module StripeAPI.Types.CustomerTaxLocation where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data CustomerTaxLocation
 instance Show CustomerTaxLocation
 instance Eq CustomerTaxLocation
-instance FromJSON CustomerTaxLocation
-instance ToJSON CustomerTaxLocation
+instance Data.Aeson.FromJSON CustomerTaxLocation
+instance Data.Aeson.ToJSON CustomerTaxLocation
 data CustomerTaxLocationSource'
 instance Show CustomerTaxLocationSource'
 instance Eq CustomerTaxLocationSource'
-instance FromJSON CustomerTaxLocationSource'
-instance ToJSON CustomerTaxLocationSource'
+instance Data.Aeson.FromJSON CustomerTaxLocationSource'
+instance Data.Aeson.ToJSON CustomerTaxLocationSource'

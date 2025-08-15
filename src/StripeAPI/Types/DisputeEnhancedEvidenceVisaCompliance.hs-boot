@@ -1,0 +1,8 @@
+module StripeAPI.Types.DisputeEnhancedEvidenceVisaCompliance where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data DisputeEnhancedEvidenceVisaCompliance
+instance Show DisputeEnhancedEvidenceVisaCompliance
+instance Eq DisputeEnhancedEvidenceVisaCompliance
+instance Data.Aeson.FromJSON DisputeEnhancedEvidenceVisaCompliance
+instance Data.Aeson.ToJSON DisputeEnhancedEvidenceVisaCompliance

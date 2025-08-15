@@ -1,19 +1,18 @@
 module StripeAPI.Types.PortalSubscriptionCancel where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PortalSubscriptionCancel
 instance Show PortalSubscriptionCancel
 instance Eq PortalSubscriptionCancel
-instance FromJSON PortalSubscriptionCancel
-instance ToJSON PortalSubscriptionCancel
+instance Data.Aeson.FromJSON PortalSubscriptionCancel
+instance Data.Aeson.ToJSON PortalSubscriptionCancel
 data PortalSubscriptionCancelMode'
 instance Show PortalSubscriptionCancelMode'
 instance Eq PortalSubscriptionCancelMode'
-instance FromJSON PortalSubscriptionCancelMode'
-instance ToJSON PortalSubscriptionCancelMode'
+instance Data.Aeson.FromJSON PortalSubscriptionCancelMode'
+instance Data.Aeson.ToJSON PortalSubscriptionCancelMode'
 data PortalSubscriptionCancelProrationBehavior'
 instance Show PortalSubscriptionCancelProrationBehavior'
 instance Eq PortalSubscriptionCancelProrationBehavior'
-instance FromJSON PortalSubscriptionCancelProrationBehavior'
-instance ToJSON PortalSubscriptionCancelProrationBehavior'
+instance Data.Aeson.FromJSON PortalSubscriptionCancelProrationBehavior'
+instance Data.Aeson.ToJSON PortalSubscriptionCancelProrationBehavior'

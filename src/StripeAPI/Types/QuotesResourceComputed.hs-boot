@@ -1,19 +1,18 @@
 module StripeAPI.Types.QuotesResourceComputed where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data QuotesResourceComputed
 instance Show QuotesResourceComputed
 instance Eq QuotesResourceComputed
-instance FromJSON QuotesResourceComputed
-instance ToJSON QuotesResourceComputed
+instance Data.Aeson.FromJSON QuotesResourceComputed
+instance Data.Aeson.ToJSON QuotesResourceComputed
 data QuotesResourceComputedRecurring'NonNullable
 instance Show QuotesResourceComputedRecurring'NonNullable
 instance Eq QuotesResourceComputedRecurring'NonNullable
-instance FromJSON QuotesResourceComputedRecurring'NonNullable
-instance ToJSON QuotesResourceComputedRecurring'NonNullable
+instance Data.Aeson.FromJSON QuotesResourceComputedRecurring'NonNullable
+instance Data.Aeson.ToJSON QuotesResourceComputedRecurring'NonNullable
 data QuotesResourceComputedRecurring'NonNullableInterval'
 instance Show QuotesResourceComputedRecurring'NonNullableInterval'
 instance Eq QuotesResourceComputedRecurring'NonNullableInterval'
-instance FromJSON QuotesResourceComputedRecurring'NonNullableInterval'
-instance ToJSON QuotesResourceComputedRecurring'NonNullableInterval'
+instance Data.Aeson.FromJSON QuotesResourceComputedRecurring'NonNullableInterval'
+instance Data.Aeson.ToJSON QuotesResourceComputedRecurring'NonNullableInterval'

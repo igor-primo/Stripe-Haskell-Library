@@ -1,9 +1,8 @@
 module StripeAPI.Types.IssuingCardholderUserTermsAcceptance where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data IssuingCardholderUserTermsAcceptance
 instance Show IssuingCardholderUserTermsAcceptance
 instance Eq IssuingCardholderUserTermsAcceptance
-instance FromJSON IssuingCardholderUserTermsAcceptance
-instance ToJSON IssuingCardholderUserTermsAcceptance
+instance Data.Aeson.FromJSON IssuingCardholderUserTermsAcceptance
+instance Data.Aeson.ToJSON IssuingCardholderUserTermsAcceptance

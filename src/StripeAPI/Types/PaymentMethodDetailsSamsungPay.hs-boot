@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsSamsungPay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsSamsungPay
+instance Show PaymentMethodDetailsSamsungPay
+instance Eq PaymentMethodDetailsSamsungPay
+instance Data.Aeson.FromJSON PaymentMethodDetailsSamsungPay
+instance Data.Aeson.ToJSON PaymentMethodDetailsSamsungPay

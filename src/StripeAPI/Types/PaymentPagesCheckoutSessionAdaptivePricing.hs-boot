@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentPagesCheckoutSessionAdaptivePricing where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentPagesCheckoutSessionAdaptivePricing
+instance Show PaymentPagesCheckoutSessionAdaptivePricing
+instance Eq PaymentPagesCheckoutSessionAdaptivePricing
+instance Data.Aeson.FromJSON PaymentPagesCheckoutSessionAdaptivePricing
+instance Data.Aeson.ToJSON PaymentPagesCheckoutSessionAdaptivePricing

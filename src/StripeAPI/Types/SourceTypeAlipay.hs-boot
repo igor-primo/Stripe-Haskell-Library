@@ -1,9 +1,8 @@
 module StripeAPI.Types.SourceTypeAlipay where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SourceTypeAlipay
 instance Show SourceTypeAlipay
 instance Eq SourceTypeAlipay
-instance FromJSON SourceTypeAlipay
-instance ToJSON SourceTypeAlipay
+instance Data.Aeson.FromJSON SourceTypeAlipay
+instance Data.Aeson.ToJSON SourceTypeAlipay

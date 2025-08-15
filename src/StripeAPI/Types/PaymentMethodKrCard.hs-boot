@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodKrCard where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodKrCard
+instance Show PaymentMethodKrCard
+instance Eq PaymentMethodKrCard
+instance Data.Aeson.FromJSON PaymentMethodKrCard
+instance Data.Aeson.ToJSON PaymentMethodKrCard
+data PaymentMethodKrCardBrand'NonNullable
+instance Show PaymentMethodKrCardBrand'NonNullable
+instance Eq PaymentMethodKrCardBrand'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodKrCardBrand'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodKrCardBrand'NonNullable

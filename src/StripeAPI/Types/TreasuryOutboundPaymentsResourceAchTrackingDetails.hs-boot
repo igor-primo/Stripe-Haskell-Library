@@ -1,0 +1,8 @@
+module StripeAPI.Types.TreasuryOutboundPaymentsResourceAchTrackingDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data TreasuryOutboundPaymentsResourceAchTrackingDetails
+instance Show TreasuryOutboundPaymentsResourceAchTrackingDetails
+instance Eq TreasuryOutboundPaymentsResourceAchTrackingDetails
+instance Data.Aeson.FromJSON TreasuryOutboundPaymentsResourceAchTrackingDetails
+instance Data.Aeson.ToJSON TreasuryOutboundPaymentsResourceAchTrackingDetails

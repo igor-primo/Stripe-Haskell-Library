@@ -1,9 +1,8 @@
 module StripeAPI.Types.NotificationEventRequest where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data NotificationEventRequest
 instance Show NotificationEventRequest
 instance Eq NotificationEventRequest
-instance FromJSON NotificationEventRequest
-instance ToJSON NotificationEventRequest
+instance Data.Aeson.FromJSON NotificationEventRequest
+instance Data.Aeson.ToJSON NotificationEventRequest

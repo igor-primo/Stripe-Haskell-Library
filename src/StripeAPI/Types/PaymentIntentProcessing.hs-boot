@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentIntentProcessing where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentIntentProcessing
 instance Show PaymentIntentProcessing
 instance Eq PaymentIntentProcessing
-instance FromJSON PaymentIntentProcessing
-instance ToJSON PaymentIntentProcessing
+instance Data.Aeson.FromJSON PaymentIntentProcessing
+instance Data.Aeson.ToJSON PaymentIntentProcessing

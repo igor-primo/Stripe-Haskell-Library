@@ -1,9 +1,13 @@
 module StripeAPI.Types.PersonAdditionalTosAcceptances where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PersonAdditionalTosAcceptances
 instance Show PersonAdditionalTosAcceptances
 instance Eq PersonAdditionalTosAcceptances
-instance FromJSON PersonAdditionalTosAcceptances
-instance ToJSON PersonAdditionalTosAcceptances
+instance Data.Aeson.FromJSON PersonAdditionalTosAcceptances
+instance Data.Aeson.ToJSON PersonAdditionalTosAcceptances
+data PersonAdditionalTosAcceptancesAccount'NonNullable
+instance Show PersonAdditionalTosAcceptancesAccount'NonNullable
+instance Eq PersonAdditionalTosAcceptancesAccount'NonNullable
+instance Data.Aeson.FromJSON PersonAdditionalTosAcceptancesAccount'NonNullable
+instance Data.Aeson.ToJSON PersonAdditionalTosAcceptancesAccount'NonNullable

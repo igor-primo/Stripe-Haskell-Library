@@ -1,14 +1,33 @@
 module StripeAPI.Types.AutomaticTax where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data AutomaticTax
 instance Show AutomaticTax
 instance Eq AutomaticTax
-instance FromJSON AutomaticTax
-instance ToJSON AutomaticTax
+instance Data.Aeson.FromJSON AutomaticTax
+instance Data.Aeson.ToJSON AutomaticTax
+data AutomaticTaxDisabledReason'NonNullable
+instance Show AutomaticTaxDisabledReason'NonNullable
+instance Eq AutomaticTaxDisabledReason'NonNullable
+instance Data.Aeson.FromJSON AutomaticTaxDisabledReason'NonNullable
+instance Data.Aeson.ToJSON AutomaticTaxDisabledReason'NonNullable
+data AutomaticTaxLiability'NonNullable
+instance Show AutomaticTaxLiability'NonNullable
+instance Eq AutomaticTaxLiability'NonNullable
+instance Data.Aeson.FromJSON AutomaticTaxLiability'NonNullable
+instance Data.Aeson.ToJSON AutomaticTaxLiability'NonNullable
+data AutomaticTaxLiability'NonNullableAccount'Variants
+instance Show AutomaticTaxLiability'NonNullableAccount'Variants
+instance Eq AutomaticTaxLiability'NonNullableAccount'Variants
+instance Data.Aeson.FromJSON AutomaticTaxLiability'NonNullableAccount'Variants
+instance Data.Aeson.ToJSON AutomaticTaxLiability'NonNullableAccount'Variants
+data AutomaticTaxLiability'NonNullableType'
+instance Show AutomaticTaxLiability'NonNullableType'
+instance Eq AutomaticTaxLiability'NonNullableType'
+instance Data.Aeson.FromJSON AutomaticTaxLiability'NonNullableType'
+instance Data.Aeson.ToJSON AutomaticTaxLiability'NonNullableType'
 data AutomaticTaxStatus'NonNullable
 instance Show AutomaticTaxStatus'NonNullable
 instance Eq AutomaticTaxStatus'NonNullable
-instance FromJSON AutomaticTaxStatus'NonNullable
-instance ToJSON AutomaticTaxStatus'NonNullable
+instance Data.Aeson.FromJSON AutomaticTaxStatus'NonNullable
+instance Data.Aeson.ToJSON AutomaticTaxStatus'NonNullable

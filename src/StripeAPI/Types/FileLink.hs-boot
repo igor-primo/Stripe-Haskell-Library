@@ -1,14 +1,13 @@
 module StripeAPI.Types.FileLink where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data FileLink
 instance Show FileLink
 instance Eq FileLink
-instance FromJSON FileLink
-instance ToJSON FileLink
+instance Data.Aeson.FromJSON FileLink
+instance Data.Aeson.ToJSON FileLink
 data FileLinkFile'Variants
 instance Show FileLinkFile'Variants
 instance Eq FileLinkFile'Variants
-instance FromJSON FileLinkFile'Variants
-instance ToJSON FileLinkFile'Variants
+instance Data.Aeson.FromJSON FileLinkFile'Variants
+instance Data.Aeson.ToJSON FileLinkFile'Variants

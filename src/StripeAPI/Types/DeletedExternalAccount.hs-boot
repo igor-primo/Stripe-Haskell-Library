@@ -1,19 +1,18 @@
 module StripeAPI.Types.DeletedExternalAccount where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data DeletedExternalAccount
 instance Show DeletedExternalAccount
 instance Eq DeletedExternalAccount
-instance FromJSON DeletedExternalAccount
-instance ToJSON DeletedExternalAccount
+instance Data.Aeson.FromJSON DeletedExternalAccount
+instance Data.Aeson.ToJSON DeletedExternalAccount
 data DeletedExternalAccountDeleted'
 instance Show DeletedExternalAccountDeleted'
 instance Eq DeletedExternalAccountDeleted'
-instance FromJSON DeletedExternalAccountDeleted'
-instance ToJSON DeletedExternalAccountDeleted'
+instance Data.Aeson.FromJSON DeletedExternalAccountDeleted'
+instance Data.Aeson.ToJSON DeletedExternalAccountDeleted'
 data DeletedExternalAccountObject'
 instance Show DeletedExternalAccountObject'
 instance Eq DeletedExternalAccountObject'
-instance FromJSON DeletedExternalAccountObject'
-instance ToJSON DeletedExternalAccountObject'
+instance Data.Aeson.FromJSON DeletedExternalAccountObject'
+instance Data.Aeson.ToJSON DeletedExternalAccountObject'

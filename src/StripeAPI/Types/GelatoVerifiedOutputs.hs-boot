@@ -1,24 +1,28 @@
 module StripeAPI.Types.GelatoVerifiedOutputs where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data GelatoVerifiedOutputs
 instance Show GelatoVerifiedOutputs
 instance Eq GelatoVerifiedOutputs
-instance FromJSON GelatoVerifiedOutputs
-instance ToJSON GelatoVerifiedOutputs
+instance Data.Aeson.FromJSON GelatoVerifiedOutputs
+instance Data.Aeson.ToJSON GelatoVerifiedOutputs
 data GelatoVerifiedOutputsAddress'NonNullable
 instance Show GelatoVerifiedOutputsAddress'NonNullable
 instance Eq GelatoVerifiedOutputsAddress'NonNullable
-instance FromJSON GelatoVerifiedOutputsAddress'NonNullable
-instance ToJSON GelatoVerifiedOutputsAddress'NonNullable
+instance Data.Aeson.FromJSON GelatoVerifiedOutputsAddress'NonNullable
+instance Data.Aeson.ToJSON GelatoVerifiedOutputsAddress'NonNullable
 data GelatoVerifiedOutputsDob'NonNullable
 instance Show GelatoVerifiedOutputsDob'NonNullable
 instance Eq GelatoVerifiedOutputsDob'NonNullable
-instance FromJSON GelatoVerifiedOutputsDob'NonNullable
-instance ToJSON GelatoVerifiedOutputsDob'NonNullable
+instance Data.Aeson.FromJSON GelatoVerifiedOutputsDob'NonNullable
+instance Data.Aeson.ToJSON GelatoVerifiedOutputsDob'NonNullable
 data GelatoVerifiedOutputsIdNumberType'NonNullable
 instance Show GelatoVerifiedOutputsIdNumberType'NonNullable
 instance Eq GelatoVerifiedOutputsIdNumberType'NonNullable
-instance FromJSON GelatoVerifiedOutputsIdNumberType'NonNullable
-instance ToJSON GelatoVerifiedOutputsIdNumberType'NonNullable
+instance Data.Aeson.FromJSON GelatoVerifiedOutputsIdNumberType'NonNullable
+instance Data.Aeson.ToJSON GelatoVerifiedOutputsIdNumberType'NonNullable
+data GelatoVerifiedOutputsSex'NonNullable
+instance Show GelatoVerifiedOutputsSex'NonNullable
+instance Eq GelatoVerifiedOutputsSex'NonNullable
+instance Data.Aeson.FromJSON GelatoVerifiedOutputsSex'NonNullable
+instance Data.Aeson.ToJSON GelatoVerifiedOutputsSex'NonNullable

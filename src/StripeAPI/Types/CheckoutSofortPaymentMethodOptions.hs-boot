@@ -1,14 +1,13 @@
 module StripeAPI.Types.CheckoutSofortPaymentMethodOptions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data CheckoutSofortPaymentMethodOptions
 instance Show CheckoutSofortPaymentMethodOptions
 instance Eq CheckoutSofortPaymentMethodOptions
-instance FromJSON CheckoutSofortPaymentMethodOptions
-instance ToJSON CheckoutSofortPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutSofortPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutSofortPaymentMethodOptions
 data CheckoutSofortPaymentMethodOptionsSetupFutureUsage'
 instance Show CheckoutSofortPaymentMethodOptionsSetupFutureUsage'
 instance Eq CheckoutSofortPaymentMethodOptionsSetupFutureUsage'
-instance FromJSON CheckoutSofortPaymentMethodOptionsSetupFutureUsage'
-instance ToJSON CheckoutSofortPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutSofortPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutSofortPaymentMethodOptionsSetupFutureUsage'

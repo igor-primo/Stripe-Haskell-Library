@@ -1,9 +1,8 @@
 module StripeAPI.Types.ExchangeRate where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ExchangeRate
 instance Show ExchangeRate
 instance Eq ExchangeRate
-instance FromJSON ExchangeRate
-instance ToJSON ExchangeRate
+instance Data.Aeson.FromJSON ExchangeRate
+instance Data.Aeson.ToJSON ExchangeRate

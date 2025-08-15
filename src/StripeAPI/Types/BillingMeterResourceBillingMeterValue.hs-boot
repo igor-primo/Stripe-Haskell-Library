@@ -1,0 +1,8 @@
+module StripeAPI.Types.BillingMeterResourceBillingMeterValue where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data BillingMeterResourceBillingMeterValue
+instance Show BillingMeterResourceBillingMeterValue
+instance Eq BillingMeterResourceBillingMeterValue
+instance Data.Aeson.FromJSON BillingMeterResourceBillingMeterValue
+instance Data.Aeson.ToJSON BillingMeterResourceBillingMeterValue

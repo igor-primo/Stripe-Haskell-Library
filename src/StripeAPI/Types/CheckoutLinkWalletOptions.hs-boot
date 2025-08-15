@@ -1,0 +1,13 @@
+module StripeAPI.Types.CheckoutLinkWalletOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CheckoutLinkWalletOptions
+instance Show CheckoutLinkWalletOptions
+instance Eq CheckoutLinkWalletOptions
+instance Data.Aeson.FromJSON CheckoutLinkWalletOptions
+instance Data.Aeson.ToJSON CheckoutLinkWalletOptions
+data CheckoutLinkWalletOptionsDisplay'
+instance Show CheckoutLinkWalletOptionsDisplay'
+instance Eq CheckoutLinkWalletOptionsDisplay'
+instance Data.Aeson.FromJSON CheckoutLinkWalletOptionsDisplay'
+instance Data.Aeson.ToJSON CheckoutLinkWalletOptionsDisplay'

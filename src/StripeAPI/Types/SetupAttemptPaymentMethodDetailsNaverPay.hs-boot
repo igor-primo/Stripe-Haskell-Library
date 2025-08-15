@@ -1,0 +1,8 @@
+module StripeAPI.Types.SetupAttemptPaymentMethodDetailsNaverPay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SetupAttemptPaymentMethodDetailsNaverPay
+instance Show SetupAttemptPaymentMethodDetailsNaverPay
+instance Eq SetupAttemptPaymentMethodDetailsNaverPay
+instance Data.Aeson.FromJSON SetupAttemptPaymentMethodDetailsNaverPay
+instance Data.Aeson.ToJSON SetupAttemptPaymentMethodDetailsNaverPay

@@ -1,0 +1,8 @@
+module StripeAPI.Types.TerminalReaderReaderResourceText where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data TerminalReaderReaderResourceText
+instance Show TerminalReaderReaderResourceText
+instance Eq TerminalReaderReaderResourceText
+instance Data.Aeson.FromJSON TerminalReaderReaderResourceText
+instance Data.Aeson.ToJSON TerminalReaderReaderResourceText

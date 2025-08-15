@@ -1,14 +1,13 @@
 module StripeAPI.Types.CheckoutP24PaymentMethodOptions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data CheckoutP24PaymentMethodOptions
 instance Show CheckoutP24PaymentMethodOptions
 instance Eq CheckoutP24PaymentMethodOptions
-instance FromJSON CheckoutP24PaymentMethodOptions
-instance ToJSON CheckoutP24PaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutP24PaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutP24PaymentMethodOptions
 data CheckoutP24PaymentMethodOptionsSetupFutureUsage'
 instance Show CheckoutP24PaymentMethodOptionsSetupFutureUsage'
 instance Eq CheckoutP24PaymentMethodOptionsSetupFutureUsage'
-instance FromJSON CheckoutP24PaymentMethodOptionsSetupFutureUsage'
-instance ToJSON CheckoutP24PaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutP24PaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutP24PaymentMethodOptionsSetupFutureUsage'

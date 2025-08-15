@@ -1,14 +1,13 @@
 module StripeAPI.Types.TreasuryTransactionsResourceFlowDetails where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data TreasuryTransactionsResourceFlowDetails
 instance Show TreasuryTransactionsResourceFlowDetails
 instance Eq TreasuryTransactionsResourceFlowDetails
-instance FromJSON TreasuryTransactionsResourceFlowDetails
-instance ToJSON TreasuryTransactionsResourceFlowDetails
+instance Data.Aeson.FromJSON TreasuryTransactionsResourceFlowDetails
+instance Data.Aeson.ToJSON TreasuryTransactionsResourceFlowDetails
 data TreasuryTransactionsResourceFlowDetailsType'
 instance Show TreasuryTransactionsResourceFlowDetailsType'
 instance Eq TreasuryTransactionsResourceFlowDetailsType'
-instance FromJSON TreasuryTransactionsResourceFlowDetailsType'
-instance ToJSON TreasuryTransactionsResourceFlowDetailsType'
+instance Data.Aeson.FromJSON TreasuryTransactionsResourceFlowDetailsType'
+instance Data.Aeson.ToJSON TreasuryTransactionsResourceFlowDetailsType'

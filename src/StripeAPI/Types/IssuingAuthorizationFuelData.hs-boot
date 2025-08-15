@@ -1,0 +1,18 @@
+module StripeAPI.Types.IssuingAuthorizationFuelData where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingAuthorizationFuelData
+instance Show IssuingAuthorizationFuelData
+instance Eq IssuingAuthorizationFuelData
+instance Data.Aeson.FromJSON IssuingAuthorizationFuelData
+instance Data.Aeson.ToJSON IssuingAuthorizationFuelData
+data IssuingAuthorizationFuelDataType'NonNullable
+instance Show IssuingAuthorizationFuelDataType'NonNullable
+instance Eq IssuingAuthorizationFuelDataType'NonNullable
+instance Data.Aeson.FromJSON IssuingAuthorizationFuelDataType'NonNullable
+instance Data.Aeson.ToJSON IssuingAuthorizationFuelDataType'NonNullable
+data IssuingAuthorizationFuelDataUnit'NonNullable
+instance Show IssuingAuthorizationFuelDataUnit'NonNullable
+instance Eq IssuingAuthorizationFuelDataUnit'NonNullable
+instance Data.Aeson.FromJSON IssuingAuthorizationFuelDataUnit'NonNullable
+instance Data.Aeson.ToJSON IssuingAuthorizationFuelDataUnit'NonNullable

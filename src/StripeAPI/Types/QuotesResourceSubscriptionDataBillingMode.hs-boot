@@ -1,0 +1,13 @@
+module StripeAPI.Types.QuotesResourceSubscriptionDataBillingMode where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data QuotesResourceSubscriptionDataBillingMode
+instance Show QuotesResourceSubscriptionDataBillingMode
+instance Eq QuotesResourceSubscriptionDataBillingMode
+instance Data.Aeson.FromJSON QuotesResourceSubscriptionDataBillingMode
+instance Data.Aeson.ToJSON QuotesResourceSubscriptionDataBillingMode
+data QuotesResourceSubscriptionDataBillingModeType'
+instance Show QuotesResourceSubscriptionDataBillingModeType'
+instance Eq QuotesResourceSubscriptionDataBillingModeType'
+instance Data.Aeson.FromJSON QuotesResourceSubscriptionDataBillingModeType'
+instance Data.Aeson.ToJSON QuotesResourceSubscriptionDataBillingModeType'

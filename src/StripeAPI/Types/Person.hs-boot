@@ -1,34 +1,58 @@
 module StripeAPI.Types.Person where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Person
 instance Show Person
 instance Eq Person
-instance FromJSON Person
-instance ToJSON Person
+instance Data.Aeson.FromJSON Person
+instance Data.Aeson.ToJSON Person
 data PersonAddressKana'NonNullable
 instance Show PersonAddressKana'NonNullable
 instance Eq PersonAddressKana'NonNullable
-instance FromJSON PersonAddressKana'NonNullable
-instance ToJSON PersonAddressKana'NonNullable
+instance Data.Aeson.FromJSON PersonAddressKana'NonNullable
+instance Data.Aeson.ToJSON PersonAddressKana'NonNullable
 data PersonAddressKanji'NonNullable
 instance Show PersonAddressKanji'NonNullable
 instance Eq PersonAddressKanji'NonNullable
-instance FromJSON PersonAddressKanji'NonNullable
-instance ToJSON PersonAddressKanji'NonNullable
+instance Data.Aeson.FromJSON PersonAddressKanji'NonNullable
+instance Data.Aeson.ToJSON PersonAddressKanji'NonNullable
 data PersonFutureRequirements'NonNullable
 instance Show PersonFutureRequirements'NonNullable
 instance Eq PersonFutureRequirements'NonNullable
-instance FromJSON PersonFutureRequirements'NonNullable
-instance ToJSON PersonFutureRequirements'NonNullable
+instance Data.Aeson.FromJSON PersonFutureRequirements'NonNullable
+instance Data.Aeson.ToJSON PersonFutureRequirements'NonNullable
 data PersonPoliticalExposure'
 instance Show PersonPoliticalExposure'
 instance Eq PersonPoliticalExposure'
-instance FromJSON PersonPoliticalExposure'
-instance ToJSON PersonPoliticalExposure'
+instance Data.Aeson.FromJSON PersonPoliticalExposure'
+instance Data.Aeson.ToJSON PersonPoliticalExposure'
 data PersonRequirements'NonNullable
 instance Show PersonRequirements'NonNullable
 instance Eq PersonRequirements'NonNullable
-instance FromJSON PersonRequirements'NonNullable
-instance ToJSON PersonRequirements'NonNullable
+instance Data.Aeson.FromJSON PersonRequirements'NonNullable
+instance Data.Aeson.ToJSON PersonRequirements'NonNullable
+data PersonUsCfpbData'NonNullable
+instance Show PersonUsCfpbData'NonNullable
+instance Eq PersonUsCfpbData'NonNullable
+instance Data.Aeson.FromJSON PersonUsCfpbData'NonNullable
+instance Data.Aeson.ToJSON PersonUsCfpbData'NonNullable
+data PersonUsCfpbData'NonNullableEthnicityDetails'NonNullable
+instance Show PersonUsCfpbData'NonNullableEthnicityDetails'NonNullable
+instance Eq PersonUsCfpbData'NonNullableEthnicityDetails'NonNullable
+instance Data.Aeson.FromJSON PersonUsCfpbData'NonNullableEthnicityDetails'NonNullable
+instance Data.Aeson.ToJSON PersonUsCfpbData'NonNullableEthnicityDetails'NonNullable
+data PersonUsCfpbData'NonNullableEthnicityDetails'NonNullableEthnicity'NonNullable
+instance Show PersonUsCfpbData'NonNullableEthnicityDetails'NonNullableEthnicity'NonNullable
+instance Eq PersonUsCfpbData'NonNullableEthnicityDetails'NonNullableEthnicity'NonNullable
+instance Data.Aeson.FromJSON PersonUsCfpbData'NonNullableEthnicityDetails'NonNullableEthnicity'NonNullable
+instance Data.Aeson.ToJSON PersonUsCfpbData'NonNullableEthnicityDetails'NonNullableEthnicity'NonNullable
+data PersonUsCfpbData'NonNullableRaceDetails'NonNullable
+instance Show PersonUsCfpbData'NonNullableRaceDetails'NonNullable
+instance Eq PersonUsCfpbData'NonNullableRaceDetails'NonNullable
+instance Data.Aeson.FromJSON PersonUsCfpbData'NonNullableRaceDetails'NonNullable
+instance Data.Aeson.ToJSON PersonUsCfpbData'NonNullableRaceDetails'NonNullable
+data PersonUsCfpbData'NonNullableRaceDetails'NonNullableRace'NonNullable
+instance Show PersonUsCfpbData'NonNullableRaceDetails'NonNullableRace'NonNullable
+instance Eq PersonUsCfpbData'NonNullableRaceDetails'NonNullableRace'NonNullable
+instance Data.Aeson.FromJSON PersonUsCfpbData'NonNullableRaceDetails'NonNullableRace'NonNullable
+instance Data.Aeson.ToJSON PersonUsCfpbData'NonNullableRaceDetails'NonNullableRace'NonNullable

@@ -1,9 +1,8 @@
 module StripeAPI.Types.AccountMonthlyEstimatedRevenue where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data AccountMonthlyEstimatedRevenue
 instance Show AccountMonthlyEstimatedRevenue
 instance Eq AccountMonthlyEstimatedRevenue
-instance FromJSON AccountMonthlyEstimatedRevenue
-instance ToJSON AccountMonthlyEstimatedRevenue
+instance Data.Aeson.FromJSON AccountMonthlyEstimatedRevenue
+instance Data.Aeson.ToJSON AccountMonthlyEstimatedRevenue

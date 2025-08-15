@@ -1,0 +1,8 @@
+module StripeAPI.Types.BillingBillResourceInvoicingPricingPricing where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data BillingBillResourceInvoicingPricingPricing
+instance Show BillingBillResourceInvoicingPricingPricing
+instance Eq BillingBillResourceInvoicingPricingPricing
+instance Data.Aeson.FromJSON BillingBillResourceInvoicingPricingPricing
+instance Data.Aeson.ToJSON BillingBillResourceInvoicingPricingPricing

@@ -1,0 +1,8 @@
+module StripeAPI.Types.RefundDestinationDetailsMultibanco where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data RefundDestinationDetailsMultibanco
+instance Show RefundDestinationDetailsMultibanco
+instance Eq RefundDestinationDetailsMultibanco
+instance Data.Aeson.FromJSON RefundDestinationDetailsMultibanco
+instance Data.Aeson.ToJSON RefundDestinationDetailsMultibanco

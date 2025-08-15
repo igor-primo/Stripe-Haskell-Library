@@ -1,14 +1,13 @@
 module StripeAPI.Types.AccountRequirementsError where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data AccountRequirementsError
 instance Show AccountRequirementsError
 instance Eq AccountRequirementsError
-instance FromJSON AccountRequirementsError
-instance ToJSON AccountRequirementsError
+instance Data.Aeson.FromJSON AccountRequirementsError
+instance Data.Aeson.ToJSON AccountRequirementsError
 data AccountRequirementsErrorCode'
 instance Show AccountRequirementsErrorCode'
 instance Eq AccountRequirementsErrorCode'
-instance FromJSON AccountRequirementsErrorCode'
-instance ToJSON AccountRequirementsErrorCode'
+instance Data.Aeson.FromJSON AccountRequirementsErrorCode'
+instance Data.Aeson.ToJSON AccountRequirementsErrorCode'

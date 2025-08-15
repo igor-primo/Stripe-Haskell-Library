@@ -1,14 +1,13 @@
 module StripeAPI.Types.UsBankAccountNetworks where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data UsBankAccountNetworks
 instance Show UsBankAccountNetworks
 instance Eq UsBankAccountNetworks
-instance FromJSON UsBankAccountNetworks
-instance ToJSON UsBankAccountNetworks
+instance Data.Aeson.FromJSON UsBankAccountNetworks
+instance Data.Aeson.ToJSON UsBankAccountNetworks
 data UsBankAccountNetworksSupported'
 instance Show UsBankAccountNetworksSupported'
 instance Eq UsBankAccountNetworksSupported'
-instance FromJSON UsBankAccountNetworksSupported'
-instance ToJSON UsBankAccountNetworksSupported'
+instance Data.Aeson.FromJSON UsBankAccountNetworksSupported'
+instance Data.Aeson.ToJSON UsBankAccountNetworksSupported'

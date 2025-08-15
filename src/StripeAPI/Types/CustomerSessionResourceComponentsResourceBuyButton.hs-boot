@@ -1,0 +1,8 @@
+module StripeAPI.Types.CustomerSessionResourceComponentsResourceBuyButton where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CustomerSessionResourceComponentsResourceBuyButton
+instance Show CustomerSessionResourceComponentsResourceBuyButton
+instance Eq CustomerSessionResourceComponentsResourceBuyButton
+instance Data.Aeson.FromJSON CustomerSessionResourceComponentsResourceBuyButton
+instance Data.Aeson.ToJSON CustomerSessionResourceComponentsResourceBuyButton

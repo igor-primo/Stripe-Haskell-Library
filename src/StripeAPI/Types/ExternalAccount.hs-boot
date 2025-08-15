@@ -1,39 +1,48 @@
 module StripeAPI.Types.ExternalAccount where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data ExternalAccount
 instance Show ExternalAccount
 instance Eq ExternalAccount
-instance FromJSON ExternalAccount
-instance ToJSON ExternalAccount
+instance Data.Aeson.FromJSON ExternalAccount
+instance Data.Aeson.ToJSON ExternalAccount
 data ExternalAccountAccount'NonNullableVariants
 instance Show ExternalAccountAccount'NonNullableVariants
 instance Eq ExternalAccountAccount'NonNullableVariants
-instance FromJSON ExternalAccountAccount'NonNullableVariants
-instance ToJSON ExternalAccountAccount'NonNullableVariants
+instance Data.Aeson.FromJSON ExternalAccountAccount'NonNullableVariants
+instance Data.Aeson.ToJSON ExternalAccountAccount'NonNullableVariants
+data ExternalAccountAllowRedisplay'NonNullable
+instance Show ExternalAccountAllowRedisplay'NonNullable
+instance Eq ExternalAccountAllowRedisplay'NonNullable
+instance Data.Aeson.FromJSON ExternalAccountAllowRedisplay'NonNullable
+instance Data.Aeson.ToJSON ExternalAccountAllowRedisplay'NonNullable
 data ExternalAccountAvailablePayoutMethods'NonNullable
 instance Show ExternalAccountAvailablePayoutMethods'NonNullable
 instance Eq ExternalAccountAvailablePayoutMethods'NonNullable
-instance FromJSON ExternalAccountAvailablePayoutMethods'NonNullable
-instance ToJSON ExternalAccountAvailablePayoutMethods'NonNullable
+instance Data.Aeson.FromJSON ExternalAccountAvailablePayoutMethods'NonNullable
+instance Data.Aeson.ToJSON ExternalAccountAvailablePayoutMethods'NonNullable
 data ExternalAccountCustomer'NonNullableVariants
 instance Show ExternalAccountCustomer'NonNullableVariants
 instance Eq ExternalAccountCustomer'NonNullableVariants
-instance FromJSON ExternalAccountCustomer'NonNullableVariants
-instance ToJSON ExternalAccountCustomer'NonNullableVariants
+instance Data.Aeson.FromJSON ExternalAccountCustomer'NonNullableVariants
+instance Data.Aeson.ToJSON ExternalAccountCustomer'NonNullableVariants
 data ExternalAccountFutureRequirements'NonNullable
 instance Show ExternalAccountFutureRequirements'NonNullable
 instance Eq ExternalAccountFutureRequirements'NonNullable
-instance FromJSON ExternalAccountFutureRequirements'NonNullable
-instance ToJSON ExternalAccountFutureRequirements'NonNullable
+instance Data.Aeson.FromJSON ExternalAccountFutureRequirements'NonNullable
+instance Data.Aeson.ToJSON ExternalAccountFutureRequirements'NonNullable
 data ExternalAccountObject'
 instance Show ExternalAccountObject'
 instance Eq ExternalAccountObject'
-instance FromJSON ExternalAccountObject'
-instance ToJSON ExternalAccountObject'
+instance Data.Aeson.FromJSON ExternalAccountObject'
+instance Data.Aeson.ToJSON ExternalAccountObject'
+data ExternalAccountRegulatedStatus'NonNullable
+instance Show ExternalAccountRegulatedStatus'NonNullable
+instance Eq ExternalAccountRegulatedStatus'NonNullable
+instance Data.Aeson.FromJSON ExternalAccountRegulatedStatus'NonNullable
+instance Data.Aeson.ToJSON ExternalAccountRegulatedStatus'NonNullable
 data ExternalAccountRequirements'NonNullable
 instance Show ExternalAccountRequirements'NonNullable
 instance Eq ExternalAccountRequirements'NonNullable
-instance FromJSON ExternalAccountRequirements'NonNullable
-instance ToJSON ExternalAccountRequirements'NonNullable
+instance Data.Aeson.FromJSON ExternalAccountRequirements'NonNullable
+instance Data.Aeson.ToJSON ExternalAccountRequirements'NonNullable

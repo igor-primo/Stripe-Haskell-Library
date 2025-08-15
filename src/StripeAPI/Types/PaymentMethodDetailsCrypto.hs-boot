@@ -1,0 +1,18 @@
+module StripeAPI.Types.PaymentMethodDetailsCrypto where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsCrypto
+instance Show PaymentMethodDetailsCrypto
+instance Eq PaymentMethodDetailsCrypto
+instance Data.Aeson.FromJSON PaymentMethodDetailsCrypto
+instance Data.Aeson.ToJSON PaymentMethodDetailsCrypto
+data PaymentMethodDetailsCryptoNetwork'
+instance Show PaymentMethodDetailsCryptoNetwork'
+instance Eq PaymentMethodDetailsCryptoNetwork'
+instance Data.Aeson.FromJSON PaymentMethodDetailsCryptoNetwork'
+instance Data.Aeson.ToJSON PaymentMethodDetailsCryptoNetwork'
+data PaymentMethodDetailsCryptoTokenCurrency'
+instance Show PaymentMethodDetailsCryptoTokenCurrency'
+instance Eq PaymentMethodDetailsCryptoTokenCurrency'
+instance Data.Aeson.FromJSON PaymentMethodDetailsCryptoTokenCurrency'
+instance Data.Aeson.ToJSON PaymentMethodDetailsCryptoTokenCurrency'

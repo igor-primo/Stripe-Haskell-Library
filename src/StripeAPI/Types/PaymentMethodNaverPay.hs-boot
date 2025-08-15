@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodNaverPay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodNaverPay
+instance Show PaymentMethodNaverPay
+instance Eq PaymentMethodNaverPay
+instance Data.Aeson.FromJSON PaymentMethodNaverPay
+instance Data.Aeson.ToJSON PaymentMethodNaverPay
+data PaymentMethodNaverPayFunding'
+instance Show PaymentMethodNaverPayFunding'
+instance Eq PaymentMethodNaverPayFunding'
+instance Data.Aeson.FromJSON PaymentMethodNaverPayFunding'
+instance Data.Aeson.ToJSON PaymentMethodNaverPayFunding'

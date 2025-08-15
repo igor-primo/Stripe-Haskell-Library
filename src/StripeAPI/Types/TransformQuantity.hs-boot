@@ -1,14 +1,13 @@
 module StripeAPI.Types.TransformQuantity where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data TransformQuantity
 instance Show TransformQuantity
 instance Eq TransformQuantity
-instance FromJSON TransformQuantity
-instance ToJSON TransformQuantity
+instance Data.Aeson.FromJSON TransformQuantity
+instance Data.Aeson.ToJSON TransformQuantity
 data TransformQuantityRound'
 instance Show TransformQuantityRound'
 instance Eq TransformQuantityRound'
-instance FromJSON TransformQuantityRound'
-instance ToJSON TransformQuantityRound'
+instance Data.Aeson.FromJSON TransformQuantityRound'
+instance Data.Aeson.ToJSON TransformQuantityRound'

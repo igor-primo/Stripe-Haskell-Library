@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodDetailsMobilepay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsMobilepay
+instance Show PaymentMethodDetailsMobilepay
+instance Eq PaymentMethodDetailsMobilepay
+instance Data.Aeson.FromJSON PaymentMethodDetailsMobilepay
+instance Data.Aeson.ToJSON PaymentMethodDetailsMobilepay
+data PaymentMethodDetailsMobilepayCard'NonNullable
+instance Show PaymentMethodDetailsMobilepayCard'NonNullable
+instance Eq PaymentMethodDetailsMobilepayCard'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodDetailsMobilepayCard'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodDetailsMobilepayCard'NonNullable

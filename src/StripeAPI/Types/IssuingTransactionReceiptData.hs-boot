@@ -1,9 +1,8 @@
 module StripeAPI.Types.IssuingTransactionReceiptData where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data IssuingTransactionReceiptData
 instance Show IssuingTransactionReceiptData
 instance Eq IssuingTransactionReceiptData
-instance FromJSON IssuingTransactionReceiptData
-instance ToJSON IssuingTransactionReceiptData
+instance Data.Aeson.FromJSON IssuingTransactionReceiptData
+instance Data.Aeson.ToJSON IssuingTransactionReceiptData

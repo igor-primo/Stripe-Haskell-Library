@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodNzBankAccount where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodNzBankAccount
+instance Show PaymentMethodNzBankAccount
+instance Eq PaymentMethodNzBankAccount
+instance Data.Aeson.FromJSON PaymentMethodNzBankAccount
+instance Data.Aeson.ToJSON PaymentMethodNzBankAccount

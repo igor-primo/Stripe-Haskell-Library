@@ -1,0 +1,8 @@
+module StripeAPI.Types.IssuingTransactionFleetNonFuelPriceData where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingTransactionFleetNonFuelPriceData
+instance Show IssuingTransactionFleetNonFuelPriceData
+instance Eq IssuingTransactionFleetNonFuelPriceData
+instance Data.Aeson.FromJSON IssuingTransactionFleetNonFuelPriceData
+instance Data.Aeson.ToJSON IssuingTransactionFleetNonFuelPriceData

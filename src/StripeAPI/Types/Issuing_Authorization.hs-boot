@@ -1,54 +1,108 @@
 module StripeAPI.Types.Issuing_Authorization where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data Issuing'authorization
 instance Show Issuing'authorization
 instance Eq Issuing'authorization
-instance FromJSON Issuing'authorization
-instance ToJSON Issuing'authorization
+instance Data.Aeson.FromJSON Issuing'authorization
+instance Data.Aeson.ToJSON Issuing'authorization
 data Issuing'authorizationAmountDetails'NonNullable
 instance Show Issuing'authorizationAmountDetails'NonNullable
 instance Eq Issuing'authorizationAmountDetails'NonNullable
-instance FromJSON Issuing'authorizationAmountDetails'NonNullable
-instance ToJSON Issuing'authorizationAmountDetails'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationAmountDetails'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationAmountDetails'NonNullable
 data Issuing'authorizationAuthorizationMethod'
 instance Show Issuing'authorizationAuthorizationMethod'
 instance Eq Issuing'authorizationAuthorizationMethod'
-instance FromJSON Issuing'authorizationAuthorizationMethod'
-instance ToJSON Issuing'authorizationAuthorizationMethod'
+instance Data.Aeson.FromJSON Issuing'authorizationAuthorizationMethod'
+instance Data.Aeson.ToJSON Issuing'authorizationAuthorizationMethod'
 data Issuing'authorizationCardholder'NonNullableVariants
 instance Show Issuing'authorizationCardholder'NonNullableVariants
 instance Eq Issuing'authorizationCardholder'NonNullableVariants
-instance FromJSON Issuing'authorizationCardholder'NonNullableVariants
-instance ToJSON Issuing'authorizationCardholder'NonNullableVariants
+instance Data.Aeson.FromJSON Issuing'authorizationCardholder'NonNullableVariants
+instance Data.Aeson.ToJSON Issuing'authorizationCardholder'NonNullableVariants
+data Issuing'authorizationFleet'NonNullable
+instance Show Issuing'authorizationFleet'NonNullable
+instance Eq Issuing'authorizationFleet'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFleet'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFleet'NonNullable
+data Issuing'authorizationFleet'NonNullableCardholderPromptData'NonNullable
+instance Show Issuing'authorizationFleet'NonNullableCardholderPromptData'NonNullable
+instance Eq Issuing'authorizationFleet'NonNullableCardholderPromptData'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFleet'NonNullableCardholderPromptData'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFleet'NonNullableCardholderPromptData'NonNullable
+data Issuing'authorizationFleet'NonNullablePurchaseType'NonNullable
+instance Show Issuing'authorizationFleet'NonNullablePurchaseType'NonNullable
+instance Eq Issuing'authorizationFleet'NonNullablePurchaseType'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFleet'NonNullablePurchaseType'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFleet'NonNullablePurchaseType'NonNullable
+data Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullable
+instance Show Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullable
+instance Eq Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullable
+data Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableFuel'NonNullable
+instance Show Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableFuel'NonNullable
+instance Eq Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableFuel'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableFuel'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableFuel'NonNullable
+data Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableNonFuel'NonNullable
+instance Show Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableNonFuel'NonNullable
+instance Eq Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableNonFuel'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableNonFuel'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableNonFuel'NonNullable
+data Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableTax'NonNullable
+instance Show Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableTax'NonNullable
+instance Eq Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableTax'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableTax'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFleet'NonNullableReportedBreakdown'NonNullableTax'NonNullable
+data Issuing'authorizationFleet'NonNullableServiceType'NonNullable
+instance Show Issuing'authorizationFleet'NonNullableServiceType'NonNullable
+instance Eq Issuing'authorizationFleet'NonNullableServiceType'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFleet'NonNullableServiceType'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFleet'NonNullableServiceType'NonNullable
+data Issuing'authorizationFuel'NonNullable
+instance Show Issuing'authorizationFuel'NonNullable
+instance Eq Issuing'authorizationFuel'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFuel'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFuel'NonNullable
+data Issuing'authorizationFuel'NonNullableType'NonNullable
+instance Show Issuing'authorizationFuel'NonNullableType'NonNullable
+instance Eq Issuing'authorizationFuel'NonNullableType'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFuel'NonNullableType'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFuel'NonNullableType'NonNullable
+data Issuing'authorizationFuel'NonNullableUnit'NonNullable
+instance Show Issuing'authorizationFuel'NonNullableUnit'NonNullable
+instance Eq Issuing'authorizationFuel'NonNullableUnit'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationFuel'NonNullableUnit'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationFuel'NonNullableUnit'NonNullable
 data Issuing'authorizationNetworkData'NonNullable
 instance Show Issuing'authorizationNetworkData'NonNullable
 instance Eq Issuing'authorizationNetworkData'NonNullable
-instance FromJSON Issuing'authorizationNetworkData'NonNullable
-instance ToJSON Issuing'authorizationNetworkData'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationNetworkData'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationNetworkData'NonNullable
 data Issuing'authorizationPendingRequest'NonNullable
 instance Show Issuing'authorizationPendingRequest'NonNullable
 instance Eq Issuing'authorizationPendingRequest'NonNullable
-instance FromJSON Issuing'authorizationPendingRequest'NonNullable
-instance ToJSON Issuing'authorizationPendingRequest'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationPendingRequest'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationPendingRequest'NonNullable
 data Issuing'authorizationPendingRequest'NonNullableAmountDetails'NonNullable
 instance Show Issuing'authorizationPendingRequest'NonNullableAmountDetails'NonNullable
 instance Eq Issuing'authorizationPendingRequest'NonNullableAmountDetails'NonNullable
-instance FromJSON Issuing'authorizationPendingRequest'NonNullableAmountDetails'NonNullable
-instance ToJSON Issuing'authorizationPendingRequest'NonNullableAmountDetails'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationPendingRequest'NonNullableAmountDetails'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationPendingRequest'NonNullableAmountDetails'NonNullable
 data Issuing'authorizationStatus'
 instance Show Issuing'authorizationStatus'
 instance Eq Issuing'authorizationStatus'
-instance FromJSON Issuing'authorizationStatus'
-instance ToJSON Issuing'authorizationStatus'
+instance Data.Aeson.FromJSON Issuing'authorizationStatus'
+instance Data.Aeson.ToJSON Issuing'authorizationStatus'
 data Issuing'authorizationToken'NonNullableVariants
 instance Show Issuing'authorizationToken'NonNullableVariants
 instance Eq Issuing'authorizationToken'NonNullableVariants
-instance FromJSON Issuing'authorizationToken'NonNullableVariants
-instance ToJSON Issuing'authorizationToken'NonNullableVariants
+instance Data.Aeson.FromJSON Issuing'authorizationToken'NonNullableVariants
+instance Data.Aeson.ToJSON Issuing'authorizationToken'NonNullableVariants
 data Issuing'authorizationTreasury'NonNullable
 instance Show Issuing'authorizationTreasury'NonNullable
 instance Eq Issuing'authorizationTreasury'NonNullable
-instance FromJSON Issuing'authorizationTreasury'NonNullable
-instance ToJSON Issuing'authorizationTreasury'NonNullable
+instance Data.Aeson.FromJSON Issuing'authorizationTreasury'NonNullable
+instance Data.Aeson.ToJSON Issuing'authorizationTreasury'NonNullable

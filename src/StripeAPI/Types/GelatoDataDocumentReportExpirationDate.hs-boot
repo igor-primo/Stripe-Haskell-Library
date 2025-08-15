@@ -1,9 +1,8 @@
 module StripeAPI.Types.GelatoDataDocumentReportExpirationDate where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data GelatoDataDocumentReportExpirationDate
 instance Show GelatoDataDocumentReportExpirationDate
 instance Eq GelatoDataDocumentReportExpirationDate
-instance FromJSON GelatoDataDocumentReportExpirationDate
-instance ToJSON GelatoDataDocumentReportExpirationDate
+instance Data.Aeson.FromJSON GelatoDataDocumentReportExpirationDate
+instance Data.Aeson.ToJSON GelatoDataDocumentReportExpirationDate

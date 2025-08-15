@@ -1,9 +1,8 @@
 module StripeAPI.Types.TaxProductResourceTaxSettingsStatusDetails where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data TaxProductResourceTaxSettingsStatusDetails
 instance Show TaxProductResourceTaxSettingsStatusDetails
 instance Eq TaxProductResourceTaxSettingsStatusDetails
-instance FromJSON TaxProductResourceTaxSettingsStatusDetails
-instance ToJSON TaxProductResourceTaxSettingsStatusDetails
+instance Data.Aeson.FromJSON TaxProductResourceTaxSettingsStatusDetails
+instance Data.Aeson.ToJSON TaxProductResourceTaxSettingsStatusDetails

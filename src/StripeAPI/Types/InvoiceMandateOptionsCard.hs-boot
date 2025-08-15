@@ -1,14 +1,13 @@
 module StripeAPI.Types.InvoiceMandateOptionsCard where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data InvoiceMandateOptionsCard
 instance Show InvoiceMandateOptionsCard
 instance Eq InvoiceMandateOptionsCard
-instance FromJSON InvoiceMandateOptionsCard
-instance ToJSON InvoiceMandateOptionsCard
+instance Data.Aeson.FromJSON InvoiceMandateOptionsCard
+instance Data.Aeson.ToJSON InvoiceMandateOptionsCard
 data InvoiceMandateOptionsCardAmountType'NonNullable
 instance Show InvoiceMandateOptionsCardAmountType'NonNullable
 instance Eq InvoiceMandateOptionsCardAmountType'NonNullable
-instance FromJSON InvoiceMandateOptionsCardAmountType'NonNullable
-instance ToJSON InvoiceMandateOptionsCardAmountType'NonNullable
+instance Data.Aeson.FromJSON InvoiceMandateOptionsCardAmountType'NonNullable
+instance Data.Aeson.ToJSON InvoiceMandateOptionsCardAmountType'NonNullable

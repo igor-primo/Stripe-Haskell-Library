@@ -1,14 +1,13 @@
 module StripeAPI.Types.PortalFlowsRetention where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PortalFlowsRetention
 instance Show PortalFlowsRetention
 instance Eq PortalFlowsRetention
-instance FromJSON PortalFlowsRetention
-instance ToJSON PortalFlowsRetention
+instance Data.Aeson.FromJSON PortalFlowsRetention
+instance Data.Aeson.ToJSON PortalFlowsRetention
 data PortalFlowsRetentionCouponOffer'NonNullable
 instance Show PortalFlowsRetentionCouponOffer'NonNullable
 instance Eq PortalFlowsRetentionCouponOffer'NonNullable
-instance FromJSON PortalFlowsRetentionCouponOffer'NonNullable
-instance ToJSON PortalFlowsRetentionCouponOffer'NonNullable
+instance Data.Aeson.FromJSON PortalFlowsRetentionCouponOffer'NonNullable
+instance Data.Aeson.ToJSON PortalFlowsRetentionCouponOffer'NonNullable

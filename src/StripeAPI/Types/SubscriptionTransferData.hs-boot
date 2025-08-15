@@ -1,14 +1,13 @@
 module StripeAPI.Types.SubscriptionTransferData where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data SubscriptionTransferData
 instance Show SubscriptionTransferData
 instance Eq SubscriptionTransferData
-instance FromJSON SubscriptionTransferData
-instance ToJSON SubscriptionTransferData
+instance Data.Aeson.FromJSON SubscriptionTransferData
+instance Data.Aeson.ToJSON SubscriptionTransferData
 data SubscriptionTransferDataDestination'Variants
 instance Show SubscriptionTransferDataDestination'Variants
 instance Eq SubscriptionTransferDataDestination'Variants
-instance FromJSON SubscriptionTransferDataDestination'Variants
-instance ToJSON SubscriptionTransferDataDestination'Variants
+instance Data.Aeson.FromJSON SubscriptionTransferDataDestination'Variants
+instance Data.Aeson.ToJSON SubscriptionTransferDataDestination'Variants

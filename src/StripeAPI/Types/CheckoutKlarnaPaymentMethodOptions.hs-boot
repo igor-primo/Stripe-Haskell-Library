@@ -1,14 +1,13 @@
 module StripeAPI.Types.CheckoutKlarnaPaymentMethodOptions where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data CheckoutKlarnaPaymentMethodOptions
 instance Show CheckoutKlarnaPaymentMethodOptions
 instance Eq CheckoutKlarnaPaymentMethodOptions
-instance FromJSON CheckoutKlarnaPaymentMethodOptions
-instance ToJSON CheckoutKlarnaPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutKlarnaPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutKlarnaPaymentMethodOptions
 data CheckoutKlarnaPaymentMethodOptionsSetupFutureUsage'
 instance Show CheckoutKlarnaPaymentMethodOptionsSetupFutureUsage'
 instance Eq CheckoutKlarnaPaymentMethodOptionsSetupFutureUsage'
-instance FromJSON CheckoutKlarnaPaymentMethodOptionsSetupFutureUsage'
-instance ToJSON CheckoutKlarnaPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutKlarnaPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutKlarnaPaymentMethodOptionsSetupFutureUsage'

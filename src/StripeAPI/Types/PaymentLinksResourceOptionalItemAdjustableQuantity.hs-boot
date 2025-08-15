@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentLinksResourceOptionalItemAdjustableQuantity where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentLinksResourceOptionalItemAdjustableQuantity
+instance Show PaymentLinksResourceOptionalItemAdjustableQuantity
+instance Eq PaymentLinksResourceOptionalItemAdjustableQuantity
+instance Data.Aeson.FromJSON PaymentLinksResourceOptionalItemAdjustableQuantity
+instance Data.Aeson.ToJSON PaymentLinksResourceOptionalItemAdjustableQuantity

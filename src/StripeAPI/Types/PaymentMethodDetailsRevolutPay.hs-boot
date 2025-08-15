@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsRevolutPay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsRevolutPay
+instance Show PaymentMethodDetailsRevolutPay
+instance Eq PaymentMethodDetailsRevolutPay
+instance Data.Aeson.FromJSON PaymentMethodDetailsRevolutPay
+instance Data.Aeson.ToJSON PaymentMethodDetailsRevolutPay

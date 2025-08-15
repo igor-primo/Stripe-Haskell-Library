@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsPayco where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsPayco
+instance Show PaymentMethodDetailsPayco
+instance Eq PaymentMethodDetailsPayco
+instance Data.Aeson.FromJSON PaymentMethodDetailsPayco
+instance Data.Aeson.ToJSON PaymentMethodDetailsPayco

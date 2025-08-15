@@ -1,19 +1,23 @@
 module StripeAPI.Types.BalanceTransaction where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data BalanceTransaction
 instance Show BalanceTransaction
 instance Eq BalanceTransaction
-instance FromJSON BalanceTransaction
-instance ToJSON BalanceTransaction
+instance Data.Aeson.FromJSON BalanceTransaction
+instance Data.Aeson.ToJSON BalanceTransaction
+data BalanceTransactionBalanceType'
+instance Show BalanceTransactionBalanceType'
+instance Eq BalanceTransactionBalanceType'
+instance Data.Aeson.FromJSON BalanceTransactionBalanceType'
+instance Data.Aeson.ToJSON BalanceTransactionBalanceType'
 data BalanceTransactionSource'NonNullableVariants
 instance Show BalanceTransactionSource'NonNullableVariants
 instance Eq BalanceTransactionSource'NonNullableVariants
-instance FromJSON BalanceTransactionSource'NonNullableVariants
-instance ToJSON BalanceTransactionSource'NonNullableVariants
+instance Data.Aeson.FromJSON BalanceTransactionSource'NonNullableVariants
+instance Data.Aeson.ToJSON BalanceTransactionSource'NonNullableVariants
 data BalanceTransactionType'
 instance Show BalanceTransactionType'
 instance Eq BalanceTransactionType'
-instance FromJSON BalanceTransactionType'
-instance ToJSON BalanceTransactionType'
+instance Data.Aeson.FromJSON BalanceTransactionType'
+instance Data.Aeson.ToJSON BalanceTransactionType'

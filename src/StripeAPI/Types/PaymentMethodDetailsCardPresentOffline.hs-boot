@@ -1,9 +1,13 @@
 module StripeAPI.Types.PaymentMethodDetailsCardPresentOffline where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentMethodDetailsCardPresentOffline
 instance Show PaymentMethodDetailsCardPresentOffline
 instance Eq PaymentMethodDetailsCardPresentOffline
-instance FromJSON PaymentMethodDetailsCardPresentOffline
-instance ToJSON PaymentMethodDetailsCardPresentOffline
+instance Data.Aeson.FromJSON PaymentMethodDetailsCardPresentOffline
+instance Data.Aeson.ToJSON PaymentMethodDetailsCardPresentOffline
+data PaymentMethodDetailsCardPresentOfflineType'NonNullable
+instance Show PaymentMethodDetailsCardPresentOfflineType'NonNullable
+instance Eq PaymentMethodDetailsCardPresentOfflineType'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodDetailsCardPresentOfflineType'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodDetailsCardPresentOfflineType'NonNullable

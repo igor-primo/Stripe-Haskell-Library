@@ -1,0 +1,8 @@
+module StripeAPI.Types.ConnectEmbeddedInstantPayoutsPromotionFeatures where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ConnectEmbeddedInstantPayoutsPromotionFeatures
+instance Show ConnectEmbeddedInstantPayoutsPromotionFeatures
+instance Eq ConnectEmbeddedInstantPayoutsPromotionFeatures
+instance Data.Aeson.FromJSON ConnectEmbeddedInstantPayoutsPromotionFeatures
+instance Data.Aeson.ToJSON ConnectEmbeddedInstantPayoutsPromotionFeatures

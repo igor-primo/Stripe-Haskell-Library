@@ -1,14 +1,13 @@
 module StripeAPI.Types.TransformUsage where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data TransformUsage
 instance Show TransformUsage
 instance Eq TransformUsage
-instance FromJSON TransformUsage
-instance ToJSON TransformUsage
+instance Data.Aeson.FromJSON TransformUsage
+instance Data.Aeson.ToJSON TransformUsage
 data TransformUsageRound'
 instance Show TransformUsageRound'
 instance Eq TransformUsageRound'
-instance FromJSON TransformUsageRound'
-instance ToJSON TransformUsageRound'
+instance Data.Aeson.FromJSON TransformUsageRound'
+instance Data.Aeson.ToJSON TransformUsageRound'

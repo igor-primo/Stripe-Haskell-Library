@@ -1,9 +1,8 @@
 module StripeAPI.Types.TreasuryFinancialAccountsResourceAbaRecord where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data TreasuryFinancialAccountsResourceAbaRecord
 instance Show TreasuryFinancialAccountsResourceAbaRecord
 instance Eq TreasuryFinancialAccountsResourceAbaRecord
-instance FromJSON TreasuryFinancialAccountsResourceAbaRecord
-instance ToJSON TreasuryFinancialAccountsResourceAbaRecord
+instance Data.Aeson.FromJSON TreasuryFinancialAccountsResourceAbaRecord
+instance Data.Aeson.ToJSON TreasuryFinancialAccountsResourceAbaRecord

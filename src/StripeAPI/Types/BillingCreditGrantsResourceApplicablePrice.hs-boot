@@ -1,0 +1,8 @@
+module StripeAPI.Types.BillingCreditGrantsResourceApplicablePrice where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data BillingCreditGrantsResourceApplicablePrice
+instance Show BillingCreditGrantsResourceApplicablePrice
+instance Eq BillingCreditGrantsResourceApplicablePrice
+instance Data.Aeson.FromJSON BillingCreditGrantsResourceApplicablePrice
+instance Data.Aeson.ToJSON BillingCreditGrantsResourceApplicablePrice

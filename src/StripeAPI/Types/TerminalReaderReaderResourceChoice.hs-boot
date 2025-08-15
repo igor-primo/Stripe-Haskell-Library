@@ -1,0 +1,13 @@
+module StripeAPI.Types.TerminalReaderReaderResourceChoice where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data TerminalReaderReaderResourceChoice
+instance Show TerminalReaderReaderResourceChoice
+instance Eq TerminalReaderReaderResourceChoice
+instance Data.Aeson.FromJSON TerminalReaderReaderResourceChoice
+instance Data.Aeson.ToJSON TerminalReaderReaderResourceChoice
+data TerminalReaderReaderResourceChoiceStyle'NonNullable
+instance Show TerminalReaderReaderResourceChoiceStyle'NonNullable
+instance Eq TerminalReaderReaderResourceChoiceStyle'NonNullable
+instance Data.Aeson.FromJSON TerminalReaderReaderResourceChoiceStyle'NonNullable
+instance Data.Aeson.ToJSON TerminalReaderReaderResourceChoiceStyle'NonNullable

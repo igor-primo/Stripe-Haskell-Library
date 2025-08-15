@@ -1,14 +1,13 @@
 module StripeAPI.Types.PromotionCode where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PromotionCode
 instance Show PromotionCode
 instance Eq PromotionCode
-instance FromJSON PromotionCode
-instance ToJSON PromotionCode
+instance Data.Aeson.FromJSON PromotionCode
+instance Data.Aeson.ToJSON PromotionCode
 data PromotionCodeCustomer'NonNullableVariants
 instance Show PromotionCodeCustomer'NonNullableVariants
 instance Eq PromotionCodeCustomer'NonNullableVariants
-instance FromJSON PromotionCodeCustomer'NonNullableVariants
-instance ToJSON PromotionCodeCustomer'NonNullableVariants
+instance Data.Aeson.FromJSON PromotionCodeCustomer'NonNullableVariants
+instance Data.Aeson.ToJSON PromotionCodeCustomer'NonNullableVariants

@@ -1,0 +1,8 @@
+module StripeAPI.Types.CheckoutSwishPaymentMethodOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CheckoutSwishPaymentMethodOptions
+instance Show CheckoutSwishPaymentMethodOptions
+instance Eq CheckoutSwishPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutSwishPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutSwishPaymentMethodOptions

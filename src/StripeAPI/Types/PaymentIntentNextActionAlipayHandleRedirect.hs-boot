@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentIntentNextActionAlipayHandleRedirect where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentIntentNextActionAlipayHandleRedirect
 instance Show PaymentIntentNextActionAlipayHandleRedirect
 instance Eq PaymentIntentNextActionAlipayHandleRedirect
-instance FromJSON PaymentIntentNextActionAlipayHandleRedirect
-instance ToJSON PaymentIntentNextActionAlipayHandleRedirect
+instance Data.Aeson.FromJSON PaymentIntentNextActionAlipayHandleRedirect
+instance Data.Aeson.ToJSON PaymentIntentNextActionAlipayHandleRedirect

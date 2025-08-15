@@ -1,9 +1,13 @@
 module StripeAPI.Types.TransferSchedule where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data TransferSchedule
 instance Show TransferSchedule
 instance Eq TransferSchedule
-instance FromJSON TransferSchedule
-instance ToJSON TransferSchedule
+instance Data.Aeson.FromJSON TransferSchedule
+instance Data.Aeson.ToJSON TransferSchedule
+data TransferScheduleWeeklyPayoutDays'
+instance Show TransferScheduleWeeklyPayoutDays'
+instance Eq TransferScheduleWeeklyPayoutDays'
+instance Data.Aeson.FromJSON TransferScheduleWeeklyPayoutDays'
+instance Data.Aeson.ToJSON TransferScheduleWeeklyPayoutDays'

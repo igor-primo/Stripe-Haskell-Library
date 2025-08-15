@@ -1,0 +1,8 @@
+module StripeAPI.Types.CheckoutSessionWalletOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CheckoutSessionWalletOptions
+instance Show CheckoutSessionWalletOptions
+instance Eq CheckoutSessionWalletOptions
+instance Data.Aeson.FromJSON CheckoutSessionWalletOptions
+instance Data.Aeson.ToJSON CheckoutSessionWalletOptions

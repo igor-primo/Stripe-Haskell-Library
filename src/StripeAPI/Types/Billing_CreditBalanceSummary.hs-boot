@@ -1,0 +1,13 @@
+module StripeAPI.Types.Billing_CreditBalanceSummary where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data Billing'creditBalanceSummary
+instance Show Billing'creditBalanceSummary
+instance Eq Billing'creditBalanceSummary
+instance Data.Aeson.FromJSON Billing'creditBalanceSummary
+instance Data.Aeson.ToJSON Billing'creditBalanceSummary
+data Billing'creditBalanceSummaryCustomer'Variants
+instance Show Billing'creditBalanceSummaryCustomer'Variants
+instance Eq Billing'creditBalanceSummaryCustomer'Variants
+instance Data.Aeson.FromJSON Billing'creditBalanceSummaryCustomer'Variants
+instance Data.Aeson.ToJSON Billing'creditBalanceSummaryCustomer'Variants

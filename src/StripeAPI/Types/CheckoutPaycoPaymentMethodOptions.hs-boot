@@ -1,0 +1,13 @@
+module StripeAPI.Types.CheckoutPaycoPaymentMethodOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CheckoutPaycoPaymentMethodOptions
+instance Show CheckoutPaycoPaymentMethodOptions
+instance Eq CheckoutPaycoPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutPaycoPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutPaycoPaymentMethodOptions
+data CheckoutPaycoPaymentMethodOptionsCaptureMethod'
+instance Show CheckoutPaycoPaymentMethodOptionsCaptureMethod'
+instance Eq CheckoutPaycoPaymentMethodOptionsCaptureMethod'
+instance Data.Aeson.FromJSON CheckoutPaycoPaymentMethodOptionsCaptureMethod'
+instance Data.Aeson.ToJSON CheckoutPaycoPaymentMethodOptionsCaptureMethod'

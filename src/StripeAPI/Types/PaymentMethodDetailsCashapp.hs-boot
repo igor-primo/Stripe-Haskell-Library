@@ -1,9 +1,8 @@
 module StripeAPI.Types.PaymentMethodDetailsCashapp where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data PaymentMethodDetailsCashapp
 instance Show PaymentMethodDetailsCashapp
 instance Eq PaymentMethodDetailsCashapp
-instance FromJSON PaymentMethodDetailsCashapp
-instance ToJSON PaymentMethodDetailsCashapp
+instance Data.Aeson.FromJSON PaymentMethodDetailsCashapp
+instance Data.Aeson.ToJSON PaymentMethodDetailsCashapp

@@ -1,14 +1,13 @@
 module StripeAPI.Types.QuotesResourceUpfront where
-import Data.Aeson
-import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified Data.Aeson
 import qualified StripeAPI.Common
 data QuotesResourceUpfront
 instance Show QuotesResourceUpfront
 instance Eq QuotesResourceUpfront
-instance FromJSON QuotesResourceUpfront
-instance ToJSON QuotesResourceUpfront
+instance Data.Aeson.FromJSON QuotesResourceUpfront
+instance Data.Aeson.ToJSON QuotesResourceUpfront
 data QuotesResourceUpfrontLineItems'
 instance Show QuotesResourceUpfrontLineItems'
 instance Eq QuotesResourceUpfrontLineItems'
-instance FromJSON QuotesResourceUpfrontLineItems'
-instance ToJSON QuotesResourceUpfrontLineItems'
+instance Data.Aeson.FromJSON QuotesResourceUpfrontLineItems'
+instance Data.Aeson.ToJSON QuotesResourceUpfrontLineItems'

@@ -1,0 +1,8 @@
+module StripeAPI.Types.BillingCreditGrantsResourceMonetaryAmount where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data BillingCreditGrantsResourceMonetaryAmount
+instance Show BillingCreditGrantsResourceMonetaryAmount
+instance Eq BillingCreditGrantsResourceMonetaryAmount
+instance Data.Aeson.FromJSON BillingCreditGrantsResourceMonetaryAmount
+instance Data.Aeson.ToJSON BillingCreditGrantsResourceMonetaryAmount

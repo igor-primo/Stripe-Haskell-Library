@@ -1,0 +1,23 @@
+module StripeAPI.Types.GelatoEmailReport where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data GelatoEmailReport
+instance Show GelatoEmailReport
+instance Eq GelatoEmailReport
+instance Data.Aeson.FromJSON GelatoEmailReport
+instance Data.Aeson.ToJSON GelatoEmailReport
+data GelatoEmailReportError'NonNullable
+instance Show GelatoEmailReportError'NonNullable
+instance Eq GelatoEmailReportError'NonNullable
+instance Data.Aeson.FromJSON GelatoEmailReportError'NonNullable
+instance Data.Aeson.ToJSON GelatoEmailReportError'NonNullable
+data GelatoEmailReportError'NonNullableCode'NonNullable
+instance Show GelatoEmailReportError'NonNullableCode'NonNullable
+instance Eq GelatoEmailReportError'NonNullableCode'NonNullable
+instance Data.Aeson.FromJSON GelatoEmailReportError'NonNullableCode'NonNullable
+instance Data.Aeson.ToJSON GelatoEmailReportError'NonNullableCode'NonNullable
+data GelatoEmailReportStatus'
+instance Show GelatoEmailReportStatus'
+instance Eq GelatoEmailReportStatus'
+instance Data.Aeson.FromJSON GelatoEmailReportStatus'
+instance Data.Aeson.ToJSON GelatoEmailReportStatus'

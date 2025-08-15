@@ -1,0 +1,23 @@
+module StripeAPI.Types.IssuingPhysicalBundleFeatures where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingPhysicalBundleFeatures
+instance Show IssuingPhysicalBundleFeatures
+instance Eq IssuingPhysicalBundleFeatures
+instance Data.Aeson.FromJSON IssuingPhysicalBundleFeatures
+instance Data.Aeson.ToJSON IssuingPhysicalBundleFeatures
+data IssuingPhysicalBundleFeaturesCardLogo'
+instance Show IssuingPhysicalBundleFeaturesCardLogo'
+instance Eq IssuingPhysicalBundleFeaturesCardLogo'
+instance Data.Aeson.FromJSON IssuingPhysicalBundleFeaturesCardLogo'
+instance Data.Aeson.ToJSON IssuingPhysicalBundleFeaturesCardLogo'
+data IssuingPhysicalBundleFeaturesCarrierText'
+instance Show IssuingPhysicalBundleFeaturesCarrierText'
+instance Eq IssuingPhysicalBundleFeaturesCarrierText'
+instance Data.Aeson.FromJSON IssuingPhysicalBundleFeaturesCarrierText'
+instance Data.Aeson.ToJSON IssuingPhysicalBundleFeaturesCarrierText'
+data IssuingPhysicalBundleFeaturesSecondLine'
+instance Show IssuingPhysicalBundleFeaturesSecondLine'
+instance Eq IssuingPhysicalBundleFeaturesSecondLine'
+instance Data.Aeson.FromJSON IssuingPhysicalBundleFeaturesSecondLine'
+instance Data.Aeson.ToJSON IssuingPhysicalBundleFeaturesSecondLine'
